@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.11      # scipy.optimize.milp is needed for MCI
+pandas>=2.0
+matplotlib>=3.7
+openai>=1.40
+python-dotenv>=1.0

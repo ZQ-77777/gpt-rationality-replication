@@ -1,0 +1,16 @@
+# secrets
+.env
+
+# data (raw transcripts, authors' file, derived copies)
+data/*
+!data/README.md
+
+# backups and caches
+*.bak
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

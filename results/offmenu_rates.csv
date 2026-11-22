@@ -1,0 +1,9 @@
+source,domain,rounds,invalid,offmenu,offmenu_rate
+gpt-4o-mini,food,2500,0,0,0.0
+gpt-4o-mini,risk,2500,529,526,0.2104
+gpt-4o-mini,social,2500,89,89,0.0356
+gpt-4o-mini,time,2500,71,71,0.0284
+gpt-4o-mini (paraphrase),food,2500,0,0,0.0
+gpt-4o-mini (paraphrase),risk,2500,0,0,0.0
+gpt-4o-mini (paraphrase),social,2500,0,0,0.0
+gpt-4o-mini (paraphrase),time,2500,0,0,0.0
