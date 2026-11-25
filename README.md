@@ -15,7 +15,7 @@ Author of the replication: Zhang Qi
 
 | Claim in the paper (GPT-3.5) | gpt-4o-mini | Verdict |
 |---|---|---|
-| Mean CCEI close to 1 in all four domains | 0.994–1.000 | Replicated |
+| Mean CCEI close to 1 in all four domains | 0.998–1.000 | Replicated |
 | More rational than humans and than the literature mean of 0.918 | all p < 0.01 | Replicated |
 | Demand slopes downward (Spearman < 0 for every subject) | 100% negative | Replicated |
 | Preferences far more homogeneous than humans' | Levene p < 0.001 | Replicated |
@@ -33,6 +33,8 @@ The replication also found three things the paper does not report:
 - **Preferences depend on the response format.** In the time domain the model makes interior choices with continuous allocation but corner choices with a menu.
 
 See `results/` for every table and figure.
+
+**Parser audit.** Replies are free text and are read by rules. A second, stricter parser (`src/parse.py`) re-read all 104,000 stored replies and was compared with the first version (`src/parse_v1.py`) by `scripts/13_parse_audit.py`. 774 rounds (0.7%) were read differently, all in continuous-allocation conditions; no discrete-menu round changed. All results here use the corrected parser.
 
 ## Data boundary
 
@@ -53,7 +55,8 @@ src/
   prompts_paper.py     the paper's prompts, verbatim from Appendix A (default)
   prompts.py           paraphrased prompt set (kept as a sensitivity check)
   prompt_api.py        selects the prompt set (LLM_PROMPTS=paper | paraphrase)
-  parse.py             reply -> allocation (continuous and discrete)
+  parse.py             reply -> allocation (continuous and discrete), final version
+  parse_v1.py          first parser version, kept only for the audit
   llm_client.py        OpenAI-compatible / Azure client with retries; credit check
   experiment.py        one subject = one 25-round conversation; MockClient for offline tests
   rp.py                GARP, CCEI (exact), HMI, MPI, MCI (MILP), Bronars
@@ -76,6 +79,7 @@ scripts/
   10_show_invalid.py   lists unparsed replies
   11_reparse.py        re-applies the parser to stored replies (no API calls)
   12_offmenu.py        off-menu answers and robustness of the discrete results
+  13_parse_audit.py    compares parse_v1 and parse on every stored reply
 docs/GUIDE_zh.md       step-by-step replication guide (Chinese, with English terms)
 results/               final tables and figures used in the report
 ```
@@ -131,7 +135,7 @@ Cost: with `gpt-4o-mini` through the HKUST GenAI gateway, all new data cost abou
 | A1 | Prices across repetitions and conditions | Seeded per subject; identical across conditions (paired design) |
 | A2 | Prompt wording | Appendix A verbatim; a paraphrased set as a sensitivity check |
 | A2b | Discrete option formula | Points on the budget line; the appendix formula for N_i contains a typo |
-| A3 | Parsing | Label match, then the first pair summing to 100 (±1); discrete: the option after the last decision phrase |
+| A3 | Parsing | Labelled amounts in either order; the final allocation after the last decision phrase; negative amounts invalid; sums to 100 (±1). Discrete: the option after the last decision phrase. Audited against the first version on all replies |
 | A4 | Subjects with invalid rounds | Kept if at least 20 of 25 rounds are valid |
 | A5 | t-test | Welch |
 | A6 | MPI cycles | Violating two-cycles (sufficient with two goods) |
