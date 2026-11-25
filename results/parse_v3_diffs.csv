@@ -1,0 +1,382 @@
+﻿prompts,condition,domain,rep,round,v2_valid,v2_points_a,v2_rule,v3_valid,v3_points_a,v3_rule,reply
+paper,temp_0.5,time,4,4,True,0.8821488750123897,unlabelled-any,True,100.0,one-sided-full,"Given the returns on investments for this round:
+
+- Investing today returns $0.89 per point in cash.
+- Investing one month later also returns $0.89 per point as a check.
+
+Since the returns for both options are equal ($0.89 per point), the decision on how to allocate the points can depend on cash flow needs and personal preferences. 
+
+**Optimal Allocation:**
+- Invest **100 points today**.
+
+**Reasoning:**
+1. **Immediate Cash:** By investing all 100 points today, I can receive immediate cash. The total return would be:
+   - Total Return Today = 100 points * $0.89 = $89.
+   
+2. **Equal Returns:** Since the return from investing one month later is the same as investing today, investing today provides immediate liquidity, which can be beneficial for any immediate cash needs.
+
+In this case, investing all points today maximizes immediate cash flow while still yielding the same effective return as investing later. 
+
+Thus, the best allocation in this scenario is to invest **100 points today**."
+paper,temp_0.5,time,23,2,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.88 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.37 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.88 per point.
+- The return for investing one month later is $0.37 per point.
+
+Since $0.88 (cash today) is significantly higher than $0.37 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.88/point = $88 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. Investing in the one-month option does not provide a compelling return compared to the cash generated today."
+paper,temp_0.5,time,23,3,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.81 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.78 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.81 per point.
+- The return for investing one month later is $0.78 per point.
+
+Since $0.81 (cash today) is higher than $0.78 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.81/point = $81 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later does not provide a better return compared to the cash generated today, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,4,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.69 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.13 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.69 per point.
+- The return for investing one month later is $0.13 per point.
+
+Since $0.69 (cash today) is significantly higher than $0.13 (check one month later), it is clear that the immediate cash return is much more favorable.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.69/point = $69 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,5,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.94 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.77 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.94 per point.
+- The return for investing one month later is $0.77 per point.
+
+Since $0.94 (cash today) is higher than $0.77 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.94/point = $94 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later does not provide a better return compared to the cash generated today, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,7,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.86 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.24 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.86 per point.
+- The return for investing one month later is $0.24 per point.
+
+Since $0.86 (cash today) is significantly higher than $0.24 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.86/point = $86 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,8,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.92 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.47 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.92 per point.
+- The return for investing one month later is $0.47 per point.
+
+Since $0.92 (cash today) is significantly higher than $0.47 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.92/point = $92 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,9,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.81 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.56 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.81 per point.
+- The return for investing one month later is $0.56 per point.
+
+Since $0.81 (cash today) is higher than $0.56 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.81/point = $81 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later does not provide a better return compared to the cash generated today, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,10,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.83 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.32 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.83 per point.
+- The return for investing one month later is $0.32 per point.
+
+Since $0.83 (cash today) is significantly higher than $0.32 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.83/point = $83 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,11,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.99 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.34 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.99 per point.
+- The return for investing one month later is $0.34 per point.
+
+Since $0.99 (cash today) is significantly higher than $0.34 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.99/point = $99 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,14,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.76 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.73 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.76 per point.
+- The return for investing one month later is $0.73 per point.
+
+Since $0.76 (cash today) is higher than $0.73 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.76/point = $76 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a lower return, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,15,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.56 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.56 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.56 per point.
+- The return for investing one month later is also $0.56 per point.
+
+Since both options provide the same return of $0.56 per point, the decision is more about the timing of the cash flow rather than the amount returned.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This allows for immediate cash.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.56/point = $56 in cash today.
+
+This approach provides immediate cash, which can be beneficial for any immediate needs or opportunities, even though the returns are equal. Therefore, I would choose to invest all 100 points today."
+paper,temp_0.5,time,23,18,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.53 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.31 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.53 per point.
+- The return for investing one month later is $0.31 per point.
+
+Since $0.53 (cash today) is significantly higher than $0.31 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.53/point = $53 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,23,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.99 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.87 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.99 per point.
+- The return for investing one month later is $0.87 per point.
+
+Since $0.99 (cash today) is higher than $0.87 (cash one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.99/point = $99 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a lower return, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,24,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.70 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.23 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.70 per point.
+- The return for investing one month later is $0.23 per point.
+
+Since $0.70 (cash today) is significantly higher than $0.23 (cash one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.70/point = $70 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
+paper,temp_0.5,time,23,25,True,0.9900990099009901,unlabelled-any,True,100.0,one-sided-full,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.96 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.95 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.96 per point.
+- The return for investing one month later is $0.95 per point.
+
+Since $0.96 (cash today) is slightly higher than $0.95 (cash one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.96/point = $96 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a lower return, making the immediate investment the optimal choice."
+paper,temp_1,social,70,6,True,100.0,unlabelled-points,True,0.0,one-sided-full,"In this round, since allocating points to the other person yields a significantly higher return (0.83 dollars per point) compared to my return (0.14 dollars per point), I would allocate all 100 points to the other person.
+
+This allocation would result in:
+
+- My return: 0 points * 0.14 dollars/point = 0 dollars.
+- The other person's return: 100 points * 0.83 dollars/point = 83 dollars.
+
+This way, I maximize the benefit for the other person given their much higher return rate."
+paper,temp_1,social,70,10,True,100.0,unlabelled-points,True,0.0,one-sided-full,"In this round, since allocating points to the other person yields a significantly higher return (0.82 dollars per point) compared to my return (0.11 dollars per point), I would allocate all 100 points to the other person.
+
+This allocation would result in:
+
+- My return: 0 points * 0.11 dollars/point = 0 dollars.
+- The other person's return: 100 points * 0.82 dollars/point = 82 dollars.
+
+This decision maximizes the benefit for the other person based on their much higher return rate."
+paper,temp_1,social,70,23,True,100.0,unlabelled-points,True,0.0,one-sided-full,"In this round, since allocating points to the other person yields a significantly higher return (0.93 dollars per point) compared to my return (0.45 dollars per point), I would allocate all 100 points to the other person.
+
+This allocation would result in:
+
+- My return: 0 points * 0.45 dollars/point = 0 dollars.
+- The other person's return: 100 points * 0.93 dollars/point = 93 dollars.
+
+This decision maximizes the benefit for the other person based on their much higher return rate."
+paper,temp_1,social,70,24,True,100.0,unlabelled-points,True,0.0,one-sided-full,"In this round, since allocating points to the other person yields a much higher return (0.81 dollars per point) compared to my return (0.28 dollars per point), I would allocate all 100 points to the other person.
+
+This allocation would result in:
+
+- My return: 0 points * 0.28 dollars/point = 0 dollars.
+- The other person's return: 100 points * 0.81 dollars/point = 81 dollars.
+
+By choosing this allocation, I maximize the benefit for the other person despite not receiving a direct return for myself."

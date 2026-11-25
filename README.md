@@ -34,7 +34,7 @@ The replication also found three things the paper does not report:
 
 See `results/` for every table and figure.
 
-**Parser audit.** Replies are free text and are read by rules. A second, stricter parser (`src/parse.py`) re-read all 104,000 stored replies and was compared with the first version (`src/parse_v1.py`) by `scripts/13_parse_audit.py`. 774 rounds (0.7%) were read differently, all in continuous-allocation conditions; no discrete-menu round changed. All results here use the corrected parser.
+**Parser audit.** Replies are free text and are read by rules. The parser went through three versions, each compared with the previous one on all 104,000 stored replies: version 2 changed 774 rounds (0.7%) and version 3 another 20, all in continuous-allocation conditions; no discrete-menu round changed. Version 3 fixes one-sided full allocations ("Invest 100 points today") and no longer pairs two numbers just because they sum to 100. Every round read by a weaker rule (23) and a stratified sample of 100 labelled readings were checked by hand; all were correct. All results here use version 3 (`src/parse.py`).
 
 ## Data boundary
 
@@ -56,7 +56,8 @@ src/
   prompts.py           paraphrased prompt set (kept as a sensitivity check)
   prompt_api.py        selects the prompt set (LLM_PROMPTS=paper | paraphrase)
   parse.py             reply -> allocation (continuous and discrete), final version
-  parse_v1.py          first parser version, kept only for the audit
+  parse_v1.py          parser version 1, kept only for the audit
+  parse_v2.py          parser version 2, kept only for the review
   llm_client.py        OpenAI-compatible / Azure client with retries; credit check
   experiment.py        one subject = one 25-round conversation; MockClient for offline tests
   rp.py                GARP, CCEI (exact), HMI, MPI, MCI (MILP), Bronars
@@ -79,7 +80,8 @@ scripts/
   10_show_invalid.py   lists unparsed replies
   11_reparse.py        re-applies the parser to stored replies (no API calls)
   12_offmenu.py        off-menu answers and robustness of the discrete results
-  13_parse_audit.py    compares parse_v1 and parse on every stored reply
+  13_parse_audit.py    compares parser versions 1 and 2 on every stored reply
+  14_parse_review.py   compares versions 2 and 3; exports weak-rule rounds and a sample for hand checking
 docs/GUIDE_zh.md       step-by-step replication guide (Chinese, with English terms)
 results/               final tables and figures used in the report
 ```
@@ -135,7 +137,7 @@ Cost: with `gpt-4o-mini` through the HKUST GenAI gateway, all new data cost abou
 | A1 | Prices across repetitions and conditions | Seeded per subject; identical across conditions (paired design) |
 | A2 | Prompt wording | Appendix A verbatim; a paraphrased set as a sensitivity check |
 | A2b | Discrete option formula | Points on the budget line; the appendix formula for N_i contains a typo |
-| A3 | Parsing | Labelled amounts in either order; the final allocation after the last decision phrase; negative amounts invalid; sums to 100 (±1). Discrete: the option after the last decision phrase. Audited against the first version on all replies |
+| A3 | Parsing | Labelled amounts in either order; the final allocation after the last decision phrase; one-sided full allocations read as 100/0; otherwise one unique unlabelled "N points" pair, else invalid; negative amounts invalid; sums to 100 (±1). Discrete: the option after the last decision phrase. Three versions, each compared on all replies; final readings checked by hand |
 | A4 | Subjects with invalid rounds | Kept if at least 20 of 25 rounds are valid |
 | A5 | t-test | Welch |
 | A6 | MPI cycles | Violating two-cycles (sufficient with two goods) |

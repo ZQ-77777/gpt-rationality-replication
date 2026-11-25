@@ -80,4 +80,15 @@ check("v2: off-menu final choice after an on-menu mention -> invalid",
 # 6. prompts render
 msg = Pm.round_message("risk", "inverse", "continuous", 1, 0.5, 0.25)
 check("inverse framing shows 2.00 and 4.00 points", "2.00 points" in msg and "4.00 points" in msg)
+# parser v3: cases found by reading version-2 output by hand
+r = parse_continuous("1. Investing Today: $0.92 per point.\n2. Investing One Month Later: $0.47 per point.\n"
+                     "Allocation Decision: Invest 100 points today. By investing all 100 points today, I receive $92.",
+                     "today", "one month later")
+check("v3: one-sided full allocation 'Invest 100 points today' -> 100/0 (v2 read 0.99)", r[2] and round(r[0]) == 100)
+r = parse_continuous("I put all points into Asset B.", "Asset A", "Asset B")
+check("v3: 'all points into Asset B' -> 0/100", r[2] and round(r[0]) == 0)
+r = parse_continuous("Asset A: 55 points, Asset B: 45 points.", "Asset A", "Asset B")
+check("v3: 'Asset A: 55 points, Asset B: 45 points' is a labelled 55/45", r[2] and round(r[0]) == 55)
+check("v3: list numbers are never paired with an amount",
+      not parse_continuous("1. Asset A looks better.\n2. I am still thinking about 99 options.", "Asset A", "Asset B")[2])
 print("\nALL PASSED" if ok else "\nSOME CHECKS FAILED")

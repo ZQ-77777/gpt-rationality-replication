@@ -102,8 +102,8 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | gpt-4o-mini | temp_1 | risk | spearman | -0.9732 | -0.9733 | 100 | 100 | 0.02484 | 0.9802 |
 | gpt-4o-mini | temp_1 | time | CCEI | 0.9988 | 0.9942 | 100 | 100 | 2.278 | 0.02472 |
 | gpt-4o-mini | temp_1 | time | spearman | -0.9543 | -0.9518 | 100 | 100 | -0.4005 | 0.6892 |
-| gpt-4o-mini | temp_1 | social | CCEI | 0.9983 | 0.9973 | 100 | 100 | 0.4515 | 0.6524 |
-| gpt-4o-mini | temp_1 | social | spearman | -0.9782 | -0.971 | 100 | 100 | -0.8593 | 0.392 |
+| gpt-4o-mini | temp_1 | social | CCEI | 0.9983 | 0.9994 | 100 | 100 | -1.399 | 0.1647 |
+| gpt-4o-mini | temp_1 | social | spearman | -0.9782 | -0.9789 | 100 | 100 | 0.2926 | 0.7701 |
 | gpt-4o-mini | temp_1 | food | CCEI | 0.9997 | 0.999 | 100 | 100 | 1.107 | 0.2709 |
 | gpt-4o-mini | temp_1 | food | spearman | -0.9813 | -0.9786 | 100 | 100 | -1.434 | 0.1532 |
 | gpt-4o-mini | price_framing | risk | CCEI | 0.9997 | 0.9926 | 100 | 100 | 3.223 | 0.001712 |
@@ -348,8 +348,8 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | risk | spearman | -0.9733 | -0.9893 | 100 | 100 | 6.192 | 6.015e-09 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | time | CCEI | 0.9942 | 0.9977 | 100 | 100 | -1.693 | 0.09326 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | time | spearman | -0.9518 | -0.9662 | 100 | 100 | 2.825 | 0.005449 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | social | CCEI | 0.9973 | 0.997 | 100 | 100 | 0.1781 | 0.859 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | social | spearman | -0.971 | -0.957 | 100 | 100 | -1.685 | 0.09486 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | social | CCEI | 0.9994 | 0.997 | 100 | 100 | 3.76 | 0.0002666 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | social | spearman | -0.9789 | -0.957 | 100 | 100 | -8.454 | 6.438e-15 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | food | CCEI | 0.999 | 0.9996 | 100 | 100 | -0.8567 | 0.3934 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | food | spearman | -0.9786 | -0.9894 | 100 | 100 | 6.492 | 7.772e-10 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | risk | CCEI | 0.9926 | 0.9008 | 100 | 100 | 9.042 | 6.68e-15 |
@@ -464,8 +464,8 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 |---|---|---|---|---|---|---|---|
 | gpt-4o-mini | baseline vs temp_0.5 | risk | alpha | 0.0266 | 0.0243 | 0.2169 | 0.6419 |
 | gpt-4o-mini | baseline vs temp_0.5 | risk | rho | 0.07506 | 0.07445 | 0.003941 | 0.95 |
-| gpt-4o-mini | baseline vs temp_0.5 | time | alpha | 0.0156 | 0.05011 | 1.141 | 0.2868 |
-| gpt-4o-mini | baseline vs temp_0.5 | time | rho | 0.05941 | 0.1268 | 23.64 | 2.371e-06 |
+| gpt-4o-mini | baseline vs temp_0.5 | time | alpha | 0.0156 | 0.01646 | 0.1243 | 0.7248 |
+| gpt-4o-mini | baseline vs temp_0.5 | time | rho | 0.05941 | 0.1275 | 24 | 2.006e-06 |
 | gpt-4o-mini | baseline vs temp_0.5 | social | alpha | 0.01275 | 0.01372 | 0.7999 | 0.3722 |
 | gpt-4o-mini | baseline vs temp_0.5 | social | rho | 0.11 | 0.1051 | 0.261 | 0.61 |
 | gpt-4o-mini | baseline vs temp_0.5 | food | alpha | 0.01142 | 0.01173 | 0.4687 | 0.4944 |
@@ -474,9 +474,9 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | gpt-4o-mini | baseline vs temp_1 | risk | rho | 0.07506 | 0.07948 | 0.1138 | 0.7362 |
 | gpt-4o-mini | baseline vs temp_1 | time | alpha | 0.0156 | 0.01782 | 1.08 | 0.2999 |
 | gpt-4o-mini | baseline vs temp_1 | time | rho | 0.05941 | 0.1379 | 31.91 | 5.65e-08 |
-| gpt-4o-mini | baseline vs temp_1 | social | alpha | 0.01275 | 0.01046 | 0.7218 | 0.3966 |
-| gpt-4o-mini | baseline vs temp_1 | social | rho | 0.11 | 0.1139 | 0.002494 | 0.9602 |
-| gpt-4o-mini | baseline vs temp_1 | food | alpha | 0.01142 | 0.01135 | 0.0923 | 0.7616 |
+| gpt-4o-mini | baseline vs temp_1 | social | alpha | 0.01275 | 0.01041 | 0.8055 | 0.3705 |
+| gpt-4o-mini | baseline vs temp_1 | social | rho | 0.11 | 0.1133 | 6.845e-05 | 0.9934 |
+| gpt-4o-mini | baseline vs temp_1 | food | alpha | 0.01142 | 0.01135 | 0.09197 | 0.762 |
 | gpt-4o-mini | baseline vs temp_1 | food | rho | 0.04727 | 0.05817 | 2.611 | 0.1077 |
 | gpt-4o-mini | model vs Human | risk | alpha | 0.0266 | 0.1333 | 28.88 | 2.011e-07 |
 | gpt-4o-mini | model vs Human | risk | rho | 0.07506 | 4.769 | 11.94 | 0.000663 |

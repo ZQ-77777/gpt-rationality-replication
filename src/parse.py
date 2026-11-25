@@ -1,4 +1,18 @@
-"""Turn the model's free-text reply into an allocation (version 2).
+"""Turn the model's free-text reply into an allocation (version 3).
+
+Version 3 (after a hand check of version 2 found a wrong reading)
+  * A full allocation named for one side only ("Invest 100 points today", "all points to Asset A",
+    "0 points to the other person") is read as 100/0. Version 2 missed it and fell through to a
+    fallback that paired a list number ("1.") with 100.
+  * Commas are no longer removed before matching, so "Asset A: 55 points, Asset B: 45 points" is not
+    misread as "55 points, Asset B"; a number already attached to a label before it is not attached
+    to the label after it.
+  * The fallback "any two numbers that sum to 100" is removed. Unlabelled "N points" amounts are used
+    only if they contain exactly one pair summing to 100; such rounds are flagged for reading by hand.
+    Anything else is invalid with rule "review" rather than counted as a choice.
+  * src/parse_v2.py keeps version 2 for the comparison in scripts/14_parse_review.py.
+
+Version 2 notes follow.
 
 Version 1 (src/parse_v1.py) had four weaknesses, found with constructed test replies:
   * fallback rules read numbers in order of appearance, so "30 points to Asset B and 70 points
@@ -18,8 +32,9 @@ Version 2 rules
     3. If the reply contains a decision phrase ("I will allocate", "my final allocation", ...), take
        the first pair after the last such phrase. Otherwise all pairs must agree; if they disagree the
        reply is ambiguous and invalid.
-    4. Only if no labelled pair exists: unlabelled numbers in order of appearance (as in version 1),
-       flagged as rule "unlabelled" so the audit can count them.
+    4. No labelled pair: a one-sided full allocation (100 or 0 for one side, or "all points to X"),
+       else exactly one unlabelled pair of "N points" amounts summing to 100 (order of appearance,
+       rule "unlabelled-points"), else invalid (rule "review").
     A labelled negative number makes the reply invalid.
   Discrete answers
     The decision is located first, among all pairs (on or off the menu) or option numbers. If the
@@ -51,6 +66,8 @@ SYNONYMS = {
 }
 _TO = r"(?:to|for|in|into|on|towards?|go(?:es)? to|allocated to|invested in)"
 CONNECT_AFTER_NUM = r"[ \t]*(?:(?:points?|pts?)[ \t]*(?:" + _TO + r"[ \t]+)?|" + _TO + r"[ \t]+)"
+# "80 points for investing today", "30 points to the investment in Asset A"
+CONNECT_AFTER_NUM += r"(?:(?:investing|allocating|the investment in|investment in)[ \t]+)?"
 CONT_DECIDE = (r"\b(?:my )?(?:final )?(?:allocation|decision|answer|choice) (?:is|would be|will be)\b"
                r"|\bmy (?:final )?(?:allocation|decision)\b"
                r"|\bI(?: will| would|'ll|'d| shall)?(?: therefore| then)? (?:allocate|invest|put|assign|choose|go with|decide)\b")
@@ -89,17 +106,21 @@ def _decisions(pattern, t):
 def parse_continuous_detail(text, label_a, label_b):
     if not text:
         return dict(a=None, b=None, valid=False, rule="empty")
-    t = text.replace(",", " ").replace("**", "")
+    t = text.replace("**", "")
     ra, rb = _alias_re(label_a), _alias_re(label_b)
-    mentions = []                                   # (pos, side, value)
+    mentions, claimed = [], set()                   # (pos, side, value); number spans already used
     for side, al in (("A", ra), ("B", rb)):
         # label then number, on the same line. A dash between spaces is a separator ("Asset A - 70");
         # a dash touching the digits is a minus sign ("Asset A: -20").
-        for mo in re.finditer(al + r"[ \t]*(?:points?|pts?)?[ \t]*(?:[:=]|[ \t][-–—][ \t]|[–—])?[ \t]*" + SNUM + r"(?!\s*%)", t, flags=re.I):
+        for mo in re.finditer(al + r"[ \t]*(?:points?|pts?)?[ \t]*(?:[:=]|[ \t][-–—][ \t]|[–—])?[ \t]*" + SNUM + r"(?![\d.]*\s*%)", t, flags=re.I):
             mentions.append((mo.start(), side, _num(mo.group(1))))
-        # number then label ("70 points to Asset A")
+            claimed.add(mo.span(1))
+    for side, al in (("A", ra), ("B", rb)):
+        # number then label ("70 points to Asset A", "100 points today"), unless the number already
+        # belongs to the label before it ("Asset A: 55 points Asset B: 45 points")
         for mo in re.finditer(r"(?<![\d.$])" + SNUM + CONNECT_AFTER_NUM + r"(?:the[ \t]+)?" + al, t, flags=re.I):
-            mentions.append((mo.start(), side, _num(mo.group(1))))
+            if mo.span(1) not in claimed:
+                mentions.append((mo.start(), side, _num(mo.group(1))))
     mentions.sort()
     if any(v < 0 for _, _, v in mentions):
         return dict(a=None, b=None, valid=False, rule="negative")
@@ -114,8 +135,8 @@ def parse_continuous_detail(text, label_a, label_b):
             if _ok(a, b):
                 pairs.append((p, a, b))
             break
+    dec = _decisions(CONT_DECIDE, t)
     if pairs:
-        dec = _decisions(CONT_DECIDE, t)
         if dec:
             after = [pr for pr in pairs if pr[0] >= dec[-1] - 1]
             if after:
@@ -124,18 +145,35 @@ def parse_continuous_detail(text, label_a, label_b):
         if len(distinct) == 1:
             return _out(pairs[0][1], pairs[0][2], "labelled")
         return dict(a=None, b=None, valid=False, rule="ambiguous")
-    # fallback: no labelled pair. Numbers in order of appearance (version 1 behaviour), flagged.
+    # one side only, all of the endowment or none of it
+    for side, al in (("A", ra), ("B", rb)):
+        for mo in re.finditer(r"\b(?:all|every|entire)(?: of)?(?: my| the)?(?: 100)? points?" + CONNECT_AFTER_NUM
+                              + r"(?:the[ \t]+)?" + al, t, flags=re.I):
+            mentions.append((mo.start(), side, float(C.ENDOWMENT)))
+    mentions.sort()
+    use = mentions
+    if dec:
+        after = [m for m in mentions if m[0] >= dec[-1] - 1]
+        use = after or mentions
+    sides = {s for _, s, _ in use}
+    vals = {round(v, 3) for _, _, v in use}
+    if len(sides) == 1 and len(vals) == 1:
+        v = vals.pop()
+        if abs(v - C.ENDOWMENT) <= 1 or v == 0:
+            full_a = (sides.pop() == "A") == (v != 0)
+            return _out(C.ENDOWMENT if full_a else 0.0, 0.0 if full_a else C.ENDOWMENT, "one-sided-full")
+    # fallback: no labelled pair. Unlabelled "N points" amounts with exactly one pair summing to 100.
     if re.search(r"(?<![\w$])[-−]\d", t):
         return dict(a=None, b=None, valid=False, rule="negative")
-    pts = [_num(v) for v in re.findall(NUM + r"\s*points?\b", t, flags=re.I)]
-    pair = _first_pair(pts)
-    rule = "unlabelled-points"
-    if pair is None:
-        nums = [_num(v) for v in re.findall(NUM, t) if _num(v) <= C.ENDOWMENT]
-        pair, rule = _first_pair(nums), "unlabelled-any"
-    if pair is None:
-        return dict(a=None, b=None, valid=False, rule="none")
-    return _out(pair[0], pair[1], rule)
+    pts = [_num(v) for v in re.findall(r"(?<![\d.$])" + NUM + r"\s*points?\b", t, flags=re.I)]
+    found = []
+    for i in range(len(pts)):
+        for j in range(i + 1, len(pts)):
+            if _ok(pts[i], pts[j]):
+                found.append((pts[i], pts[j]))
+    if len({tuple(sorted((round(x, 3), round(y, 3)))) for x, y in found}) == 1:
+        return _out(found[0][0], found[0][1], "unlabelled-points")
+    return dict(a=None, b=None, valid=False, rule="review")
 
 
 def _first_pair(nums):
