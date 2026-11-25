@@ -16,11 +16,11 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | gpt-4o-mini | time | HMI | 0.9932 | 0.983 | 100 | 115 | 2.532 | 0.0123 |
 | gpt-4o-mini | time | MPI_mean | 0.002143 | 0.01474 | 100 | 115 | -3.466 | 0.0007289 |
 | gpt-4o-mini | time | MCI | 6.014e-05 | 0.001617 | 100 | 115 | -2.812 | 0.005801 |
-| gpt-4o-mini | social | CCEI | 0.9937 | 0.9674 | 100 | 115 | 3.879 | 0.0001515 |
-| gpt-4o-mini | social | spearman | -0.9698 | -0.681 | 100 | 115 | -10.1 | 1.152e-17 |
-| gpt-4o-mini | social | HMI | 0.9912 | 0.9482 | 100 | 115 | 5.695 | 6.556e-08 |
-| gpt-4o-mini | social | MPI_mean | 0.007055 | 0.02855 | 100 | 115 | -4.163 | 4.706e-05 |
-| gpt-4o-mini | social | MCI | 0.000944 | 0.005016 | 100 | 115 | -2.262 | 0.02525 |
+| gpt-4o-mini | social | CCEI | 0.9983 | 0.9674 | 100 | 115 | 5.039 | 1.718e-06 |
+| gpt-4o-mini | social | spearman | -0.9782 | -0.681 | 100 | 115 | -10.46 | 2.093e-18 |
+| gpt-4o-mini | social | HMI | 0.9948 | 0.9482 | 100 | 115 | 6.49 | 1.922e-09 |
+| gpt-4o-mini | social | MPI_mean | 0.002278 | 0.02855 | 100 | 115 | -6.058 | 1.569e-08 |
+| gpt-4o-mini | social | MCI | 6.952e-05 | 0.005016 | 100 | 115 | -2.899 | 0.004489 |
 | gpt-4o-mini | food | CCEI | 0.9997 | 0.9631 | 100 | 115 | 5.988 | 2.522e-08 |
 | gpt-4o-mini | food | spearman | -0.9813 | -0.673 | 100 | 115 | -9.613 | 2.155e-16 |
 | gpt-4o-mini | food | HMI | 0.9968 | 0.9437 | 100 | 115 | 8.458 | 7.297e-14 |
@@ -74,7 +74,7 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 |---|---|---|---|---|---|---|
 | gpt-4o-mini | risk | 0.9997 | 0.918 | 100 | 458.4 | 1.634e-166 |
 | gpt-4o-mini | time | 0.9988 | 0.918 | 100 | 193.1 | 2.124e-129 |
-| gpt-4o-mini | social | 0.9937 | 0.918 | 100 | 25.27 | 5.857e-45 |
+| gpt-4o-mini | social | 0.9983 | 0.918 | 100 | 110.2 | 2.103e-105 |
 | gpt-4o-mini | food | 0.9997 | 0.918 | 100 | 648.5 | 2.019e-181 |
 | gpt-4o-mini (paraphrase) | risk | 0.9999 | 0.918 | 100 | 1309 | 1.281e-211 |
 | gpt-4o-mini (paraphrase) | time | 0.9986 | 0.918 | 100 | 78.33 | 7.031e-91 |
@@ -92,98 +92,98 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 |---|---|---|---|---|---|---|---|---|---|
 | gpt-4o-mini | temp_0.5 | risk | CCEI | 0.9997 | 0.9991 | 100 | 100 | 1.202 | 0.2313 |
 | gpt-4o-mini | temp_0.5 | risk | spearman | -0.9732 | -0.9757 | 100 | 100 | 1.073 | 0.2846 |
-| gpt-4o-mini | temp_0.5 | time | CCEI | 0.9988 | 0.9956 | 100 | 100 | 1.994 | 0.0486 |
-| gpt-4o-mini | temp_0.5 | time | spearman | -0.9543 | -0.9528 | 100 | 100 | -0.2311 | 0.8175 |
-| gpt-4o-mini | temp_0.5 | social | CCEI | 0.9937 | 0.9976 | 100 | 100 | -1.199 | 0.2326 |
-| gpt-4o-mini | temp_0.5 | social | spearman | -0.9698 | -0.9719 | 100 | 100 | 0.4797 | 0.6321 |
+| gpt-4o-mini | temp_0.5 | time | CCEI | 0.9988 | 0.9965 | 100 | 100 | 1.724 | 0.08729 |
+| gpt-4o-mini | temp_0.5 | time | spearman | -0.9543 | -0.9535 | 100 | 100 | -0.1151 | 0.9084 |
+| gpt-4o-mini | temp_0.5 | social | CCEI | 0.9983 | 0.9976 | 100 | 100 | 0.574 | 0.5667 |
+| gpt-4o-mini | temp_0.5 | social | spearman | -0.9782 | -0.9748 | 100 | 100 | -1.236 | 0.218 |
 | gpt-4o-mini | temp_0.5 | food | CCEI | 0.9997 | 0.9993 | 100 | 100 | 1.39 | 0.1668 |
 | gpt-4o-mini | temp_0.5 | food | spearman | -0.9813 | -0.9773 | 100 | 100 | -1.878 | 0.06189 |
 | gpt-4o-mini | temp_1 | risk | CCEI | 0.9997 | 0.9993 | 100 | 100 | 0.8606 | 0.391 |
 | gpt-4o-mini | temp_1 | risk | spearman | -0.9732 | -0.9733 | 100 | 100 | 0.02484 | 0.9802 |
-| gpt-4o-mini | temp_1 | time | CCEI | 0.9988 | 0.9906 | 100 | 100 | 1.928 | 0.05662 |
-| gpt-4o-mini | temp_1 | time | spearman | -0.9543 | -0.9381 | 100 | 100 | -1.528 | 0.1288 |
-| gpt-4o-mini | temp_1 | social | CCEI | 0.9937 | 0.9945 | 100 | 100 | -0.189 | 0.8503 |
-| gpt-4o-mini | temp_1 | social | spearman | -0.9698 | -0.9631 | 100 | 100 | -0.6779 | 0.499 |
+| gpt-4o-mini | temp_1 | time | CCEI | 0.9988 | 0.9942 | 100 | 100 | 2.278 | 0.02472 |
+| gpt-4o-mini | temp_1 | time | spearman | -0.9543 | -0.9518 | 100 | 100 | -0.4005 | 0.6892 |
+| gpt-4o-mini | temp_1 | social | CCEI | 0.9983 | 0.9973 | 100 | 100 | 0.4515 | 0.6524 |
+| gpt-4o-mini | temp_1 | social | spearman | -0.9782 | -0.971 | 100 | 100 | -0.8593 | 0.392 |
 | gpt-4o-mini | temp_1 | food | CCEI | 0.9997 | 0.999 | 100 | 100 | 1.107 | 0.2709 |
-| gpt-4o-mini | temp_1 | food | spearman | -0.9813 | -0.9782 | 100 | 100 | -1.576 | 0.1165 |
+| gpt-4o-mini | temp_1 | food | spearman | -0.9813 | -0.9786 | 100 | 100 | -1.434 | 0.1532 |
 | gpt-4o-mini | price_framing | risk | CCEI | 0.9997 | 0.9926 | 100 | 100 | 3.223 | 0.001712 |
 | gpt-4o-mini | price_framing | risk | spearman | -0.9732 | -0.9557 | 100 | 100 | -5.674 | 5.986e-08 |
 | gpt-4o-mini | price_framing | time | CCEI | 0.9988 | 0.9986 | 100 | 100 | 0.3395 | 0.7346 |
 | gpt-4o-mini | price_framing | time | spearman | -0.9543 | -0.9526 | 100 | 100 | -0.3213 | 0.7483 |
-| gpt-4o-mini | price_framing | social | CCEI | 0.9937 | 0.9993 | 100 | 100 | -1.86 | 0.06587 |
-| gpt-4o-mini | price_framing | social | spearman | -0.9698 | -0.945 | 100 | 100 | -4.635 | 6.486e-06 |
+| gpt-4o-mini | price_framing | social | CCEI | 0.9983 | 0.9993 | 100 | 100 | -1.325 | 0.1876 |
+| gpt-4o-mini | price_framing | social | spearman | -0.9782 | -0.9453 | 100 | 100 | -7.792 | 1.064e-12 |
 | gpt-4o-mini | price_framing | food | CCEI | 0.9997 | 0.9984 | 100 | 100 | 2.525 | 0.01298 |
 | gpt-4o-mini | price_framing | food | spearman | -0.9813 | -0.9687 | 100 | 100 | -4.916 | 2.089e-06 |
 | gpt-4o-mini | discrete | risk | CCEI | 0.9997 | 0.9626 | 100 | 57 | 2.398 | 0.01984 |
 | gpt-4o-mini | discrete | risk | spearman | -0.9732 | -0.9862 | 100 | 57 | 2.492 | 0.01511 |
 | gpt-4o-mini | discrete | time | CCEI | 0.9988 | 0.969 | 100 | 95 | 3.426 | 0.0009096 |
 | gpt-4o-mini | discrete | time | spearman | -0.9543 | -0.9903 | 100 | 95 | 7.104 | 2.745e-11 |
-| gpt-4o-mini | discrete | social | CCEI | 0.9937 | 0.9858 | 100 | 94 | 1.365 | 0.1744 |
-| gpt-4o-mini | discrete | social | spearman | -0.9698 | -0.9487 | 100 | 94 | -1.904 | 0.05928 |
+| gpt-4o-mini | discrete | social | CCEI | 0.9983 | 0.9858 | 100 | 94 | 2.493 | 0.01436 |
+| gpt-4o-mini | discrete | social | spearman | -0.9782 | -0.9487 | 100 | 94 | -2.787 | 0.006374 |
 | gpt-4o-mini | discrete | food | CCEI | 0.9997 | 0.9919 | 100 | 100 | 3.545 | 0.0006004 |
 | gpt-4o-mini | discrete | food | spearman | -0.9813 | -0.9333 | 100 | 100 | -4.207 | 5.588e-05 |
 | gpt-4o-mini | female | risk | CCEI | 0.9997 | 0.9998 | 100 | 30 | -0.738 | 0.4619 |
 | gpt-4o-mini | female | risk | spearman | -0.9732 | -0.972 | 100 | 30 | -0.2024 | 0.8408 |
 | gpt-4o-mini | female | time | CCEI | 0.9988 | 0.9987 | 100 | 30 | 0.1504 | 0.8809 |
 | gpt-4o-mini | female | time | spearman | -0.9543 | -0.9543 | 100 | 30 | -0.0004453 | 0.9996 |
-| gpt-4o-mini | female | social | CCEI | 0.9937 | 0.9985 | 100 | 30 | -1.543 | 0.1257 |
-| gpt-4o-mini | female | social | spearman | -0.9698 | -0.9716 | 100 | 30 | 0.3644 | 0.7162 |
+| gpt-4o-mini | female | social | CCEI | 0.9983 | 0.9985 | 100 | 30 | -0.2039 | 0.839 |
+| gpt-4o-mini | female | social | spearman | -0.9782 | -0.9716 | 100 | 30 | -1.818 | 0.07454 |
 | gpt-4o-mini | female | food | CCEI | 0.9997 | 0.9995 | 100 | 30 | 0.7044 | 0.4853 |
 | gpt-4o-mini | female | food | spearman | -0.9813 | -0.9782 | 100 | 30 | -0.9768 | 0.3342 |
 | gpt-4o-mini | male | risk | CCEI | 0.9997 | 0.9999 | 100 | 30 | -0.9617 | 0.338 |
 | gpt-4o-mini | male | risk | spearman | -0.9732 | -0.9781 | 100 | 30 | 1.57 | 0.1222 |
 | gpt-4o-mini | male | time | CCEI | 0.9988 | 0.9977 | 100 | 30 | 0.53 | 0.5998 |
 | gpt-4o-mini | male | time | spearman | -0.9543 | -0.9469 | 100 | 30 | -0.5368 | 0.5949 |
-| gpt-4o-mini | male | social | CCEI | 0.9937 | 0.989 | 100 | 30 | 0.5249 | 0.6028 |
-| gpt-4o-mini | male | social | spearman | -0.9698 | -0.9632 | 100 | 30 | -0.5825 | 0.5638 |
+| gpt-4o-mini | male | social | CCEI | 0.9983 | 0.9975 | 100 | 30 | 0.4906 | 0.6263 |
+| gpt-4o-mini | male | social | spearman | -0.9782 | -0.9738 | 100 | 30 | -1.11 | 0.2722 |
 | gpt-4o-mini | male | food | CCEI | 0.9997 | 0.9996 | 100 | 30 | 0.3459 | 0.7313 |
 | gpt-4o-mini | male | food | spearman | -0.9813 | -0.9784 | 100 | 30 | -0.8131 | 0.4211 |
 | gpt-4o-mini | young_child | risk | CCEI | 0.9997 | 0.9997 | 100 | 30 | -0.1037 | 0.9177 |
 | gpt-4o-mini | young_child | risk | spearman | -0.9732 | -0.9674 | 100 | 30 | -1.183 | 0.2444 |
-| gpt-4o-mini | young_child | time | CCEI | 0.9988 | 0.9946 | 100 | 30 | 0.9654 | 0.3422 |
-| gpt-4o-mini | young_child | time | spearman | -0.9543 | -0.9419 | 100 | 30 | -1.003 | 0.3225 |
-| gpt-4o-mini | young_child | social | CCEI | 0.9937 | 0.9905 | 100 | 30 | 0.3541 | 0.7253 |
-| gpt-4o-mini | young_child | social | spearman | -0.9698 | -0.9647 | 100 | 30 | -0.5869 | 0.5603 |
+| gpt-4o-mini | young_child | time | CCEI | 0.9988 | 0.9985 | 100 | 30 | 0.4 | 0.6909 |
+| gpt-4o-mini | young_child | time | spearman | -0.9543 | -0.9445 | 100 | 30 | -0.8457 | 0.4031 |
+| gpt-4o-mini | young_child | social | CCEI | 0.9983 | 0.999 | 100 | 30 | -0.686 | 0.4946 |
+| gpt-4o-mini | young_child | social | spearman | -0.9782 | -0.9724 | 100 | 30 | -1.875 | 0.06489 |
 | gpt-4o-mini | young_child | food | CCEI | 0.9997 | 0.9989 | 100 | 30 | 1.415 | 0.1667 |
 | gpt-4o-mini | young_child | food | spearman | -0.9813 | -0.9782 | 100 | 30 | -1.131 | 0.2633 |
 | gpt-4o-mini | elderly | risk | CCEI | 0.9997 | 1 | 100 | 30 | -1.655 | 0.1009 |
 | gpt-4o-mini | elderly | risk | spearman | -0.9732 | -0.9744 | 100 | 30 | 0.3768 | 0.7078 |
 | gpt-4o-mini | elderly | time | CCEI | 0.9988 | 0.9977 | 100 | 30 | 0.9534 | 0.3464 |
 | gpt-4o-mini | elderly | time | spearman | -0.9543 | -0.9496 | 100 | 30 | -0.3833 | 0.7037 |
-| gpt-4o-mini | elderly | social | CCEI | 0.9937 | 0.9988 | 100 | 30 | -1.646 | 0.1025 |
-| gpt-4o-mini | elderly | social | spearman | -0.9698 | -0.9722 | 100 | 30 | 0.4852 | 0.6285 |
+| gpt-4o-mini | elderly | social | CCEI | 0.9983 | 0.9988 | 100 | 30 | -0.4862 | 0.6281 |
+| gpt-4o-mini | elderly | social | spearman | -0.9782 | -0.9722 | 100 | 30 | -1.611 | 0.113 |
 | gpt-4o-mini | elderly | food | CCEI | 0.9997 | 0.9988 | 100 | 30 | 1.384 | 0.1762 |
 | gpt-4o-mini | elderly | food | spearman | -0.9813 | -0.9784 | 100 | 30 | -1.005 | 0.3199 |
 | gpt-4o-mini | elementary_edu | risk | CCEI | 0.9997 | 0.9999 | 100 | 30 | -1.166 | 0.2458 |
 | gpt-4o-mini | elementary_edu | risk | spearman | -0.9732 | -0.9704 | 100 | 30 | -0.5473 | 0.5876 |
-| gpt-4o-mini | elementary_edu | time | CCEI | 0.9988 | 0.9936 | 100 | 30 | 1.268 | 0.2147 |
-| gpt-4o-mini | elementary_edu | time | spearman | -0.9543 | -0.9425 | 100 | 30 | -1.06 | 0.2958 |
-| gpt-4o-mini | elementary_edu | social | CCEI | 0.9937 | 0.9927 | 100 | 30 | 0.153 | 0.8791 |
-| gpt-4o-mini | elementary_edu | social | spearman | -0.9698 | -0.9253 | 100 | 30 | -0.9667 | 0.3416 |
+| gpt-4o-mini | elementary_edu | time | CCEI | 0.9988 | 0.9977 | 100 | 30 | 0.8054 | 0.426 |
+| gpt-4o-mini | elementary_edu | time | spearman | -0.9543 | -0.9474 | 100 | 30 | -0.6704 | 0.5064 |
+| gpt-4o-mini | elementary_edu | social | CCEI | 0.9983 | 0.9996 | 100 | 30 | -1.622 | 0.1073 |
+| gpt-4o-mini | elementary_edu | social | spearman | -0.9782 | -0.9739 | 100 | 30 | -0.8307 | 0.4112 |
 | gpt-4o-mini | elementary_edu | food | CCEI | 0.9997 | 0.9992 | 100 | 30 | 1.049 | 0.3019 |
 | gpt-4o-mini | elementary_edu | food | spearman | -0.9813 | -0.9767 | 100 | 30 | -1.112 | 0.2735 |
 | gpt-4o-mini | college_edu | risk | CCEI | 0.9997 | 0.9998 | 100 | 30 | -0.6219 | 0.5352 |
 | gpt-4o-mini | college_edu | risk | spearman | -0.9732 | -0.9815 | 100 | 30 | 2.113 | 0.04052 |
 | gpt-4o-mini | college_edu | time | CCEI | 0.9988 | 0.9981 | 100 | 30 | 0.5619 | 0.5775 |
 | gpt-4o-mini | college_edu | time | spearman | -0.9543 | -0.9527 | 100 | 30 | -0.1779 | 0.8596 |
-| gpt-4o-mini | college_edu | social | CCEI | 0.9937 | 0.9671 | 100 | 30 | 1.391 | 0.1742 |
-| gpt-4o-mini | college_edu | social | spearman | -0.9698 | -0.9669 | 100 | 30 | -0.3823 | 0.7038 |
+| gpt-4o-mini | college_edu | social | CCEI | 0.9983 | 1 | 100 | 30 | -2.314 | 0.02274 |
+| gpt-4o-mini | college_edu | social | spearman | -0.9782 | -0.98 | 100 | 30 | 0.4057 | 0.6869 |
 | gpt-4o-mini | college_edu | food | CCEI | 0.9997 | 0.9989 | 100 | 30 | 1.501 | 0.143 |
 | gpt-4o-mini | college_edu | food | spearman | -0.9813 | -0.9787 | 100 | 30 | -0.8431 | 0.4037 |
 | gpt-4o-mini | asian | risk | CCEI | 0.9997 | 1 | 100 | 30 | -1.602 | 0.1122 |
 | gpt-4o-mini | asian | risk | spearman | -0.9732 | -0.9734 | 100 | 30 | 0.05586 | 0.9557 |
 | gpt-4o-mini | asian | time | CCEI | 0.9988 | 0.9983 | 100 | 30 | 0.5313 | 0.5977 |
 | gpt-4o-mini | asian | time | spearman | -0.9543 | -0.9535 | 100 | 30 | -0.1038 | 0.9177 |
-| gpt-4o-mini | asian | social | CCEI | 0.9937 | 0.9911 | 100 | 30 | 0.3134 | 0.7557 |
-| gpt-4o-mini | asian | social | spearman | -0.9698 | -0.9706 | 100 | 30 | 0.1345 | 0.8933 |
+| gpt-4o-mini | asian | social | CCEI | 0.9983 | 0.9989 | 100 | 30 | -0.5892 | 0.5573 |
+| gpt-4o-mini | asian | social | spearman | -0.9782 | -0.9735 | 100 | 30 | -1.168 | 0.2487 |
 | gpt-4o-mini | asian | food | CCEI | 0.9997 | 1 | 100 | 30 | -2.118 | 0.03672 |
 | gpt-4o-mini | asian | food | spearman | -0.9813 | -0.9825 | 100 | 30 | 0.4756 | 0.6361 |
 | gpt-4o-mini | african_american | risk | CCEI | 0.9997 | 0.9999 | 100 | 30 | -1.112 | 0.2682 |
 | gpt-4o-mini | african_american | risk | spearman | -0.9732 | -0.9755 | 100 | 30 | 0.6566 | 0.5146 |
 | gpt-4o-mini | african_american | time | CCEI | 0.9988 | 0.9985 | 100 | 30 | 0.2603 | 0.796 |
 | gpt-4o-mini | african_american | time | spearman | -0.9543 | -0.9563 | 100 | 30 | 0.2394 | 0.8118 |
-| gpt-4o-mini | african_american | social | CCEI | 0.9937 | 0.9998 | 100 | 30 | -2.019 | 0.04621 |
-| gpt-4o-mini | african_american | social | spearman | -0.9698 | -0.9732 | 100 | 30 | 0.6651 | 0.5074 |
+| gpt-4o-mini | african_american | social | CCEI | 0.9983 | 0.9998 | 100 | 30 | -1.978 | 0.05045 |
+| gpt-4o-mini | african_american | social | spearman | -0.9782 | -0.9732 | 100 | 30 | -1.291 | 0.2025 |
 | gpt-4o-mini | african_american | food | CCEI | 0.9997 | 0.9994 | 100 | 30 | 0.9843 | 0.3313 |
 | gpt-4o-mini | african_american | food | spearman | -0.9813 | -0.9773 | 100 | 30 | -1.363 | 0.1796 |
 | gpt-4o-mini (paraphrase) | price_framing | risk | CCEI | 0.9999 | 0.9978 | 100 | 100 | 1.674 | 0.09736 |
@@ -308,8 +308,8 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | baseline | risk | spearman | -0.9732 | -0.9808 | 100 | 100 | 3.22 | 0.001496 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | baseline | time | CCEI | 0.9988 | 0.9986 | 100 | 100 | 0.2106 | 0.8335 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | baseline | time | spearman | -0.9543 | -0.9773 | 100 | 100 | 5.157 | 8.776e-07 |
-| gpt-4o-mini | gpt-4o-mini (paraphrase) | baseline | social | CCEI | 0.9937 | 0.9999 | 100 | 100 | -2.043 | 0.04368 |
-| gpt-4o-mini | gpt-4o-mini (paraphrase) | baseline | social | spearman | -0.9698 | -0.9806 | 100 | 100 | 2.615 | 0.009997 |
+| gpt-4o-mini | gpt-4o-mini (paraphrase) | baseline | social | CCEI | 0.9983 | 0.9999 | 100 | 100 | -2.105 | 0.03777 |
+| gpt-4o-mini | gpt-4o-mini (paraphrase) | baseline | social | spearman | -0.9782 | -0.9806 | 100 | 100 | 1.019 | 0.3094 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | baseline | food | CCEI | 0.9997 | 0.9997 | 100 | 100 | 0.1398 | 0.889 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | baseline | food | spearman | -0.9813 | -0.9791 | 100 | 100 | -1.08 | 0.2812 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | price_framing | risk | CCEI | 0.9926 | 0.9978 | 100 | 100 | -2.1 | 0.03737 |
@@ -317,7 +317,7 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | price_framing | time | CCEI | 0.9986 | 0.9947 | 100 | 100 | 2.566 | 0.01148 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | price_framing | time | spearman | -0.9526 | -0.9564 | 100 | 100 | 0.7995 | 0.4249 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | price_framing | social | CCEI | 0.9993 | 0.9977 | 100 | 100 | 2.704 | 0.007794 |
-| gpt-4o-mini | gpt-4o-mini (paraphrase) | price_framing | social | spearman | -0.945 | -0.9228 | 100 | 100 | -2.922 | 0.003994 |
+| gpt-4o-mini | gpt-4o-mini (paraphrase) | price_framing | social | spearman | -0.9453 | -0.9228 | 100 | 100 | -2.963 | 0.003523 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | price_framing | food | CCEI | 0.9984 | 0.9948 | 100 | 100 | 1.392 | 0.1667 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | price_framing | food | spearman | -0.9687 | -0.969 | 100 | 100 | 0.08479 | 0.9325 |
 | gpt-4o-mini | gpt-4o-mini (paraphrase) | discrete | risk | CCEI | 0.9626 | 0.8804 | 57 | 100 | 3.749 | 0.0002568 |
@@ -332,32 +332,32 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | gpt-4o-mini | gpt-3.5-turbo (paper) | baseline | risk | spearman | -0.9732 | -0.9843 | 100 | 100 | 2.41 | 0.01738 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | baseline | time | CCEI | 0.9988 | 0.9972 | 100 | 100 | 1.057 | 0.2929 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | baseline | time | spearman | -0.9543 | -0.9664 | 100 | 100 | 1.786 | 0.07582 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | baseline | social | CCEI | 0.9937 | 0.9971 | 100 | 100 | -1.063 | 0.2899 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | baseline | social | spearman | -0.9698 | -0.9505 | 100 | 100 | -3.694 | 0.0002867 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | baseline | social | CCEI | 0.9983 | 0.9971 | 100 | 100 | 0.9456 | 0.3457 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | baseline | social | spearman | -0.9782 | -0.9505 | 100 | 100 | -6.91 | 1.201e-10 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | baseline | food | CCEI | 0.9997 | 0.9995 | 100 | 100 | 1.06 | 0.2907 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | baseline | food | spearman | -0.9813 | -0.9917 | 100 | 100 | 6.074 | 7.174e-09 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | risk | CCEI | 0.9991 | 0.9991 | 100 | 100 | 0.01962 | 0.9844 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | risk | spearman | -0.9757 | -0.9904 | 100 | 100 | 7.46 | 3.732e-12 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | time | CCEI | 0.9956 | 0.997 | 100 | 100 | -0.7672 | 0.4441 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | time | spearman | -0.9528 | -0.9659 | 100 | 100 | 2.21 | 0.02839 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | time | CCEI | 0.9965 | 0.997 | 100 | 100 | -0.3277 | 0.7435 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | time | spearman | -0.9535 | -0.9659 | 100 | 100 | 2.089 | 0.03819 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | social | CCEI | 0.9976 | 0.997 | 100 | 100 | 0.4348 | 0.6643 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | social | spearman | -0.9719 | -0.9567 | 100 | 100 | -4.944 | 1.646e-06 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | social | spearman | -0.9748 | -0.9567 | 100 | 100 | -6.073 | 6.651e-09 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | food | CCEI | 0.9993 | 0.9995 | 100 | 100 | -0.5877 | 0.5575 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_0.5 | food | spearman | -0.9773 | -0.9913 | 100 | 100 | 7.326 | 1.121e-11 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | risk | CCEI | 0.9993 | 0.9996 | 100 | 100 | -0.7761 | 0.4391 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | risk | spearman | -0.9733 | -0.9893 | 100 | 100 | 6.192 | 6.015e-09 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | time | CCEI | 0.9906 | 0.9977 | 100 | 100 | -1.656 | 0.1008 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | time | spearman | -0.9381 | -0.9662 | 100 | 100 | 2.821 | 0.0057 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | social | CCEI | 0.9945 | 0.997 | 100 | 100 | -0.8497 | 0.3974 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | social | spearman | -0.9631 | -0.957 | 100 | 100 | -0.6424 | 0.522 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | time | CCEI | 0.9942 | 0.9977 | 100 | 100 | -1.693 | 0.09326 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | time | spearman | -0.9518 | -0.9662 | 100 | 100 | 2.825 | 0.005449 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | social | CCEI | 0.9973 | 0.997 | 100 | 100 | 0.1781 | 0.859 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | social | spearman | -0.971 | -0.957 | 100 | 100 | -1.685 | 0.09486 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | food | CCEI | 0.999 | 0.9996 | 100 | 100 | -0.8567 | 0.3934 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | food | spearman | -0.9782 | -0.9894 | 100 | 100 | 6.492 | 8.151e-10 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | temp_1 | food | spearman | -0.9786 | -0.9894 | 100 | 100 | 6.492 | 7.772e-10 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | risk | CCEI | 0.9926 | 0.9008 | 100 | 100 | 9.042 | 6.68e-15 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | risk | spearman | -0.9557 | -0.05342 | 100 | 100 | -33.13 | 5.323e-56 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | time | CCEI | 0.9986 | 0.8843 | 100 | 100 | 11.16 | 3.121e-19 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | time | spearman | -0.9526 | -0.1162 | 100 | 100 | -25.58 | 6.279e-46 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | social | CCEI | 0.9993 | 0.6976 | 100 | 100 | 18.4 | 1.031e-33 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | social | spearman | -0.945 | 0.2671 | 100 | 100 | -33.9 | 4.835e-57 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | social | spearman | -0.9453 | 0.2671 | 100 | 100 | -33.91 | 4.591e-57 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | food | CCEI | 0.9984 | 0.8936 | 100 | 100 | 11.18 | 2.778e-19 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | price_framing | food | spearman | -0.9687 | -0.4992 | 100 | 100 | -13.18 | 1.423e-23 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | discrete | risk | CCEI | 0.9626 | 0.8427 | 57 | 100 | 4.485 | 1.418e-05 |
@@ -380,16 +380,16 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | gpt-4o-mini | gpt-3.5-turbo (paper) | male | risk | spearman | -0.9781 | -0.9913 | 30 | 100 | 4.735 | 3.179e-05 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | male | time | CCEI | 0.9977 | 0.9973 | 30 | 100 | 0.17 | 0.866 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | male | time | spearman | -0.9469 | -0.9661 | 30 | 100 | 1.434 | 0.1615 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | male | social | CCEI | 0.989 | 0.9974 | 30 | 100 | -0.9817 | 0.3343 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | male | social | spearman | -0.9632 | -0.9594 | 30 | 100 | -0.3458 | 0.7318 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | male | social | CCEI | 0.9975 | 0.9974 | 30 | 100 | 0.04338 | 0.9656 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | male | social | spearman | -0.9738 | -0.9594 | 30 | 100 | -3.728 | 0.0005055 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | male | food | CCEI | 0.9996 | 0.9994 | 30 | 100 | 0.3049 | 0.761 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | male | food | spearman | -0.9784 | -0.9987 | 30 | 100 | 5.978 | 1.492e-06 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | risk | CCEI | 0.9997 | 0.9994 | 30 | 100 | 0.8903 | 0.3758 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | risk | spearman | -0.9674 | -0.9911 | 30 | 100 | 4.959 | 2.045e-05 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | time | CCEI | 0.9946 | 0.9971 | 30 | 100 | -0.5659 | 0.5756 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | time | spearman | -0.9419 | -0.9703 | 30 | 100 | 2.4 | 0.02262 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | social | CCEI | 0.9905 | 0.9974 | 30 | 100 | -0.8022 | 0.4289 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | social | spearman | -0.9647 | -0.9557 | 30 | 100 | -1.102 | 0.2777 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | time | CCEI | 0.9985 | 0.9971 | 30 | 100 | 1.345 | 0.1821 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | time | spearman | -0.9445 | -0.9703 | 30 | 100 | 2.352 | 0.02513 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | social | CCEI | 0.999 | 0.9974 | 30 | 100 | 1.774 | 0.08136 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | social | spearman | -0.9724 | -0.9557 | 30 | 100 | -4.801 | 5.813e-06 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | food | CCEI | 0.9989 | 1 | 30 | 100 | -1.901 | 0.06732 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | young_child | food | spearman | -0.9782 | -0.9989 | 30 | 100 | 8.474 | 1.772e-09 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | elderly | risk | CCEI | 1 | 0.9995 | 30 | 100 | 2.196 | 0.0304 |
@@ -402,26 +402,26 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | gpt-4o-mini | gpt-3.5-turbo (paper) | elderly | food | spearman | -0.9784 | -0.9969 | 30 | 100 | 6.651 | 7.983e-08 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | risk | CCEI | 0.9999 | 0.9996 | 30 | 100 | 1.299 | 0.1966 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | risk | spearman | -0.9704 | -0.9907 | 30 | 100 | 4.112 | 0.0002533 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | time | CCEI | 0.9936 | 0.9973 | 30 | 100 | -0.8862 | 0.3824 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | time | spearman | -0.9425 | -0.97 | 30 | 100 | 2.59 | 0.01432 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | social | CCEI | 0.9927 | 0.9973 | 30 | 100 | -0.7303 | 0.4709 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | social | spearman | -0.9253 | -0.9558 | 30 | 100 | 0.6644 | 0.5116 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | time | CCEI | 0.9977 | 0.9973 | 30 | 100 | 0.3215 | 0.7493 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | time | spearman | -0.9474 | -0.97 | 30 | 100 | 2.343 | 0.02537 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | social | CCEI | 0.9996 | 0.9973 | 30 | 100 | 3.123 | 0.002226 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | social | spearman | -0.9739 | -0.9558 | 30 | 100 | -3.429 | 0.001353 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | food | CCEI | 0.9992 | 0.9997 | 30 | 100 | -0.9028 | 0.3711 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | elementary_edu | food | spearman | -0.9767 | -0.9973 | 30 | 100 | 5.07 | 1.406e-05 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | risk | CCEI | 0.9998 | 0.9999 | 30 | 100 | -0.4894 | 0.6266 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | risk | spearman | -0.9815 | -0.9896 | 30 | 100 | 2.066 | 0.04506 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | time | CCEI | 0.9981 | 0.9975 | 30 | 100 | 0.5009 | 0.619 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | time | spearman | -0.9527 | -0.971 | 30 | 100 | 2.291 | 0.02829 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | social | CCEI | 0.9671 | 0.9983 | 30 | 100 | -1.651 | 0.1096 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | social | spearman | -0.9669 | -0.9579 | 30 | 100 | -1.327 | 0.193 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | social | CCEI | 1 | 0.9983 | 30 | 100 | 3.85 | 0.0002093 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | social | spearman | -0.98 | -0.9579 | 30 | 100 | -4.905 | 1.27e-05 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | food | CCEI | 0.9989 | 0.9995 | 30 | 100 | -0.956 | 0.3432 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | college_edu | food | spearman | -0.9787 | -0.9972 | 30 | 100 | 6.406 | 2.655e-07 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | asian | risk | CCEI | 1 | 0.9993 | 30 | 100 | 2.149 | 0.03406 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | asian | risk | spearman | -0.9734 | -0.9905 | 30 | 100 | 4.104 | 0.0002621 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | asian | time | CCEI | 0.9983 | 0.9982 | 30 | 100 | 0.1445 | 0.8856 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | asian | time | spearman | -0.9535 | -0.9722 | 30 | 100 | 2.715 | 0.01045 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | asian | social | CCEI | 0.9911 | 0.9973 | 30 | 100 | -0.7922 | 0.4346 |
-| gpt-4o-mini | gpt-3.5-turbo (paper) | asian | social | spearman | -0.9706 | -0.9572 | 30 | 100 | -2.901 | 0.005553 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | asian | social | CCEI | 0.9989 | 0.9973 | 30 | 100 | 1.682 | 0.09773 |
+| gpt-4o-mini | gpt-3.5-turbo (paper) | asian | social | spearman | -0.9735 | -0.9572 | 30 | 100 | -3.866 | 0.0002941 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | asian | food | CCEI | 1 | 0.9996 | 30 | 100 | 1.36 | 0.1769 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | asian | food | spearman | -0.9825 | -0.9974 | 30 | 100 | 6.869 | 1.673e-08 |
 | gpt-4o-mini | gpt-3.5-turbo (paper) | african_american | risk | CCEI | 0.9999 | 0.9993 | 30 | 100 | 1.962 | 0.05224 |
@@ -464,26 +464,26 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 |---|---|---|---|---|---|---|---|
 | gpt-4o-mini | baseline vs temp_0.5 | risk | alpha | 0.0266 | 0.0243 | 0.2169 | 0.6419 |
 | gpt-4o-mini | baseline vs temp_0.5 | risk | rho | 0.07506 | 0.07445 | 0.003941 | 0.95 |
-| gpt-4o-mini | baseline vs temp_0.5 | time | alpha | 0.0156 | 0.05071 | 1.093 | 0.2972 |
-| gpt-4o-mini | baseline vs temp_0.5 | time | rho | 0.05941 | 0.1244 | 21.99 | 5.126e-06 |
-| gpt-4o-mini | baseline vs temp_0.5 | social | alpha | 0.1084 | 0.08456 | 0.4863 | 0.4864 |
-| gpt-4o-mini | baseline vs temp_0.5 | social | rho | 0.1858 | 0.1514 | 0.3744 | 0.5413 |
+| gpt-4o-mini | baseline vs temp_0.5 | time | alpha | 0.0156 | 0.05011 | 1.141 | 0.2868 |
+| gpt-4o-mini | baseline vs temp_0.5 | time | rho | 0.05941 | 0.1268 | 23.64 | 2.371e-06 |
+| gpt-4o-mini | baseline vs temp_0.5 | social | alpha | 0.01275 | 0.01372 | 0.7999 | 0.3722 |
+| gpt-4o-mini | baseline vs temp_0.5 | social | rho | 0.11 | 0.1051 | 0.261 | 0.61 |
 | gpt-4o-mini | baseline vs temp_0.5 | food | alpha | 0.01142 | 0.01173 | 0.4687 | 0.4944 |
 | gpt-4o-mini | baseline vs temp_0.5 | food | rho | 0.04727 | 0.0463 | 0.1251 | 0.724 |
 | gpt-4o-mini | baseline vs temp_1 | risk | alpha | 0.0266 | 0.02974 | 0.01639 | 0.8982 |
 | gpt-4o-mini | baseline vs temp_1 | risk | rho | 0.07506 | 0.07948 | 0.1138 | 0.7362 |
-| gpt-4o-mini | baseline vs temp_1 | time | alpha | 0.0156 | 0.099 | 4.881 | 0.02832 |
-| gpt-4o-mini | baseline vs temp_1 | time | rho | 0.05941 | 0.1764 | 26.62 | 6.076e-07 |
-| gpt-4o-mini | baseline vs temp_1 | social | alpha | 0.1084 | 0.1037 | 0.03786 | 0.8459 |
-| gpt-4o-mini | baseline vs temp_1 | social | rho | 0.1858 | 0.1738 | 0.02357 | 0.8781 |
-| gpt-4o-mini | baseline vs temp_1 | food | alpha | 0.01142 | 0.01151 | 0.2167 | 0.6421 |
-| gpt-4o-mini | baseline vs temp_1 | food | rho | 0.04727 | 0.05833 | 2.887 | 0.09085 |
+| gpt-4o-mini | baseline vs temp_1 | time | alpha | 0.0156 | 0.01782 | 1.08 | 0.2999 |
+| gpt-4o-mini | baseline vs temp_1 | time | rho | 0.05941 | 0.1379 | 31.91 | 5.65e-08 |
+| gpt-4o-mini | baseline vs temp_1 | social | alpha | 0.01275 | 0.01046 | 0.7218 | 0.3966 |
+| gpt-4o-mini | baseline vs temp_1 | social | rho | 0.11 | 0.1139 | 0.002494 | 0.9602 |
+| gpt-4o-mini | baseline vs temp_1 | food | alpha | 0.01142 | 0.01135 | 0.0923 | 0.7616 |
+| gpt-4o-mini | baseline vs temp_1 | food | rho | 0.04727 | 0.05817 | 2.611 | 0.1077 |
 | gpt-4o-mini | model vs Human | risk | alpha | 0.0266 | 0.1333 | 28.88 | 2.011e-07 |
 | gpt-4o-mini | model vs Human | risk | rho | 0.07506 | 4.769 | 11.94 | 0.000663 |
 | gpt-4o-mini | model vs Human | time | alpha | 0.0156 | 0.09992 | 16.82 | 5.853e-05 |
 | gpt-4o-mini | model vs Human | time | rho | 0.05941 | 0.3667 | 28.18 | 2.77e-07 |
-| gpt-4o-mini | model vs Human | social | alpha | 0.1084 | 0.1962 | 109.5 | 6.97e-21 |
-| gpt-4o-mini | model vs Human | social | rho | 0.1858 | 5.166 | 17.08 | 5.182e-05 |
+| gpt-4o-mini | model vs Human | social | alpha | 0.01275 | 0.1962 | 326.6 | 8.395e-45 |
+| gpt-4o-mini | model vs Human | social | rho | 0.11 | 5.166 | 17.93 | 3.416e-05 |
 | gpt-4o-mini | model vs Human | food | alpha | 0.01142 | 0.237 | 89.77 | 5.385e-18 |
 | gpt-4o-mini | model vs Human | food | rho | 0.04727 | 5.073 | 19.1 | 1.937e-05 |
 | gpt-4o-mini (paraphrase) | model vs Human | risk | alpha | 0.01573 | 0.1333 | 36.06 | 8.17e-09 |
@@ -533,9 +533,9 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | time | price_framing | -0.05747 | 0.01686 | -3.408 | 0.0007172 |
 | time | model x price_framing | 0.05724 | 0.01688 | 3.392 | 0.0007597 |
 | social | const | 0.9674 | 0.006094 | 158.7 | 0 |
-| social | model | 0.02633 | 0.006791 | 3.878 | 0.0001222 |
+| social | model | 0.03092 | 0.006137 | 5.037 | 7.017e-07 |
 | social | price_framing | -0.005322 | 0.01154 | -0.4612 | 0.6449 |
-| social | model x price_framing | 0.01091 | 0.01192 | 0.915 | 0.3607 |
+| social | model x price_framing | 0.006331 | 0.01157 | 0.5474 | 0.5844 |
 | food | const | 0.9631 | 0.006127 | 157.2 | 0 |
 | food | model | 0.03668 | 0.006128 | 5.986 | 4.609e-09 |
 | food | price_framing | 0.00456 | 0.01063 | 0.4289 | 0.6682 |
@@ -555,9 +555,9 @@ Models: gpt-4o-mini, gpt-4o-mini (paraphrase), gpt-3.5-turbo (paper); humans inc
 | time | discrete | -0.02045 | 0.007504 | -2.725 | 0.006702 |
 | time | model x discrete | -0.009337 | 0.01148 | -0.8132 | 0.4165 |
 | social | const | 0.9674 | 0.006094 | 158.8 | 0 |
-| social | model | 0.02633 | 0.006791 | 3.878 | 0.0001219 |
+| social | model | 0.03092 | 0.006137 | 5.037 | 6.984e-07 |
 | social | discrete | -0.003242 | 0.00943 | -0.3438 | 0.7312 |
-| social | model x discrete | -0.004658 | 0.01106 | -0.421 | 0.6739 |
+| social | model x discrete | -0.009239 | 0.01068 | -0.8655 | 0.3873 |
 | food | const | 0.9631 | 0.006126 | 157.2 | 0 |
 | food | model | 0.03668 | 0.006127 | 5.986 | 4.516e-09 |
 | food | discrete | 0.002863 | 0.009109 | 0.3143 | 0.7535 |

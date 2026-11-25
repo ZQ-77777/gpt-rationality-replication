@@ -63,6 +63,19 @@ check("discrete: 'The best option in this round is (...)' among others",
 check("discrete: superlative sentence fallback",
       parse_discrete("($0.00, $30.00) is safe. However, ($88.00, $0.00) offers the highest potential return.", opts) == (10, True))
 check("discrete: list cut off before the choice -> invalid", not parse_discrete("To determine the best option: 1. ($0.00, $30.00) 2. ($8.80, $27.00) 3. ($17", opts)[1])
+# parser v2: counterexamples that version 1 got wrong
+r = parse_continuous("I allocate 30 points to Asset B and 70 points to Asset A.", "Asset A", "Asset B")
+check("v2: labels in reverse order -> A=70", r[2] and round(r[0]) == 70)
+r = parse_continuous("Asset A: 50, Asset B: 50 is one possibility. My final allocation is Asset A: 70, Asset B: 30.", "Asset A", "Asset B")
+check("v2: final allocation wins over an earlier one -> A=70", r[2] and round(r[0]) == 70)
+check("v2: negative amount -> invalid", not parse_continuous("Asset A: -20, Asset B: 80", "Asset A", "Asset B")[2])
+check("v2: dash as separator is not a minus sign", parse_continuous("Asset A - 70, Asset B - 30", "Asset A", "Asset B")[2])
+r = parse_continuous("I would allocate 70 points for the other person and 30 points for myself.", "yourself", "the other")
+check("v2: synonyms (myself / the other person) -> self=30", r[2] and round(r[0]) == 30)
+check("v2: 'Option 1 is worse. I choose Option 11.' -> option 11",
+      parse_discrete("Option 1 is less attractive. I choose Option 11.", allow_option_number=True) == (10, True))
+check("v2: off-menu final choice after an on-menu mention -> invalid",
+      not parse_discrete("Consider ($0.00, $30.00). I choose ($30.00, $0.00).", opts)[1])
 
 # 6. prompts render
 msg = Pm.round_message("risk", "inverse", "continuous", 1, 0.5, 0.25)

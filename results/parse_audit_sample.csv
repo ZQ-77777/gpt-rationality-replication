@@ -1,0 +1,1080 @@
+﻿prompts,condition,domain,rep,round,v1_valid,v2_valid,v1_points_a,v2_points_a,v2_rule,reply,changed,lost,gained,unlabelled
+paraphrase,price_framing,risk,39,14,True,True,55.0,55.0,unlabelled-points,"Asset A: 55 points, Asset B: 45 points.",False,False,False,True
+paraphrase,baseline,time,59,6,True,True,80.0,80.0,unlabelled-points,"Today: 80 points, One month later: 20 points.",False,False,False,True
+paraphrase,baseline,time,59,10,True,True,70.0,70.0,unlabelled-points,"Today: 70 points, One month later: 30 points.",False,False,False,True
+paraphrase,price_framing,time,51,2,True,True,40.0,40.0,unlabelled-points,"Today: 40 points, one month later: 60 points.",False,False,False,True
+paraphrase,price_framing,risk,36,1,True,True,60.0,60.0,unlabelled-points,"Asset A: 60 points, Asset B: 40 points.",False,False,False,True
+paraphrase,price_framing,risk,29,20,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,time,50,21,True,True,75.0,75.0,unlabelled-points,"Today: 75 points, One month later: 25 points.",False,False,False,True
+paraphrase,price_framing,risk,81,10,True,True,55.0,55.0,unlabelled-points,"Asset A: 55 points, Asset B: 45 points.",False,False,False,True
+paraphrase,price_framing,risk,8,4,True,True,65.0,65.0,unlabelled-points,"Asset A: 65 points, Asset B: 35 points.",False,False,False,True
+paraphrase,price_framing,time,16,20,True,True,70.0,70.0,unlabelled-points,"Today: 70 points, One month later: 30 points.",False,False,False,True
+paraphrase,price_framing,time,80,22,True,True,70.0,70.0,unlabelled-points,"Today: 70 points, One month later: 30 points.",False,False,False,True
+paraphrase,price_framing,risk,83,21,True,True,90.0,90.0,unlabelled-points,"Asset A: 90 points, Asset B: 10 points.",False,False,False,True
+paraphrase,price_framing,risk,70,20,True,True,55.0,55.0,unlabelled-points,"Asset A: 55 points, Asset B: 45 points.",False,False,False,True
+paraphrase,price_framing,risk,98,19,True,True,30.0,30.0,unlabelled-points,"Asset A: 30 points, Asset B: 70 points.",False,False,False,True
+paraphrase,price_framing,time,7,4,True,True,85.0,85.0,unlabelled-points,"Today: 85 points, One month later: 15 points.",False,False,False,True
+paraphrase,price_framing,risk,99,11,True,True,80.0,80.0,unlabelled-points,"Asset A: 80 points, Asset B: 20 points.",False,False,False,True
+paraphrase,price_framing,risk,60,25,True,True,20.0,20.0,unlabelled-points,"Asset A: 20 points, Asset B: 80 points.",False,False,False,True
+paraphrase,price_framing,time,6,14,True,True,40.0,40.0,unlabelled-points,"Today: 40 points, One month later: 60 points.",False,False,False,True
+paraphrase,price_framing,risk,81,8,True,True,40.0,40.0,unlabelled-points,"Asset A: 40 points, Asset B: 60 points.",False,False,False,True
+paraphrase,price_framing,time,61,16,True,True,65.0,65.0,unlabelled-points,"Today: 65 points, one month later: 35 points.",False,False,False,True
+paper,elementary_edu,time,13,21,True,True,80.0,80.0,unlabelled-points,"For this round, I will allocate:
+
+- 80 points for investing today
+- 20 points for investing one month later
+
+**Reasoning:**
+
+1. **Investing Today (80 points):**
+   - If I invest 80 points today, I will receive:
+     80 points * 0.91 dollars/point = 72.8 dollars cash today.
+   - This gives me a substantial amount of cash immediately.
+
+2. **Investing One Month Later (20 points):**
+   - If I invest 20 points for one month later, I will receive:
+     20 points * 0.83 dollars/point = 16.6 dollars check which can be cashed one month later.
+   - This adds to my future cash flow.
+
+By allocating a larger portion of points to today, I maximize my immediate cash return while still securing some future cash with the investment for one month later. This strategy allows me to benefit from both immediate and future returns effectively.",False,False,False,True
+paraphrase,price_framing,risk,73,16,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,risk,58,25,True,True,85.0,85.0,unlabelled-points,"Asset A: 85 points, Asset B: 15 points.",False,False,False,True
+paraphrase,price_framing,risk,48,21,True,True,30.0,30.0,unlabelled-points,"Asset A: 30 points, Asset B: 70 points.",False,False,False,True
+paraphrase,price_framing,risk,50,8,True,True,80.0,80.0,unlabelled-points,"Asset A: 80 points, Asset B: 20 points.",False,False,False,True
+paraphrase,price_framing,time,7,24,True,True,40.0,40.0,unlabelled-points,"Today: 40 points, One month later: 60 points.",False,False,False,True
+paraphrase,price_framing,time,70,10,True,True,20.0,20.0,unlabelled-points,"Today: 20 points, One month later: 80 points.",False,False,False,True
+paraphrase,price_framing,risk,33,23,True,True,65.0,65.0,unlabelled-points,"Asset A: 65 points, Asset B: 35 points.",False,False,False,True
+paraphrase,price_framing,risk,43,5,True,True,25.0,25.0,unlabelled-points,"Asset A: 25 points, Asset B: 75 points.",False,False,False,True
+paraphrase,price_framing,risk,84,23,True,True,40.0,40.0,unlabelled-points,"Asset A: 40 points, Asset B: 60 points.",False,False,False,True
+paraphrase,price_framing,risk,96,8,True,True,60.0,60.0,unlabelled-points,"Asset A: 60 points, Asset B: 40 points.",False,False,False,True
+paraphrase,price_framing,time,70,14,True,True,45.0,45.0,unlabelled-points,"Today: 45 points, One month later: 55 points.",False,False,False,True
+paraphrase,price_framing,time,82,24,True,True,20.0,20.0,unlabelled-points,"Today: 20 points, One month later: 80 points.",False,False,False,True
+paraphrase,price_framing,risk,28,16,True,True,40.0,40.0,unlabelled-points,"Asset A: 40 points, Asset B: 60 points.",False,False,False,True
+paraphrase,price_framing,risk,88,22,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paper,elementary_edu,time,13,5,True,True,80.0,80.0,unlabelled-points,"For this round, I will allocate:
+
+- 80 points for investing today
+- 20 points for investing one month later
+
+**Reasoning:**
+
+1. **Investing Today (80 points):**
+   - If I invest 80 points today, I will receive:
+     80 points * 0.76 dollars/point = 60.8 dollars cash today.
+   - This gives me a substantial amount of cash immediately.
+
+2. **Investing One Month Later (20 points):**
+   - If I invest 20 points for one month later, I will receive:
+     20 points * 0.37 dollars/point = 7.4 dollars check which can be cashed one month later.
+   - This adds some future cash flow.
+
+By allocating a larger portion of points to today, I maximize my immediate cash return while still securing some future cash with the investment for one month later. This strategy allows me to benefit from both immediate and future returns effectively.",False,False,False,True
+paraphrase,price_framing,risk,14,12,True,True,15.0,15.0,unlabelled-points,"Asset A: 15 points, Asset B: 85 points.",False,False,False,True
+paraphrase,price_framing,time,9,10,True,True,40.0,40.0,unlabelled-points,"Today: 40 points, One month later: 60 points.",False,False,False,True
+paper,temp_0.5,time,23,8,True,True,0.9900990099009901,0.9900990099009901,unlabelled-any,"In this round, we have the following returns:
+
+1. **Investing Today:**
+   - Return per point today: $0.92 (cash received immediately).
+
+2. **Investing One Month Later:**
+   - Return per point one month later: $0.47 (check that can be cashed later).
+
+**Comparison of Returns:**
+- The return for investing today is $0.92 per point.
+- The return for investing one month later is $0.47 per point.
+
+Since $0.92 (cash today) is significantly higher than $0.47 (check one month later), it makes sense to prioritize the immediate cash return.
+
+**Allocation Decision:**
+- **Invest 100 points today**: This maximizes immediate cash returns.
+
+**Reasoning:**
+By investing all 100 points today, I would receive:
+- Total return = 100 points * $0.92/point = $92 in cash today.
+
+This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice.",False,False,False,True
+paraphrase,price_framing,risk,91,8,True,True,60.0,60.0,unlabelled-points,"Asset A: 60 points, Asset B: 40 points.",False,False,False,True
+paraphrase,price_framing,risk,63,3,True,True,55.0,55.0,unlabelled-points,"Asset A: 55 points, Asset B: 45 points.",False,False,False,True
+paraphrase,price_framing,risk,25,21,True,True,60.0,60.0,unlabelled-points,"Asset A: 60 points, Asset B: 40 points.",False,False,False,True
+paraphrase,baseline,time,52,3,True,True,5.0,5.0,unlabelled-points,"Today: 5 points, One month later: 95 points.",False,False,False,True
+paraphrase,price_framing,risk,58,16,True,True,40.0,40.0,unlabelled-points,"Asset A: 40 points, Asset B: 60 points.",False,False,False,True
+paraphrase,price_framing,risk,57,24,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,time,80,14,True,True,80.0,80.0,unlabelled-points,"Today: 80 points, One month later: 20 points.",False,False,False,True
+paper,elementary_edu,time,13,7,True,True,90.0,90.0,unlabelled-points,"For this round, I will allocate:
+
+- 90 points for investing today
+- 10 points for investing one month later
+
+**Reasoning:**
+
+1. **Investing Today (90 points):**
+   - If I invest 90 points today, I will receive:
+     90 points * 0.71 dollars/point = 63.9 dollars cash today.
+   - This gives me a significant amount of cash immediately.
+
+2. **Investing One Month Later (10 points):**
+   - If I invest 10 points for one month later, I will receive:
+     10 points * 0.12 dollars/point = 1.2 dollars check which can be cashed one month later.
+   - This adds a small amount to my future cash flow.
+
+Given the low return for the investment one month later, I am allocating the majority of my points to today to maximize my immediate cash return. This strategy allows me to benefit from the higher return available today.",False,False,False,True
+paraphrase,price_framing,time,82,1,True,True,70.0,70.0,unlabelled-points,"Today: 70 points, One month later: 30 points.",False,False,False,True
+paraphrase,price_framing,risk,29,23,True,True,30.0,30.0,unlabelled-points,"Asset A: 30 points, Asset B: 70 points.",False,False,False,True
+paraphrase,price_framing,time,13,24,True,True,20.0,20.0,unlabelled-points,"Today: 20 points, One month later: 80 points.",False,False,False,True
+paraphrase,price_framing,time,5,25,True,True,60.0,60.0,unlabelled-points,"Today: 60 points, one month later: 40 points.",False,False,False,True
+paraphrase,price_framing,time,79,3,True,True,90.0,90.0,unlabelled-points,"Today: 90 points, One month later: 10 points.",False,False,False,True
+paraphrase,price_framing,risk,52,22,True,True,40.0,40.0,unlabelled-points,"Asset A: 40 points, Asset B: 60 points.",False,False,False,True
+paraphrase,price_framing,risk,50,24,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paper,temp_1,time,97,24,True,True,100.0,100.0,unlabelled-points,"Given the returns in this round, I would allocate the investment as follows:
+
+- **Invest 100 points today:** This maximizes the immediate cash return since the return for today is significantly higher than the return for one month later.
+
+### Breakdown of the Allocation:
+1. **Investment Today (100 points):**
+   - Return = 100 points * $0.98/point = $98.00 cash today.
+
+2. **Investment One Month Later (0 points):**
+   - Return = 0 points * $0.41/point = $0.00 check to be cashed in one month.
+
+### Total Return:
+- Cash today: $98.00
+- Check to be cashed in one month: $0.00
+- **Total return = $98.00.**
+
+### Reasoning:
+1. **Maximizing Immediate Cash Flow:** Investing all points today ensures that I receive the maximum cash return immediately, which can be important for current needs or opportunities.
+
+2. **No Future Investment:** Since the return for the one month later investment is significantly lower, it is more advantageous to allocate all points to today’s investment.
+
+This allocation effectively prioritizes immediate financial gain based on the favorable conditions of the current investment opportunity.",False,False,False,True
+paraphrase,price_framing,risk,36,16,True,True,30.0,30.0,unlabelled-points,"Asset A: 30 points, Asset B: 70 points.",False,False,False,True
+paraphrase,price_framing,risk,49,13,True,True,80.0,80.0,unlabelled-points,"Asset A: 80 points, Asset B: 20 points.",False,False,False,True
+paraphrase,price_framing,time,5,4,True,True,10.0,10.0,unlabelled-points,"Today: 10 points, one month later: 90 points.",False,False,False,True
+paraphrase,price_framing,risk,73,21,True,True,90.0,90.0,unlabelled-points,"Asset A: 90 points, Asset B: 10 points.",False,False,False,True
+paraphrase,price_framing,risk,5,4,True,True,20.0,20.0,unlabelled-points,"Asset A: 20 points, Asset B: 80 points.",False,False,False,True
+paraphrase,price_framing,risk,65,13,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,baseline,time,95,13,True,True,20.0,20.0,unlabelled-points,"Today: 20 points, One month later: 80 points.",False,False,False,True
+paraphrase,price_framing,time,85,25,True,True,70.0,70.0,unlabelled-points,"today: 70 points, one month later: 30 points.",False,False,False,True
+paraphrase,price_framing,time,89,14,True,True,40.0,40.0,unlabelled-points,"Today: 40 points, One month later: 60 points.",False,False,False,True
+paraphrase,price_framing,risk,76,25,True,True,65.0,65.0,unlabelled-points,"Asset A: 65 points, Asset B: 35 points.",False,False,False,True
+paraphrase,price_framing,risk,98,16,True,True,20.0,20.0,unlabelled-points,"Asset A: 20 points, Asset B: 80 points.",False,False,False,True
+paraphrase,price_framing,risk,52,21,True,True,20.0,20.0,unlabelled-points,"Asset A: 20 points, Asset B: 80 points.",False,False,False,True
+paraphrase,price_framing,risk,72,23,True,True,80.0,80.0,unlabelled-points,"Asset A: 80 points, Asset B: 20 points.",False,False,False,True
+paraphrase,price_framing,risk,58,11,True,True,80.0,80.0,unlabelled-points,"Asset A: 80 points, Asset B: 20 points.",False,False,False,True
+paraphrase,price_framing,time,55,7,True,True,30.0,30.0,unlabelled-points,"Today: 30 points, one month later: 70 points.",False,False,False,True
+paraphrase,price_framing,risk,19,22,True,True,20.0,20.0,unlabelled-points,"Asset A: 20 points, Asset B: 80 points.",False,False,False,True
+paraphrase,baseline,risk,7,11,True,True,65.0,65.0,unlabelled-points,"Asset A: 65 points, Asset B: 35 points.",False,False,False,True
+paraphrase,price_framing,time,50,16,True,True,80.0,80.0,unlabelled-points,"Today: 80 points, One month later: 20 points.",False,False,False,True
+paraphrase,price_framing,risk,81,3,True,True,80.0,80.0,unlabelled-points,"Asset A: 80 points, Asset B: 20 points.",False,False,False,True
+paraphrase,price_framing,time,35,11,True,True,10.0,10.0,unlabelled-points,"Today: 10 points, one month later: 90 points.",False,False,False,True
+paraphrase,price_framing,time,31,17,True,True,20.0,20.0,unlabelled-points,"Today: 20 points, One month later: 80 points.",False,False,False,True
+paraphrase,price_framing,risk,45,20,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,time,51,17,True,True,60.0,60.0,unlabelled-points,"Today: 60 points, one month later: 40 points.",False,False,False,True
+paraphrase,price_framing,risk,7,14,True,True,25.0,25.0,unlabelled-points,"Asset A: 25 points, Asset B: 75 points.",False,False,False,True
+paraphrase,price_framing,risk,83,17,True,True,40.0,40.0,unlabelled-points,"Asset A: 40 points, Asset B: 60 points.",False,False,False,True
+paraphrase,price_framing,risk,75,13,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,risk,92,20,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,time,51,16,True,True,80.0,80.0,unlabelled-points,"Today: 80 points, one month later: 20 points.",False,False,False,True
+paraphrase,price_framing,risk,47,22,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,risk,23,4,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,risk,39,22,True,True,80.0,80.0,unlabelled-points,"Asset A: 80 points, Asset B: 20 points.",False,False,False,True
+paraphrase,price_framing,time,31,24,True,True,80.0,80.0,unlabelled-points,"Today: 80 points, One month later: 20 points.",False,False,False,True
+paraphrase,price_framing,risk,60,6,True,True,30.0,30.0,unlabelled-points,"Asset A: 30 points, Asset B: 70 points.",False,False,False,True
+paraphrase,price_framing,risk,83,16,True,True,80.0,80.0,unlabelled-points,"Asset A: 80 points, Asset B: 20 points.",False,False,False,True
+paraphrase,price_framing,time,5,17,True,True,85.0,85.0,unlabelled-points,"Today: 85 points, one month later: 15 points.",False,False,False,True
+paraphrase,price_framing,risk,64,14,True,True,90.0,90.0,unlabelled-points,"Asset A: 90 points, Asset B: 10 points.",False,False,False,True
+paraphrase,price_framing,risk,50,16,True,True,75.0,75.0,unlabelled-points,"Asset A: 75 points, Asset B: 25 points.",False,False,False,True
+paraphrase,price_framing,risk,54,10,True,True,30.0,30.0,unlabelled-points,"Asset A: 30 points, Asset B: 70 points.",False,False,False,True
+paraphrase,price_framing,risk,67,2,True,True,60.0,60.0,unlabelled-points,"Asset A: 60 points, Asset B: 40 points.",False,False,False,True
+paraphrase,price_framing,time,75,10,True,True,55.0,55.0,unlabelled-points,"Today: 55 points, One month later: 45 points.",False,False,False,True
+paraphrase,price_framing,risk,35,1,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,risk,29,25,True,True,40.0,40.0,unlabelled-points,"Asset A: 40 points, Asset B: 60 points.",False,False,False,True
+paraphrase,price_framing,risk,16,2,True,True,70.0,70.0,unlabelled-points,"Asset A: 70 points, Asset B: 30 points.",False,False,False,True
+paraphrase,price_framing,risk,50,25,True,True,85.0,85.0,unlabelled-points,"Asset A: 85 points, Asset B: 15 points.",False,False,False,True
+paraphrase,price_framing,risk,22,15,True,True,25.0,25.0,unlabelled-points,"Asset A: 25 points, Asset B: 75 points.",False,False,False,True
+paraphrase,discrete,risk,86,10,True,True,50.0,50.0,option-number,Option 6.,False,False,False,False
+paper,temp_1,food,71,6,True,True,30.0,30.0,labelled-decision,"In this round, I will allocate **30 points to ham meat** and **70 points to tomatoes**.
+
+### Reasons for Allocation:
+1. **Significantly Better Yield from Tomatoes**: Since tomatoes provide a much higher yield per point (0.86 Kg per point) compared to ham meat (0.36 Kg per point), it makes sense to allocate a larger portion of points to tomatoes to maximize total quantity.
+
+2. **Minimizing Ham Meat Allocation**: While I still want some ham meat for balance, the substantial yield from tomatoes justifies a much larger allocation to them.
+
+### Summary of Allocation:
+- **30 points to Ham Meat**:  
+  30 points * 0.36 Kg/point = 10.8 Kg of ham meat.
+
+- **70 points to Tomatoes**:  
+  70 points * 0.86 Kg/point = 60.2 Kg of tomatoes.
+
+This allocation prioritizes the higher yield of tomatoes while still retaining some ham meat for variety.",False,False,False,False
+paper,temp_1,food,35,2,True,True,75.0,75.0,labelled-decision,"In this round, I will allocate **75 points to ham meat** and **25 points to tomato**.
+
+### Reasoning:
+1. **Ham Meat**:
+   - With a conversion rate of 0.94 Kg per point, spending 75 points would yield 70.5 Kg of ham meat (75 * 0.94 = 70.5 Kg). This provides a substantial amount of high-quality meat, which is important for protein intake.
+
+2. **Tomato**:
+   - Spending 25 points on tomato at a conversion rate of 0.49 Kg per point would yield 12.25 Kg of tomato (25 * 0.49 = 12.25 Kg). This amount of tomatoes is good for adding flavor and nutrition to meals, offering vitamins and hydration.
+
+### Conclusion:
+The chosen allocation of 75/25 allows for a significant quantity of both ham meat and tomatoes. This approach ensures that I maximize my protein intake while also having a healthy amount of tomatoes for added nutritional value and culinary diversity.",False,False,False,False
+paraphrase,price_framing,time,78,20,True,True,65.0,65.0,labelled,"today: 65, one month later: 35.",False,False,False,False
+paper,temp_1,social,97,13,True,True,85.0,85.0,labelled-decision,"In this round, since my return of $0.80 per point is significantly higher than the other person's return of $0.38 per point, I would allocate 85 points to myself and 15 points to the other person.
+
+- For myself: 85 points * $0.80 per point = $68.00
+- For the other: 15 points * $0.38 per point = $5.70
+
+This allocation allows me to maximize my return while still providing a small benefit to the other person.",False,False,False,False
+paper,temp_1,food,89,1,True,True,70.0,70.0,labelled-decision,"In this round, I will allocate **70 points to ham meat** and **30 points to tomatoes**.
+
+**Reasoning:**
+- The conversion rate for ham meat is 0.56 Kg per point, while for tomatoes it's 0.30 Kg per point. 
+- Ham meat is still yielding a decent return, but the gap between the two has narrowed compared to previous rounds.
+- By allocating 30 points to tomatoes, I can take advantage of the better return for tomatoes compared to the last allocation, which helps to diversify my intake and provides a good balance of food.
+
+So, I decided on an allocation of 70 points to ham meat and 30 points to tomatoes.",False,False,False,False
+paper,temp_0.5,social,31,10,True,True,10.0,10.0,labelled-decision,"In this round, since the return for allocating points to the other (0.86 dollars per point) is higher than the return for myself (0.64 dollars per point), I would allocate the majority of the points to the other.
+
+I would allocate 10 points to myself and 90 points to the other.
+
+This way, my return would be:
+
+10 points * 0.64 dollars/point = 6.4 dollars.
+
+The other person's return would be:
+
+90 points * 0.86 dollars/point = 77.4 dollars.
+
+This allocation maximizes the overall returns by prioritizing the higher return rate for the other person.",False,False,False,False
+paraphrase,price_framing,risk,48,10,True,True,50.0,50.0,labelled,"Asset A: 50 points, Asset B: 50 points.",False,False,False,False
+paper,young_child,time,6,6,True,True,90.0,90.0,labelled-decision,"For this round, I will allocate:
+
+- 90 points to today
+- 10 points to one month later
+
+I chose this allocation because investing 90 points today will give me:
+
+90 points * 0.98 dollars/point = 88.2 dollars cash today, which is a lot of money to have right now.
+
+The 10 points invested for one month later will give me:
+
+10 points * 0.41 dollars/point = 4.1 dollars in checks, which is also nice to have for future use.
+
+This way, I maximize my cash today while still saving a little for later!",False,False,False,False
+paper,temp_0.5,social,47,23,True,True,10.0,10.0,labelled-decision,"In this round, I would allocate 10 points to myself and 90 points to the other. 
+
+Here's the reasoning behind this allocation:
+
+1. **Myself:** 10 points * 0.35 dollars/point = 3.5 dollars.
+2. **Other:** 90 points * 0.91 dollars/point = 81.9 dollars.
+
+Since the return for the other person (0.91 dollars per point) is significantly higher than my return (0.35 dollars per point), it makes sense to allocate the majority of the points to the other person while still giving myself a small allocation.
+
+So, the allocation is:
+- Points to myself: 10
+- Points to the other: 90",False,False,False,False
+paper,price_framing,risk,79,18,True,True,85.0,85.0,labelled-decision,"In this round, I will allocate 85 points to Asset A and 15 points to Asset B.
+
+- Points for Asset A: 85
+- Points for Asset B: 15",False,False,False,False
+paper,temp_0.5,risk,24,22,True,True,80.0,80.0,labelled-decision,"In this round, I will invest 80 points in Asset A and 20 points in Asset B.
+
+- Points for Asset A: 80
+- Points for Asset B: 20",False,False,False,False
+paper,temp_1,social,60,24,True,True,10.0,10.0,labelled-decision,"In this round, since the return for the other person ($0.76) is significantly higher than my return for myself ($0.18), I will allocate 10 points to myself and 90 points to the other.
+
+This allocation maximizes the benefit for the other person, given their much higher return rate. The calculations would be as follows:
+
+- Return for myself: 10 points * $0.18 = $1.80
+- Return for the other: 90 points * $0.76 = $68.40
+
+This decision prioritizes the higher value that the other person can generate with their points while ensuring that I receive a small benefit.",False,False,False,False
+paper,temp_0.5,food,85,1,True,True,60.0,60.0,labelled-decision,"For this round, I will allocate 60 points to ham meat and 40 points to tomato.
+
+**Allocation:**
+- Ham meat: 60 points
+- Tomato: 40 points
+
+**Reasoning:**
+1. **Higher Yield for Tomato:** The conversion rate for tomato is significantly higher (0.50 Kg per point) compared to ham meat (0.81 Kg per point). This makes tomatoes a more efficient use of points in terms of weight gained.
+
+2. **Nutritional Balance:** While ham meat provides essential protein, having a good amount of tomato will add vitamins and minerals to my diet, ensuring a more balanced nutritional intake.
+
+3. **Culinary Use:** Tomatoes can be used in a variety of dishes and can complement the ham meat, making meals more diverse and flavorful.
+
+**Expected Outcome:**
+- Ham meat: 60 points × 0.81 Kg/point = 48.6 Kg of ham meat
+- Tomato: 40 points × 0.50 Kg/point = 20 Kg of tomato
+
+In total, I would receive 48.6 Kg of ham meat and 20 Kg of tomato.",False,False,False,False
+paper,african_american,time,28,14,True,True,70.0,70.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+- **Points invested today:** 70 points
+- **Points invested one month later:** 30 points
+
+**Reasoning:**
+
+1. **Investment Today:**
+   - By investing 70 points today, I will receive cash immediately.
+   - Total cash return today = 70 points * $0.72/point = $50.40. This provides a solid amount of immediate liquidity.
+
+2. **Investment One Month Later:**
+   - By investing 30 points for one month later, I will receive a check that can be cashed later.
+   - Total return one month later = 30 points * $0.60/point = $18.00. This adds to my future cash flow.
+
+**Overall Strategy:**
+- This allocation balances immediate cash needs with future returns. The return from investing today ($0.72 per point) is higher than the return from investing one month later ($0.60 per point), but I still want to secure some future cash flow. By investing a larger portion today, I maximize my immediate liquidity while also planning for future needs. This decision reflects a strategy to optimize overall returns while ensuring some cash availability today.",False,False,False,False
+paper,baseline,food,8,18,True,True,30.0,30.0,labelled,"In this round, I will allocate my points as follows:
+
+- **Meat:** 30 points
+- **Tomato:** 70 points
+
+**Reasoning:**
+1. **Meat:** Spending 30 points on meat will yield 10.2 Kg of meat (30 points × 0.34 Kg/point).
+2. **Tomato:** Spending 70 points on tomatoes will yield 41.3 Kg of tomatoes (70 points × 0.59 Kg/point).
+
+Given that the yield for tomatoes is higher than for meat, I prioritize tomatoes in my allocation while still reserving some points for meat. This way, I maximize the quantity of tomatoes while still obtaining a smaller amount of meat.",False,False,False,False
+paraphrase,price_framing,risk,66,11,True,True,65.0,65.0,labelled,"Asset A: 65, Asset B: 35.",False,False,False,False
+paper,baseline,food,24,12,True,True,80.0,80.0,labelled,"In this round, I will allocate my points as follows:
+
+- **Meat:** 80 points
+- **Tomato:** 20 points
+
+**Reasoning:**
+1. **Meat (0.76 Kg per point):** The yield for meat is relatively high, making it a good investment for a significant portion of my points.
+2. **Tomato (0.31 Kg per point):** The yield for tomatoes is much lower compared to meat, so I will allocate fewer points to tomatoes.
+
+This allocation prioritizes the better return on investment from meat while still allowing for some quantity of tomatoes.",False,False,False,False
+paper,female,time,1,16,True,True,100.0,100.0,labelled-decision,"For this round, I will allocate my points as follows:
+
+- **Points invested today:** 100 points
+- **Points invested one month later:** 0 points
+
+**Reasoning:**
+
+1. **Return on Investment Today:**
+   - Investing 100 points today will yield:
+     \[
+     100 \text{ points} \times 0.99 \text{ dollars/point} = 99 \text{ dollars cash today}
+     \]
+
+2. **Return on Investment One Month Later:**
+   - Investing 0 points one month later will yield:
+     \[
+     0 \text{ points} \times 0.72 \text{ dollars/point} = 0 \text{ dollars check to be cashed one month later}
+     \]
+
+**Total Expected Return:**
+- Cash today: $99
+- Check to be cashed one month later: $0
+
+**Total Return:**
+- Total cash received today and one month later = $99 + $0 = $99
+
+**Rationale for Allocation:**
+- I chose to invest all 100 points today because the return on investment for cash today ($0.99 per point) is significantly higher than the return for the check one month later ($0.72 per point).
+- By investing all points today, I maximize my immediate cash return, as the future return does not provide sufficient value compared to the immediate cash flow. This strategy prioritizes maximizing cash on hand today.",False,False,False,False
+paper,discrete,food,55,8,True,True,10.0,10.0,decision,"I would select the option (3.60 Kg, 84.60 Kg). This option provides a moderate amount of meat (3.60 Kg) while offering a substantial quantity of tomatoes (84.60 Kg). The high amount of tomatoes makes it a very appealing choice, making it the best option in this round.",False,False,False,False
+paper,young_child,risk,3,20,True,True,70.0,70.0,labelled-decision,"For this round, I will invest:
+
+- 70 points in Asset A
+- 30 points in Asset B",False,False,False,False
+paper,temp_1,social,91,23,True,True,50.0,50.0,labelled,"In this round, since the return for both myself (0.83 dollars per point) and the other person (0.83 dollars per point) is equal, I would choose to split the points evenly to ensure fairness.
+
+I would allocate 50 points to myself and 50 points to the other:
+
+- My allocation: 50 points (returns 50 * 0.83 = 41.5 dollars)
+- Other's allocation: 50 points (returns 50 * 0.83 = 41.5 dollars)
+
+This way, both parties receive an equal benefit from the allocation.",False,False,False,False
+paraphrase,baseline,social,52,9,True,True,25.0,25.0,labelled,"myself: 25, the other person: 75",False,False,False,False
+paper,baseline,food,94,1,True,True,40.0,40.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- **Meat:** 40 points
+- **Tomato:** 60 points
+
+**Reasoning:**
+1. **Meat:** Spending 1 point on meat yields 0.64 Kg, which is lower than the yield for tomatoes.
+2. **Tomato:** Spending 1 point on tomatoes yields 0.98 Kg, which is significantly higher than the yield for meat. Therefore, I want to allocate more points to tomatoes to maximize my overall yield.
+
+This allocation allows me to take advantage of the higher yield from tomatoes while still receiving some meat.",False,False,False,False
+paper,asian,time,8,16,True,True,70.0,70.0,labelled-decision,"For this round, I will allocate my points as follows:
+
+- **Points invested today:** 70 points
+- **Points invested one month later:** 30 points
+
+**Reasoning:**
+
+1. **Return on Investment Today:**
+   - Investing 70 points today will yield:
+     - 70 points * $0.61/point = $42.70 in cash today.
+   - This provides a good amount of immediate cash flow.
+
+2. **Return on Investment One Month Later:**
+   - Investing 30 points one month later will yield:
+     - 30 points * $0.33/point = $9.90 in cash one month later.
+   - This adds to the overall return and provides future cash flow.
+
+**Total Expected Return:**
+- Total cash today = $42.70
+- Total cash one month later = $9.90
+- Overall total return = $42.70 + $9.90 = $52.60
+
+This allocation balances immediate cash needs with a reasonable future return, maximizing the total expected return while ensuring I have a significant amount of cash available today.",False,False,False,False
+paraphrase,baseline,food,89,16,True,True,85.0,85.0,labelled,"ham meat: 85, tomato: 15",False,False,False,False
+paper,discrete,time,27,12,True,True,0.0,0.0,decision,"I would select the option ($0.00, $63.00). This option offers the highest future cash amount of $63.00, making it the best choice despite having no immediate cash. The potential return is the most significant factor in this decision.",False,False,False,False
+paraphrase,discrete,risk,22,22,True,True,0.0,0.0,option-number,Option 1.,False,False,False,False
+paper,price_framing,social,5,17,True,True,80.0,80.0,labelled-decision,"In this round, I would allocate 80 points to myself and 20 points to the other.
+
+Here's the breakdown:
+
+- Allocating 80 points to myself would yield:
+  80 points / 1.12 points per dollar ≈ 71.43 dollars for myself.
+
+- Allocating 20 points to the other would yield:
+  20 points / 1.82 points per dollar ≈ 10.99 dollars for the other.
+
+This allocation allows me to maximize my return while still providing a reasonable amount to the other person.",False,False,False,False
+paper,baseline,time,84,9,True,True,90.0,90.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+- **Points invested today:** 90 points
+- **Points invested one month later:** 10 points
+
+**Reasoning:**
+
+1. **Return on Investment Today:**
+   - Investing 90 points today at $0.64 per point gives me a return of:
+     - 90 points * $0.64 = $57.60 cash today.
+   - This provides significant immediate cash flow.
+
+2. **Return on Investment One Month Later:**
+   - Investing 10 points one month later at $0.16 per point gives me a return of:
+     - 10 points * $0.16 = $1.60 check to be cashed one month later.
+   - This adds a small amount to my future cash flow.
+
+**Total Expected Return:**
+- Cash today: $57.60
+- Check to be cashed one month later: $1.60
+- Total return: $57.60 + $1.60 = $59.20
+
+This allocation maximizes immediate cash flow due to the higher return on investment today while still allowing for a minimal investment in the future, ensuring a strong balance between liquidity and potential returns.",False,False,False,False
+paper,african_american,time,9,7,True,True,40.0,40.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+- **Points invested today:** 40 points
+- **Points invested one month later:** 60 points
+
+**Reasoning:**
+
+1. **Investment Today:**
+   - By investing 40 points today, I will receive cash immediately.
+   - Return: 40 points * $0.71/point = $28.40 cash today.
+
+2. **Investment One Month Later:**
+   - By investing 60 points for one month later, I will receive a check that can be cashed later.
+   - Return: 60 points * $0.80/point = $48.00 check to be cashed one month later.
+
+**Total Expected Return:**
+- Cash today: $28.40
+- Check to be cashed one month later: $48.00
+
+**Total Return:** $28.40 (cash today) + $48.00 (check) = **$76.40**.
+
+**Rationale for Allocation:**
+- I chose to invest a balanced portion of points (40 today and 60 one month later) because the return on investment for cash today ($0.71 per point) is slightly lower than the return for the check one month later ($0.80 per point).
+- This allocation allows me to benefit from both immediate cash flow and a higher future return, maximizing the overall return while still maintaining some liquidity for current needs. The strategy focuses on leveraging the better return on the future investment while ensuring that I have some cash available today.",False,False,False,False
+paraphrase,price_framing,time,67,1,True,True,64.0,64.0,labelled,"today: 64, one month later: 36.",False,False,False,False
+paper,female,risk,21,4,True,True,50.0,50.0,labelled-decision,"In this round, I will allocate 50 points to Asset A and 50 points to Asset B.",False,False,False,False
+paper,temp_1,risk,24,10,True,True,80.0,80.0,labelled-decision,"In this round, I would allocate 80 points to Asset A and 20 points to Asset B.
+
+- Points for Asset A: 80  
+- Points for Asset B: 20",False,False,False,False
+paper,temp_1,time,19,22,True,True,10.0,10.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+- **Invest 10 points today**
+- **Invest 90 points one month later**
+
+### Rationale for the Allocation:
+
+1. **Cash Today**:
+   - Investing 10 points today will return:
+     \[ 10 \text{ points} \times 0.40 \text{ dollars/point} = 4.0 \text{ dollars} \]
+   - This provides a small amount of immediate cash.
+
+2. **Cash One Month Later**:
+   - Investing 90 points for one month later will return:
+     \[ 90 \text{ points} \times 0.98 \text{ dollars/point} = 88.2 \text{ dollars} \]
+   - This adds a substantial amount to my cash flow in one month.
+
+### Total Return:
+- **Total Cash Today**: 4.0 dollars
+- **Total Cash One Month Later**: 88.2 dollars
+- **Combined Return**:
+  \[ 4.0 \text{ dollars} + 88.2 \text{ dollars} = 92.2 \text{ dollars} \]
+
+### Conclusion:
+By allocating 10 points to today and 90 points for one month later, I maximize the overall return by focusing on the significantly higher future investment opportunity (0.98 dollars per point). This strategy effectively prioritizes future cash flow while allowing for some immediate cash today.",False,False,False,False
+paper,temp_0.5,food,68,6,True,True,70.0,70.0,labelled-decision,"In this round, I will allocate 70 points to ham meat and 30 points to tomato.
+
+**Allocation:**
+- Ham meat: 70 points
+- Tomato: 30 points
+
+**Reasoning:**
+- By spending 70 points on ham meat, I will receive 46.2 kg of ham meat (70 * 0.66 kg/point).
+- By spending 30 points on tomato, I will receive 7.5 kg of tomato (30 * 0.25 kg/point).
+
+Given that the yield for ham meat is higher than that for tomato, I prioritize ham meat while still ensuring I have some quantity of tomato. This allocation balances the need for both items while maximizing the quantity of the more efficient option.",False,False,False,False
+paper,discrete,social,74,23,True,True,10.0,10.0,decision,"I would select the option ($5.00, $39.60). This option allows me to receive a small amount while providing the other person with a significantly larger amount, which aligns with my values of fairness and equity in decision-making.",False,False,False,False
+paper,male,social,0,25,True,True,30.0,30.0,labelled-decision,"In this round, I will allocate 30 points to myself and 70 points to the other. 
+
+This allocation prioritizes the other person's return since they receive a higher return per point. By doing this, I can foster goodwill and potentially benefit from a cooperative relationship in future rounds.
+
+So, my allocation will be:
+- Points to myself: 30
+- Points to the other: 70",False,False,False,False
+paper,discrete,risk,24,14,True,True,60.0,60.0,decision,"The best option in this round is ($15.60, $38.00). This option provides a good return from Asset A while still offering a reasonable return from Asset B, making it a strong choice.",False,False,False,False
+paper,temp_1,food,95,17,True,True,90.0,90.0,labelled-decision,"In this round, I will allocate **90 points** to ham meat and **10 points** to tomatoes.
+
+### Allocation:
+- **Meat:** 90 points
+- **Tomato:** 10 points
+
+### Reasoning:
+1. **Meat:** By allocating 90 points to ham meat, I would receive 72.9 kg of ham meat (90 points * 0.81 kg/point). This offers an excellent amount of protein.
+
+2. **Tomato:** By allocating 10 points to tomatoes, I would receive 1.8 kg of tomatoes (10 points * 0.18 kg/point). While this is a smaller amount, it adds some vitamins and nutrients.
+
+Given the high yield from ham meat in this round, it makes sense to prioritize it while still including a small allocation for tomatoes to maintain some balance in my diet.",False,False,False,False
+paraphrase,baseline,risk,38,7,True,True,20.0,20.0,labelled,"Asset A: 20, Asset B: 80.",False,False,False,False
+paper,elementary_edu,social,17,17,True,True,90.0,90.0,labelled-decision,"In this round, since my return (0.83 dollars per point) is significantly higher than the return for the other person (0.25 dollars per point), I will allocate more points to myself. 
+
+I will allocate 90 points to myself and 10 points to the other. 
+
+This way, I can maximize my return while still giving a small amount to the other person.",False,False,False,False
+paper,price_framing,social,34,16,True,True,70.0,70.0,labelled-decision,"In this round, I will allocate 70 points to myself and 30 points to the other.
+
+Here's the breakdown:
+
+- For myself: 
+  - 70 points / 4.55 points per dollar = approximately 15.38 dollars (rounded to 15 dollars).
+
+- For the other: 
+  - 30 points / 1.75 points per dollar = approximately 17.14 dollars (rounded to 17 dollars).
+
+So, my allocation will be 70 points to myself and 30 points to the other.",False,False,False,False
+paper,baseline,time,23,10,True,True,85.0,85.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+- **Points invested today:** 85 points
+- **Points invested one month later:** 15 points
+
+**Reasoning:**
+
+1. **Return on Investment Today:**
+   - Investing 85 points today will yield:
+     - 85 points * $0.83/point = $70.55 cash today.
+   - This provides a substantial immediate cash flow, which is beneficial for current needs.
+
+2. **Return on Investment One Month Later:**
+   - Investing 15 points one month later will yield:
+     - 15 points * $0.32/point = $4.80 check to be cashed one month later.
+   - This provides a small future return.
+
+**Total Expected Return:**
+- Cash today: $70.55
+- Check to be cashed one month later: $4.80
+- Total return = $70.55 + $4.80 = $75.35.
+
+This allocation prioritizes immediate cash flow while still allowing for a small future return, maximizing the total expected return while ensuring a significant amount of cash is available today.",False,False,False,False
+paper,price_framing,social,35,20,True,True,60.0,60.0,labelled-decision,"In this round, I will allocate 60 points to myself and 40 points to the other.
+
+- For myself: 
+  60 points / 2.27 points per dollar = approximately 26.43 dollars.
+
+- For the other: 
+  40 points / 1.10 points per dollar = approximately 36.36 dollars.
+
+This allocation allows me to secure a reasonable return for myself while also providing a substantial return to the other person.",False,False,False,False
+paper,baseline,food,31,8,True,True,55.0,55.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- **Meat:** 55 points
+- **Tomato:** 45 points
+
+**Reasoning:**
+1. **Meat:** Spending 1 point on meat yields 0.89 Kg, so with 55 points, I would get 48.95 Kg of meat (55 points × 0.89 Kg/point).
+2. **Tomato:** Spending 1 point on tomatoes yields 0.86 Kg, so with 45 points, I would get 38.7 Kg of tomatoes (45 points × 0.86 Kg/point).
+
+This allocation allows me to take advantage of the high yields for both meat and tomatoes while slightly favoring meat due to its marginally higher yield per point. It maximizes the overall quantity of goods received while still ensuring a good amount of tomatoes.",False,False,False,False
+paraphrase,baseline,risk,96,7,True,True,85.0,85.0,labelled,"Asset A: 85, Asset B: 15.",False,False,False,False
+paper,temp_0.5,time,37,6,True,True,30.0,30.0,labelled-decision,"In this round, given the returns on investments today and one month later, I will allocate the points as follows:
+
+- **Invest 30 points today**
+- **Invest 70 points one month later**
+
+### Rationale:
+
+1. **Investing Today (30 points):**
+   - Return per point today = $0.23
+   - Total return from today’s investment = 30 points * $0.23 = $6.90 cash today.
+
+2. **Investing One Month Later (70 points):**
+   - Return per point one month later = $0.66
+   - Total return from one month later investment = 70 points * $0.66 = $46.20 check that can be cashed in one month.
+
+### Total Expected Return:
+- Total return = $6.90 (from today) + $46.20 (from one month later) = $53.10.
+
+### Conclusion:
+This allocation balances between immediate cash flow and securing a larger return from the investment that can be cashed in one month. The higher return from the one-month investment justifies allocating a larger portion of points there, while still ensuring some cash flow today. This strategy maximizes the total expected return while addressing both immediate and future cash needs.",False,False,False,False
+paper,male,risk,1,25,True,True,10.0,10.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- Asset A: 10 points
+- Asset B: 90 points
+
+This allocation heavily favors Asset B due to its significantly higher return per point compared to Asset A.",False,False,False,False
+paper,baseline,food,97,9,True,True,20.0,20.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- **Meat:** 20 points
+- **Tomato:** 80 points
+
+**Reasoning:**
+1. **Meat:** Spending 1 point yields only 0.53 Kg of meat, which is a relatively low return.
+2. **Tomato:** Spending 1 point yields 0.77 Kg of tomatoes, which is a better return.
+
+By allocating the majority of my points to tomatoes, I can maximize the quantity of tomatoes I receive while still getting a small amount of meat for variety. This allocation focuses on the more efficient option.",False,False,False,False
+paper,elderly,social,24,9,True,True,70.0,70.0,labelled-decision,"In this round, I will allocate 70 points to myself and 30 points to the other.
+
+Here's the breakdown:
+
+- Allocating 70 points to myself will yield:  
+70 points * 0.93 dollars/point = 65.1 dollars.
+
+- Allocating 30 points to the other will yield:  
+30 points * 0.86 dollars/point = 25.8 dollars.
+
+This allocation allows me to maximize my return while still providing a significant amount to the other person, promoting goodwill and cooperation.",False,False,False,False
+paper,young_child,time,2,10,True,True,85.0,85.0,labelled-decision,"For this round, I will allocate:
+
+- 85 points for today
+- 15 points for one month later
+
+I chose this allocation because investing 85 points today will give me:
+
+85 points * 0.87 dollars/point = 73.95 dollars cash today.
+
+And investing 15 points for one month later will give me:
+
+15 points * 0.28 dollars/point = 4.2 dollars check which can be cashed one month later.
+
+This way, I get a substantial amount of cash today (73.95 dollars) while still saving a little for the future (4.2 dollars). I really like having cash now to spend on things I want!",False,False,False,False
+paper,elementary_edu,time,14,1,True,True,70.0,70.0,labelled-decision,"For this round, I will allocate:
+
+- 70 points to today
+- 30 points to one month later
+
+**Reasoning:**
+
+1. **Cash Today:** By investing 70 points today, I will receive:
+   - 70 points * 0.89 dollars/point = 62.3 dollars cash today.
+
+2. **Check for One Month Later:** By investing 30 points for one month later, I will receive:
+   - 30 points * 0.42 dollars/point = 12.6 dollars check which can be cashed one month later.
+
+**Total Return:**
+- Cash today: 62.3 dollars
+- Check for one month later: 12.6 dollars
+- Total return: 62.3 + 12.6 = 74.9 dollars
+
+I chose this allocation because it balances immediate cash with future cash. Investing 70 points today gives me a good amount of cash right away, while still allowing for a significant check amount in the future.",False,False,False,False
+paper,discrete,social,60,6,True,True,100.0,100.0,decision,"I would select the option ($58.00, $0.00). This option provides me with the highest amount, maximizing my return in this round.",False,False,False,False
+paraphrase,discrete,food,15,21,True,True,0.0,0.0,option-number,Option 1.,False,False,False,False
+paper,discrete,social,86,10,True,True,100.0,100.0,decision,"I would select the option ($48.00, $0.00). This option provides me with the highest amount of $48, even though the other person receives nothing. In this case, maximizing my own return is the priority.",False,False,False,False
+paper,temp_1,food,20,25,True,True,10.0,10.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- **Meat:** 10 points 
+- **Tomato:** 90 points 
+
+**Reasoning:**
+
+1. **Value of Points:** Spending on tomatoes yields 0.58 Kg per point, significantly higher than the 0.29 Kg per point for meat. This indicates that tomatoes provide a much better return on investment.
+
+2. **Maximizing Output:** To maximize the overall quantity of goods, it makes the most sense to allocate the vast majority of my points to tomatoes while keeping a minimal allocation for meat.
+
+This allocation allows me to maximize the quantity of tomatoes acquired while still obtaining a small amount of meat.",False,False,False,False
+paper,asian,food,26,1,True,True,60.0,60.0,labelled-decision,"In this round, I will allocate 60 points to ham meat and 40 points to tomatoes.
+
+**Allocation:**
+- Ham meat: 60 points
+- Tomatoes: 40 points
+
+**Reasoning:**
+1. **Higher Yield for Tomatoes:** Given that spending 1 point on tomatoes yields 0.73 Kg, which is relatively high, I want to take advantage of that to ensure I have a good quantity of tomatoes.
+2. **Balanced Nutrition:** While ham meat is important, I believe that having a larger quantity of tomatoes will provide essential vitamins and minerals, as well as enhance the flavor of meals.
+3. **Sufficient Meat Quantity:** Allocating 60 points to ham meat will still provide a decent amount (46.8 Kg) of meat, which is sufficient for my needs.
+
+This allocation strikes a balance between obtaining a good amount of both goods while maximizing the yield from the points spent.",False,False,False,False
+paper,temp_1,risk,86,12,True,True,30.0,30.0,labelled-decision,"In this round, I will allocate:
+
+- **Asset A**: 30 points
+- **Asset B**: 70 points",False,False,False,False
+paper,temp_1,food,44,14,True,True,90.0,90.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+**Ham Meat: 90 points**  
+**Tomatoes: 10 points**
+
+**Reasons for my allocation:**
+
+1. **Significantly Higher Yield for Meat:** With ham meat yielding 0.92 kg per point compared to only 0.34 kg per point for tomatoes, it is clear that the majority of points should be allocated to meat to maximize total quantity.
+
+2. **Minimal Allocation to Tomatoes:** A small allocation to tomatoes allows for a bit of variety, but the primary focus is on obtaining as much ham meat as possible due to its higher yield.
+
+In total, this allocation will result in:
+
+- **Ham Meat:** 90 points * 0.92 kg/point = 82.8 kg of ham meat.
+- **Tomatoes:** 10 points * 0.34 kg/point = 3.4 kg of tomatoes.
+
+This allocation effectively maximizes total yield while prioritizing the more productive option of ham meat.",False,False,False,False
+paper,discrete,food,17,21,True,True,20.0,20.0,decision,"I would select the option (12.60 Kg, 37.60 Kg). This option provides a good balance of meat and tomatoes, offering a substantial amount of both, which can enhance meals in terms of both nutrition and flavor.",False,False,False,False
+paraphrase,baseline,time,66,14,True,True,90.0,90.0,labelled,"Today: 90, One month later: 10.",False,False,False,False
+paraphrase,discrete,time,7,25,True,True,0.0,0.0,option-number,Option 1.,False,False,False,False
+paraphrase,price_framing,food,73,9,True,True,10.0,10.0,labelled,"ham meat: 10, tomato: 90",False,False,False,False
+paper,african_american,social,17,13,True,True,90.0,90.0,labelled-decision,"In this round, since the return for allocating points to myself ($0.85) is significantly higher than the return for allocating points to the other person ($0.20), I will allocate the majority of the points to myself.
+
+I will allocate 90 points to myself and 10 points to the other.
+
+This allocation allows me to maximize my return while still providing a small benefit to the other person.
+
+- Points allocated to myself: 90 points * $0.85 = $76.50
+- Points allocated to the other: 10 points * $0.20 = $2.00
+
+This way, I can achieve a better return for myself while still supporting the other party, albeit minimally.",False,False,False,False
+paper,elderly,risk,10,3,True,True,55.0,55.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- Asset A: 55 points
+- Asset B: 45 points",False,False,False,False
+paper,elementary_edu,risk,19,21,True,True,75.0,75.0,labelled-decision,"In this round, I will invest 75 points in Asset A and 25 points in Asset B.",False,False,False,False
+paper,african_american,time,21,19,True,True,60.0,60.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+- **Points invested today:** 60 points
+- **Points invested one month later:** 40 points
+
+**Reasoning:**
+
+1. **Return on Investment Today:**
+   - Investing 60 points today at a return of $0.72 per point gives me:
+     - 60 points * $0.72 = $43.20 cash today.
+
+2. **Return on Investment One Month Later:**
+   - Investing 40 points one month later at a return of $0.78 per point gives me:
+     - 40 points * $0.78 = $31.20 check to be cashed one month later.
+
+**Total Expected Return:**
+- Cash today: $43.20
+- Check to be cashed one month later: $31.20
+
+**Total Return:** $43.20 (today) + $31.20 (one month later) = $74.40.
+
+**Rationale for Allocation:**
+- I chose to invest a larger portion (60 points) today because the return on cash today ($0.72) is relatively high compared to the return on the check for one month later ($0.78). This allocation allows me to maximize my immediate cash flow while still securing a reasonable future return. By investing more today, I can take advantage of the higher immediate return, while still maintaining a smaller investment for future cash flow.",False,False,False,False
+paper,price_framing,time,68,21,True,True,60.0,60.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+- **Points for Today:** 60 points
+- **Points for One Month Later:** 40 points
+
+### Rationale:
+
+1. **Investment Today:**
+   - By investing 60 points today, I can calculate the cash return:
+     - 60 points / 1.89 points per dollar ≈ 31.75 dollars cash today.
+   - This provides immediate liquidity, which is beneficial for any urgent needs or opportunities.
+
+2. **Investment One Month Later:**
+   - By investing 40 points for one month later, I can calculate the check return:
+     - 40 points / 2.86 points per dollar ≈ 13.99 dollars check to be cashed one month later.
+   - This provides a future return that can be useful for planning ahead.
+
+### Total Expected Return:
+- Cash today: approximately 31.75 dollars
+- Cash one month later: approximately 13.99 dollars
+
+### Conclusion:
+This allocation effectively balances immediate cash flow with a reasonable future return. Investing a larger portion today maximizes immediate cash, while still allowing for a meaningful return from the investment for one month later.",False,False,False,False
+paper,college_edu,food,19,15,True,True,90.0,90.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- **Ham meat:** 90 points
+- **Tomatoes:** 10 points
+
+**Reasoning:**
+1. **Value of Goods:** The conversion rates indicate that ham meat (0.71 Kg per point) provides significantly more value per point compared to tomatoes (0.19 Kg per point). This suggests that spending the majority of my points on ham meat will yield a better overall quantity.
+
+2. **Maximizing Quantity:** Given the high yield of ham meat, I will allocate most of my points to it while still reserving a small amount for tomatoes to maintain some variety.
+
+3. **Overall Quantity:** By allocating 90 points to ham meat, I will receive 63.9 Kg of ham meat (90 points × 0.71 Kg/point), and with 10 points for tomatoes, I will receive 1.9 Kg of tomatoes (10 points × 0.19 Kg/point). This allocation maximizes the quantity of ham meat while still providing a small amount of tomatoes.
+
+So, my final allocation is 90 points for ham meat and 10 points for tomatoes.",False,False,False,False
+paper,elderly,social,7,10,True,True,85.0,85.0,labelled-decision,"In this round, since my return (0.93 dollars per point) is much higher than the return for the other person (0.28 dollars per point), I will allocate 85 points to myself and 15 points to the other. 
+
+This allocation maximizes my return while still providing a small amount to the other person. 
+
+So, my allocation will be:
+- Points to myself: 85
+- Points to the other: 15",False,False,False,False
+paper,discrete,risk,2,7,True,True,0.0,0.0,decision,"To determine the best option, I will calculate the expected return for each option:
+
+1. ($0.00, $56.00): Expected Return = (0.5 * $0.00) + (0.5 * $56.00) = $28.00
+2. ($2.30, $50.40): Expected Return = (0.5 * $2.30) + (0.5 * $50.40) = $26.35
+3. ($4.60, $44.80): Expected Return = (0.5 * $4.60) + (0.5 * $44.80) = $24.70
+4. ($6.90, $39.20): Expected Return = (0.5 * $6.90) + (0.5 * $39.20) = $23.05
+5. ($9.20, $33.60): Expected Return = (0.5 * $9.20) + (0.5 * $33.60) = $21.40
+6. ($11.50, $28.00): Expected Return = (0.5 * $11.50) + (0.5 * $28.00) = $19.75
+7. ($13.80, $22.40): Expected Return = (0.5 * $13.80) + (0.5 * $22.40) = $18.10
+8. ($16.10, $16.80): Expected Return = (0.5 * $16.10) + (0.5 * $16.80) = $16.45
+9. ($18.40, $11.20): Expected Return = (0.5 * $18.40) + (0.5 * $11.20) = $14.80
+10. ($20.70, $5.60): Expected Return = (0.5 * $20.70) + (0.5 * $5.60) = $13.15
+11. ($23.00, $0.00): Expected Return = (0.5 * $23.00) + (0.5 * $0.00) = $11.50
+
+The best option is ($0.00, $56.00) with an expected return of $28.00.",False,False,False,False
+paper,discrete,social,34,23,True,True,100.0,100.0,decision,"I would select the option ($43.00, $0.00). This option provides me with the highest amount of $43.00, even though the other person receives nothing. Maximizing my own return is the priority in this round.",False,False,False,False
+paraphrase,discrete,risk,42,11,True,True,0.0,0.0,option-number,Option 1.,False,False,False,False
+paper,discrete,social,39,10,True,True,50.0,50.0,decision,"I would select the option ($41.50, $30.50). This option provides a good amount for both myself and the other person, promoting a fair outcome while still allowing me to receive a substantial share.",False,False,False,False
+paper,price_framing,social,14,5,True,True,65.0,65.0,labelled-decision,"In this round, I will allocate 65 points to myself and 35 points to the other.
+
+Here's the breakdown:
+
+- For myself: 
+  - 65 points / 1.14 points per dollar = approximately 57.02 dollars.
+
+- For the other: 
+  - 35 points / 1.30 points per dollar = approximately 26.92 dollars.
+
+This allocation allows me to maximize my return while still providing a reasonable amount to the other person.",False,False,False,False
+paraphrase,baseline,food,86,13,True,True,20.0,20.0,labelled,"ham meat: 20, tomato: 80",False,False,False,False
+paper,baseline,social,26,18,True,True,0.8723235527359239,0.0,labelled-decision,"In this round, since the return for the other person (0.88 dollars per point) is significantly higher than my return (0.34 dollars per point), I would allocate all 100 points to the other person.
+
+So, my allocation would be:
+- Points allocated to myself: 0
+- Points allocated to the other: 100",True,False,False,False
+paper,male,time,13,24,True,True,0.0,0.0,labelled-decision,"For this round, I will allocate my points as follows:
+
+- **Points invested today:** 0 points
+- **Points invested one month later:** 100 points
+
+**Reasoning:**
+
+1. **Investment Today:**
+   - By investing 0 points today, I will receive:
+     \[
+     0 \text{ points} \times 0.40 \text{ dollars/point} = 0 \text{ dollars cash today}
+     \]
+
+2. **Investment One Month Later:**
+   - By investing 100 points for one month later, I will receive:
+     \[
+     100 \text{ points} \times 0.55 \text{ dollars/point} = 55 \text{ dollars check}
+     \]
+
+**Total Expected Return:**
+- Cash today: $0
+- Check to be cashed one month later: $55
+
+**Total Return:** $0 (cash today) + $55 (check) = $55
+
+Since the return for investing one month later (0.55 dollars per point) is higher than the return for investing today (0.40 dollars per point), it is optimal to invest all points for one month later to maximize the total return.",False,False,False,False
+paper,price_framing,risk,7,22,True,True,70.0,70.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- **Asset A**: 70 points
+- **Asset B**: 30 points
+
+This allocation favors Asset A due to its better return rate compared to Asset B.",False,False,False,False
+paper,baseline,risk,5,1,True,True,70.0,70.0,labelled-decision,"For this round, I will allocate my points as follows:
+
+- Asset A: 70 points
+- Asset B: 30 points
+
+This allocation balances the potential returns from both assets while still favoring Asset A, which has a slightly higher return per point.",False,False,False,False
+paraphrase,baseline,risk,14,8,True,True,60.0,60.0,labelled,"Asset A: 60, Asset B: 40.",False,False,False,False
+paraphrase,baseline,social,92,17,True,True,5.0,5.0,labelled,"myself: 5, the other person: 95",False,False,False,False
+paraphrase,baseline,food,31,18,True,True,10.0,10.0,labelled,"ham meat: 10, tomato: 90",False,False,False,False
+paper,price_framing,food,84,25,True,True,50.0,50.0,labelled-decision,"In this round, I will allocate **50 points to ham meat** and **50 points to tomatoes**.
+
+### Reasoning:
+1. **Ham Meat:**
+   - By allocating 50 points to ham meat, I can calculate the amount I would receive:
+     \[
+     \text{Kg of meat} = \frac{50 \text{ points}}{1.41 \text{ points/kg}} \approx 35.46 \text{ kg of meat}
+     \]
+   - This allocation provides a decent amount of meat, which is important for protein intake.
+
+2. **Tomatoes:**
+   - By allocating 50 points to tomatoes, I can calculate the amount I would receive:
+     \[
+     \text{Kg of tomatoes} = \frac{50 \text{ points}}{1.37 \text{ points/kg}} \approx 36.50 \text{ kg of tomatoes}
+     \]
+   - This amount of tomatoes adds significant variety and essential nutrients to my meals.
+
+### Conclusion:
+This allocation allows for a balanced approach, providing a good quantity of both meat and tomatoes. The equal distribution reflects a desire for a well-rounded diet, ensuring sufficient protein from the meat while also obtaining a large quantity of tomatoes for vitamins and minerals.",False,False,False,False
+paper,price_framing,risk,37,18,True,True,70.0,70.0,labelled-decision,"In this round, I will allocate the points as follows:
+
+- Asset A: 70 points
+- Asset B: 30 points",False,False,False,False
+paper,price_framing,risk,54,24,True,True,30.0,30.0,labelled-decision,"In this round, I will allocate 30 points to Asset A and 70 points to Asset B.",False,False,False,False
+paraphrase,price_framing,social,80,18,True,True,75.0,75.0,labelled,"myself: 75, the other person: 25",False,False,False,False
+paper,temp_0.5,time,82,18,True,True,100.0,100.0,labelled-decision,"For this round, I will allocate my points as follows:
+
+- **Invest 100 points today**
+- **Invest 0 points one month later**
+
+### Rationale for Allocation:
+
+1. **Return on Investment Today**:
+   - Investing 100 points today would yield:
+     \[
+     100 \text{ points} \times 0.71 \text{ dollars/point} = 71 \text{ dollars cash today}
+     \]
+   - This provides a substantial amount of immediate cash that can be utilized right away.
+
+2. **Return on Investment One Month Later**:
+   - Since the return for one month later is only $0.14 per point, investing any points there would yield significantly less compared to the cash today.
+
+### Total Expected Return:
+- Total cash received today = $71
+- Total cash received in one month = $0 (since no points are invested for one month later)
+
+Given the high return for cash today compared to the very low return for the check one month later, this allocation maximizes immediate cash flow and is the most beneficial decision in this scenario.",False,False,False,False
+paraphrase,discrete,time,92,13,True,True,0.0,0.0,option-number,Option 1.,False,False,False,False
+paper,college_edu,food,21,8,True,True,10.0,10.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- **Points for ham meat:** 10 points
+- **Points for tomato:** 90 points
+
+**Reasoning:**
+
+1. **Value of Ham Meat:** Spending 1 point on ham meat yields only 0.12 Kg, which is very low and not an efficient use of points.
+
+2. **Value of Tomato:** Spending 1 point on tomato yields 0.64 Kg, which is a significantly better return on investment compared to ham meat.
+
+By allocating 10 points to ham meat and 90 points to tomato, I can maximize the overall quantity of food obtained, focusing primarily on the highly efficient option of tomatoes while still including a minimal amount of ham meat for variety.
+
+Please provide the next round's allocation.",False,False,False,False
+paper,elementary_edu,food,7,16,True,True,20.0,20.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- **Meat:** 20 points
+- **Tomato:** 80 points
+
+**Reasoning:**
+Since tomatoes provide a higher yield (0.88 Kg per point) compared to meat (0.58 Kg per point), I will allocate the majority of my points to tomatoes. By spending 20 points on meat, I will get 11.6 Kg of meat, and by spending 80 points on tomatoes, I will get 70.4 Kg of tomatoes. This allocation maximizes the total amount of food I receive, focusing on the better yield from tomatoes.
+
+So, my final allocation is:
+- 20 points for meat
+- 80 points for tomato",False,False,False,False
+paper,temp_0.5,time,37,14,True,True,90.0,90.0,labelled-decision,"In this round, given the returns on investments today and one month later, I will allocate the points as follows:
+
+- **Invest 90 points today**
+- **Invest 10 points one month later**
+
+### Rationale:
+
+1. **Investing Today (90 points):**
+   - Return per point today = $0.96
+   - Total return from today’s investment = 90 points * $0.96 = $86.40 cash today.
+
+2. **Investing One Month Later (10 points):**
+   - Return per point one month later = $0.45
+   - Total return from one month later investment = 10 points * $0.45 = $4.50 check that can be cashed in one month.
+
+### Total Expected Return:
+- Total return = $86.40 (from today) + $4.50 (from one month later) = $90.90.
+
+### Conclusion:
+This allocation heavily favors the investment for today due to the significantly higher return compared to the investment made one month later. By investing the majority of the points today, I maximize the immediate cash available while securing a small future return. This strategy effectively takes advantage of the high return available today.",False,False,False,False
+paper,temp_1,social,1,5,True,True,75.0,75.0,labelled-decision,"In this round, considering the returns for both myself and the other, I would allocate my points as follows:
+
+- I will allocate **75 points** to myself. This yields a return of 75 * 0.88 = **66.00 dollars** for myself.
+- I will allocate **25 points** to the other. This yields a return of 25 * 0.58 = **14.50 dollars** for the other.
+
+So, I would allocate **75 points to myself** and **25 points to the other.**",False,False,False,False
+paper,baseline,social,50,21,True,True,10.0,10.0,labelled-decision,"In this round, I would allocate 10 points to myself and 90 points to the other. 
+
+Here's the reasoning:
+
+- Allocating 10 points to myself would yield a return of:
+  10 points * 0.40 dollars/point = 4.0 dollars.
+
+- Allocating 90 points to the other would yield a return of:
+  90 points * 0.74 dollars/point = 66.6 dollars.
+
+Since the return for the other person (0.74 dollars per point) is significantly higher than my return per point (0.40 dollars), it makes sense to allocate the majority of the points to them. This maximizes the overall return and promotes goodwill.
+
+So, my allocation is:
+- Points to myself: 10
+- Points to the other: 90",False,False,False,False
+paper,price_framing,time,76,25,True,True,70.0,70.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+- **Points invested today:** 70 points
+- **Points invested one month later:** 30 points
+
+### Rationale for Allocation:
+
+1. **Investment Today:**
+   - By investing 70 points today, I can calculate the cash return:
+     - Cash return = 70 points / 1.39 points per dollar ≈ 50.36 dollars (rounded to two decimal places).
+   - This provides immediate cash, which can be useful for current needs or opportunities.
+
+2. **Investment One Month Later:**
+   - By investing 30 points one month later, I can calculate the check return:
+     - Check return = 30 points / 6.67 points per dollar ≈ 4.50 dollars (rounded to two decimal places).
+   - This provides a future cash inflow, which can be beneficial for planning ahead.
+
+### Total Expected Return:
+- Cash today: ≈ 50.36 dollars
+- Cash one month later: ≈ 4.50 dollars
+
+**Total return ≈ 50.36 dollars + 4.50 dollars ≈ 54.86 dollars.**
+
+This allocation provides a strong immediate cash flow while also securing a smaller future return, maximizing the overall expected return while ensuring I have a significant amount of cash available today.",False,False,False,False
+paper,african_american,food,19,24,True,True,85.0,85.0,labelled-decision,"For this round, I will allocate my points as follows:
+
+- **Meat:** 85 points
+- **Tomato:** 15 points
+
+**Reasoning:**
+1. **Higher Yield for Meat:** Since spending on meat yields 0.86 Kg per point, which is significantly higher than the 0.19 Kg per point for tomatoes, I want to prioritize meat to maximize my overall yield.
+2. **Protein Focus:** Given the high yield for meat, it makes sense to allocate a larger portion of points to ensure I have a substantial amount of protein, which is essential for a balanced diet.
+
+With this allocation, I would receive:
+- **Meat:** 85 points × 0.86 Kg/point = 73.1 Kg of meat
+- **Tomatoes:** 15 points × 0.19 Kg/point = 2.85 Kg of tomatoes
+
+This allocation allows me to maximize my yield of meat while still having a small amount of tomatoes for variety.",False,False,False,False
+paper,male,risk,2,2,True,True,70.0,70.0,labelled-decision,"In this round, I will allocate my points as follows:
+
+- Asset A: 70 points
+- Asset B: 30 points",False,False,False,False
+paper,baseline,time,3,3,True,True,85.0,85.0,labelled-decision,"For this round, I will allocate the points as follows:
+
+- **Points invested today:** 85 points
+- **Points invested one month later:** 15 points
+
+**Reasoning:**
+
+1. **Return on Investment Today:**
+   - Investing 85 points today at $0.86 per point gives me a return of:
+     - 85 points * $0.86/point = $73.10 cash today.
+
+2. **Return on Investment One Month Later:**
+   - Investing 15 points one month later at $0.20 per point gives me a return of:
+     - 15 points * $0.20/point = $3.00 check to be cashed one month later.
+
+**Total Return:**
+- Cash today: $73.10
+- Check to be cashed one month later: $3.00
+
+**Total Cash Flow:**
+- Total cash flow today and one month later = $73.10 + $3.00 = $76.10.
+
+**Rationale for Allocation:**
+- By investing 85 points today, I maximize my immediate cash return, which is beneficial for liquidity, especially since the return per point today ($0.86) is significantly higher than the return for one month later ($0.20).
+- The remaining 15 points invested for one month later still provides a positive return, adding to my total cash flow without sacrificing much immediate cash.
+- This allocation prioritizes immediate cash while still allowing for some future return, making it a balanced decision given the higher return potential for today's investment.",False,False,False,False
+paper,discrete,food,68,20,True,True,30.0,30.0,decision,"I would select the option (6.60 Kg, 49.70 Kg). This option provides a reasonable amount of both meat and tomatoes, allowing for a good balance in meal preparation. The quantities are substantial enough to be useful in various recipes, making it a practical choice.",False,False,False,False
