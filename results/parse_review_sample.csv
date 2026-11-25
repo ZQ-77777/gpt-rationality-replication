@@ -1,5 +1,5 @@
 ﻿prompts,condition,domain,rep,round,v3_points_a,v3_rule,hand_check,reply
-paper,temp_0.5,food,73,15,50.0,labelled-decision,,"In this round, I will allocate 50 points to meat and 50 points to tomatoes.
+paper,temp_0.5,food,73,15,50.0,labelled-decision,ok - final allocation in reply is meat 50 / tomato 50,"In this round, I will allocate 50 points to meat and 50 points to tomatoes.
 
 **Reasoning:**
 - The return for meat is 0.93 Kg per point, and the return for tomatoes is 0.79 Kg per point. While meat has a higher yield, the difference is not large enough to justify a significantly skewed allocation.
@@ -7,17 +7,17 @@ paper,temp_0.5,food,73,15,50.0,labelled-decision,,"In this round, I will allocat
 - By allocating 50 points to tomatoes, I would receive 39.5 Kg of tomatoes (50 x 0.79).
 
 This allocation provides a balanced yield of both goods while still favoring meat slightly due to its higher return per point."
-paper,male,risk,27,6,30.0,labelled-decision,,"In this round, I will allocate my points as follows:
+paper,male,risk,27,6,30.0,labelled-decision,ok - final allocation in reply is Asset A 30 / Asset B 70,"In this round, I will allocate my points as follows:
 
 - Asset A: 30 points
 - Asset B: 70 points
 
 This allocation favors Asset B, as it has a higher return per point compared to Asset A."
-paper,temp_0.5,risk,56,1,70.0,labelled-decision,,"For this round, I will allocate the points as follows:
+paper,temp_0.5,risk,56,1,70.0,labelled-decision,ok - final allocation in reply is Asset A 70 / Asset B 30,"For this round, I will allocate the points as follows:
 
 - Asset A: 70 points
 - Asset B: 30 points"
-paper,baseline,time,90,18,30.0,labelled-decision,,"For this round, I will allocate the points as follows:
+paper,baseline,time,90,18,30.0,labelled-decision,ok - final allocation in reply is today 30 / one month later 70,"For this round, I will allocate the points as follows:
 
 - **Points invested today:** 30 points
 - **Points invested one month later:** 70 points
@@ -40,19 +40,19 @@ paper,baseline,time,90,18,30.0,labelled-decision,,"For this round, I will alloca
 - Total return: $18.00 + $66.50 = $84.50
 
 This allocation prioritizes the higher return from the investment made one month later while still allowing for some immediate cash flow. It maximizes the total expected return by leveraging the more favorable return rate for the investment made one month later."
-paper,baseline,risk,93,17,90.0,labelled-decision,,"In this round, I will allocate my points as follows:
+paper,baseline,risk,93,17,90.0,labelled-decision,ok - final allocation in reply is Asset A 90 / Asset B 10,"In this round, I will allocate my points as follows:
 
 - Asset A: 90 points
 - Asset B: 10 points
 
 This allocation heavily favors Asset A due to its higher return potential compared to Asset B."
-paper,temp_0.5,risk,49,14,85.0,labelled-decision,,"In this round, I will allocate the points as follows:
+paper,temp_0.5,risk,49,14,85.0,labelled-decision,ok - final allocation in reply is Asset A 85 / Asset B 15,"In this round, I will allocate the points as follows:
 
 - Asset A: 85 points
 - Asset B: 15 points
 
 This allocation heavily favors Asset A due to its significantly higher return per point compared to Asset B."
-paper,price_framing,food,56,7,90.0,labelled-decision,,"For this round, I will allocate my points as follows:
+paper,price_framing,food,56,7,90.0,labelled-decision,ok - final allocation in reply is meat 90 / tomato 10,"For this round, I will allocate my points as follows:
 
 - **Ham Meat:** 90 points
 - **Tomatoes:** 10 points
@@ -69,8 +69,8 @@ paper,price_framing,food,56,7,90.0,labelled-decision,,"For this round, I will al
    - While tomatoes are more expensive in terms of points, they are important for adding flavor and nutrients to the diet.
 
 This allocation prioritizes obtaining a larger quantity of ham meat while still securing a small amount of tomatoes for nutritional balance and variety."
-paper,elderly,risk,19,23,60.0,labelled-decision,,"In this round, I will allocate 60 points to Asset A and 40 points to Asset B."
-paper,temp_0.5,social,50,9,90.0,labelled-decision,,"In this round, I will allocate 90 points to myself and 10 points to the other.
+paper,elderly,risk,19,23,60.0,labelled-decision,ok - final allocation in reply is Asset A 60 / Asset B 40,"In this round, I will allocate 60 points to Asset A and 40 points to Asset B."
+paper,temp_0.5,social,50,9,90.0,labelled-decision,ok - final allocation in reply is myself 90 / the other person 10,"In this round, I will allocate 90 points to myself and 10 points to the other.
 
 Here's the reasoning behind this decision:
 
@@ -85,7 +85,7 @@ Since the return for myself is significantly higher, I will allocate a larger po
 So, my allocation is:  
 - Points to myself: 90  
 - Points to the other: 10"
-paper,college_edu,food,29,10,10.0,labelled-decision,,"For this round, I will allocate 10 points to ham meat and 90 points to tomato.
+paper,college_edu,food,29,10,10.0,labelled-decision,ok - final allocation in reply is meat 10 / tomato 90,"For this round, I will allocate 10 points to ham meat and 90 points to tomato.
 
 **Allocation:**
 - Ham meat: 10 points
@@ -99,12 +99,12 @@ paper,college_edu,food,29,10,10.0,labelled-decision,,"For this round, I will all
 3. **Maximizing Quantity:** Given the much higher yield from tomatoes, it is logical to allocate the majority of points to tomatoes to maximize the overall quantity of food obtained.
 
 By allocating 90 points to tomatoes, I can take full advantage of their higher yield while still obtaining a small amount of ham meat for variety."
-paper,baseline,social,67,24,0.0,labelled-decision,,"In this round, the return for myself is 0.18 dollars per point, while the return for the other person is 0.85 dollars per point. Since the return for the other person is significantly higher, I would allocate all points to the other person to maximize the overall return.
+paper,baseline,social,67,24,0.0,labelled-decision,ok - final allocation in reply is myself 0 / the other person 100,"In this round, the return for myself is 0.18 dollars per point, while the return for the other person is 0.85 dollars per point. Since the return for the other person is significantly higher, I would allocate all points to the other person to maximize the overall return.
 
 So, my allocation would be:
 - Points allocated to myself: 0
 - Points allocated to the other: 100"
-paper,college_edu,food,1,16,10.0,labelled-decision,,"In this round, I will allocate 10 points to ham meat and 90 points to tomato.
+paper,college_edu,food,1,16,10.0,labelled-decision,ok - final allocation in reply is meat 10 / tomato 90,"In this round, I will allocate 10 points to ham meat and 90 points to tomato.
 
 **Allocation:**
 - Ham meat: 10 points
@@ -118,7 +118,7 @@ paper,college_edu,food,1,16,10.0,labelled-decision,,"In this round, I will alloc
 3. **Minimal Ham Meat**: I am allocating a small number of points to ham meat primarily to maintain some variety in my selection, but the focus is clearly on maximizing the quantity of tomato.
 
 Overall, this allocation allows me to take full advantage of the higher yield for tomato while still obtaining a minimal amount of ham meat."
-paper,african_american,time,7,7,85.0,labelled-decision,,"For this round, I will allocate the points as follows:
+paper,african_american,time,7,7,85.0,labelled-decision,ok - final allocation in reply is today 85 / one month later 15,"For this round, I will allocate the points as follows:
 
 - **Points invested today:** 85 points
 - **Points invested one month later:** 15 points
@@ -134,8 +134,8 @@ paper,african_american,time,7,7,85.0,labelled-decision,,"For this round, I will 
 4. **Future Cash Flow:** While I am prioritizing immediate returns, I still allocate a small amount for future cash flow to ensure I have some funds available later.
 
 Overall, this allocation aims to maximize immediate cash flow while still providing for future needs."
-paper,elementary_edu,risk,21,13,40.0,labelled-decision,,"In this round, I will invest 40 points in Asset A and 60 points in Asset B."
-paper,elementary_edu,time,24,3,60.0,labelled-decision,,"For this round, I will allocate:
+paper,elementary_edu,risk,21,13,40.0,labelled-decision,ok - final allocation in reply is Asset A 40 / Asset B 60,"In this round, I will invest 40 points in Asset A and 60 points in Asset B."
+paper,elementary_edu,time,24,3,60.0,labelled-decision,ok - final allocation in reply is today 60 / one month later 40,"For this round, I will allocate:
 
 - 60 points to today
 - 40 points to one month later
@@ -149,10 +149,10 @@ paper,elementary_edu,time,24,3,60.0,labelled-decision,,"For this round, I will a
    40 points * 0.97 dollars/point = 38.8 dollars check which can be cashed one month later.
 
 This allocation allows me to maximize my cash today while still securing a significant return for the future. The total return would be 53.4 dollars (cash today) + 38.8 dollars (check for one month later) = 92.2 dollars total return."
-paper,temp_1,social,80,7,0.0,labelled-decision,,"In this round, since the return for the other person (0.69 dollars per point) is higher than my return (0.52 dollars per point), I would allocate 0 points to myself and 100 points to the other person.
+paper,temp_1,social,80,7,0.0,labelled-decision,ok - final allocation in reply is myself 0 / the other person 100,"In this round, since the return for the other person (0.69 dollars per point) is higher than my return (0.52 dollars per point), I would allocate 0 points to myself and 100 points to the other person.
 
 This allocation maximizes the return for the other person, and while I do not receive any immediate benefit, it may help cultivate a positive relationship for future rounds. Supporting the other person can be strategically beneficial in the long run."
-paper,price_framing,food,94,24,70.0,labelled-decision,,"In this round, I will allocate my points as follows:
+paper,price_framing,food,94,24,70.0,labelled-decision,ok - final allocation in reply is meat 70 / tomato 30,"In this round, I will allocate my points as follows:
 
 - **Points for meat:** 70 points
 - **Points for tomato:** 30 points
@@ -174,7 +174,7 @@ paper,price_framing,food,94,24,70.0,labelled-decision,,"In this round, I will al
    - While tomatoes are more expensive in this scenario, I still want to include them for their vitamins and variety in meals.
 
 This allocation allows me to maximize the quantity of meat while still obtaining a small amount of tomatoes, given the cost dynamics in this round."
-paper,temp_1,social,45,4,10.0,labelled-decision,,"In this round, since the return for the other person (0.78 dollars per point) is higher than my return (0.48 dollars per point), I would allocate most of the points to the other person.
+paper,temp_1,social,45,4,10.0,labelled-decision,ok - final allocation in reply is myself 10 / the other person 90,"In this round, since the return for the other person (0.78 dollars per point) is higher than my return (0.48 dollars per point), I would allocate most of the points to the other person.
 
 I would allocate 10 points to myself and 90 points to the other person.
 
@@ -182,13 +182,13 @@ I would allocate 10 points to myself and 90 points to the other person.
 - Points allocated to the other: 90
 
 This allocation maximizes the benefit for the other person, recognizing their higher return rate."
-paper,male,risk,17,11,70.0,labelled-decision,,"In this round, I will allocate my points as follows:
+paper,male,risk,17,11,70.0,labelled-decision,ok - final allocation in reply is Asset A 70 / Asset B 30,"In this round, I will allocate my points as follows:
 
 - Asset A: 70 points
 - Asset B: 30 points
 
 This allocation prioritizes the higher return from Asset A while still maintaining a smaller investment in Asset B."
-paper,price_framing,food,75,24,60.0,labelled-decision,,"For this round, I will allocate my points as follows:
+paper,price_framing,food,75,24,60.0,labelled-decision,ok - final allocation in reply is meat 60 / tomato 40,"For this round, I will allocate my points as follows:
 
 - **Points for meat:** 60 points
 - **Points for tomato:** 40 points
@@ -209,11 +209,11 @@ paper,price_framing,food,75,24,60.0,labelled-decision,,"For this round, I will a
 
 **Overall Decision:**
 This allocation provides a balanced intake of both meat and tomatoes. The decision reflects a desire for a diverse diet, ensuring that I have a good amount of both protein and vegetables to meet nutritional needs. The focus on meat allows for a significant quantity while also providing a reasonable amount of tomatoes for variety and essential nutrients."
-paper,baseline,risk,85,25,40.0,labelled-decision,,"In this round, I will allocate my points as follows:
+paper,baseline,risk,85,25,40.0,labelled-decision,ok - final allocation in reply is Asset A 40 / Asset B 60,"In this round, I will allocate my points as follows:
 
 - Asset A: 40 points
 - Asset B: 60 points"
-paper,young_child,time,8,3,50.0,labelled-decision,,"For this round, I will allocate my points as follows:
+paper,young_child,time,8,3,50.0,labelled-decision,ok - final allocation in reply is today 50 / one month later 50,"For this round, I will allocate my points as follows:
 
 - **Invest 50 points today**
 - **Invest 50 points for one month later**
@@ -227,7 +227,7 @@ paper,young_child,time,8,3,50.0,labelled-decision,,"For this round, I will alloc
    - This will give me 50 points * 0.81 dollars/point = 40.5 dollars check which can be cashed in one month later. This is a good return, and I can save it for something special next month.
 
 By splitting my investment evenly, I get a nice amount of cash today and a good amount for the future, which I think is a balanced and smart choice!"
-paper,temp_1,food,69,17,10.0,labelled-decision,,"In this round, I will allocate 10 points to meat and 90 points to tomato.
+paper,temp_1,food,69,17,10.0,labelled-decision,ok - final allocation in reply is meat 10 / tomato 90,"In this round, I will allocate 10 points to meat and 90 points to tomato.
 
 **Allocation:**
 - 10 points for meat
@@ -238,7 +238,7 @@ paper,temp_1,food,69,17,10.0,labelled-decision,,"In this round, I will allocate 
 2. **Tomato Production:** By allocating 90 points to tomato, I would receive 90 * 0.50 Kg = 45 Kg of tomato, which is a significantly higher yield.
 
 Given the higher return from tomatoes compared to meat in this round, it makes sense to focus on tomato production while still securing a minimal amount of meat for balance."
-paper,price_framing,time,95,20,30.0,labelled-decision,,"For this round, I will allocate my points as follows:
+paper,price_framing,time,95,20,30.0,labelled-decision,ok - final allocation in reply is today 30 / one month later 70,"For this round, I will allocate my points as follows:
 
 - **Points invested today:** 30 points
 - **Points invested one month later:** 70 points
@@ -265,7 +265,7 @@ paper,price_framing,time,95,20,30.0,labelled-decision,,"For this round, I will a
 
 ### Conclusion:
 This allocation prioritizes future returns due to the much more favorable return rate for the investment one month later. While I still invest a small portion today for immediate cash flow, the majority is allocated to maximize the future check return."
-paper,elementary_edu,time,27,8,20.0,labelled-decision,,"For this round, I will allocate:
+paper,elementary_edu,time,27,8,20.0,labelled-decision,ok - final allocation in reply is today 20 / one month later 80,"For this round, I will allocate:
 
 - 20 points to today
 - 80 points to one month later
@@ -282,7 +282,7 @@ paper,elementary_edu,time,27,8,20.0,labelled-decision,,"For this round, I will a
    6.8 dollars (cash today) + 73.6 dollars (check for one month later) = 80.4 dollars total return.
 
 I chose this allocation because the return for the investment one month later is significantly higher, making it more beneficial to invest the majority of the points for future cash while still having a small amount of cash available today."
-paper,temp_0.5,time,85,22,30.0,labelled-decision,,"For this round, I will allocate the points as follows:
+paper,temp_0.5,time,85,22,30.0,labelled-decision,ok - final allocation in reply is today 30 / one month later 70,"For this round, I will allocate the points as follows:
 
 - **Points invested today:** 30 points
 - **Points invested one month later:** 70 points
@@ -309,7 +309,7 @@ paper,temp_0.5,time,85,22,30.0,labelled-decision,,"For this round, I will alloca
 
 ### Conclusion:
 By investing 30 points today and 70 points one month later, I effectively balance obtaining some immediate cash with a significantly higher return from the future investment. This strategy leverages the higher return potential while ensuring a small cash flow today."
-paper,temp_1,food,74,15,20.0,labelled-decision,,"For this round, I'll allocate the points as follows:
+paper,temp_1,food,74,15,20.0,labelled-decision,ok - final allocation in reply is meat 20 / tomato 80,"For this round, I'll allocate the points as follows:
 
 - **Points for ham meat:** 20
 - **Points for tomatoes:** 80
@@ -318,13 +318,13 @@ paper,temp_1,food,74,15,20.0,labelled-decision,,"For this round, I'll allocate t
 With the current yields of 0.63 Kg per point for ham meat and 0.90 Kg per point for tomatoes, tomatoes provide a significantly better return on investment. Therefore, I will allocate the majority of the points to tomatoes to maximize the total weight of goods acquired, while still maintaining a small portion allocated to ham meat.
 
 In summary, I will allocate 20 points to ham meat and 80 points to tomatoes in this round."
-paper,temp_0.5,risk,39,2,20.0,labelled-decision,,"For this round, I will allocate the points as follows:
+paper,temp_0.5,risk,39,2,20.0,labelled-decision,ok - final allocation in reply is Asset A 20 / Asset B 80,"For this round, I will allocate the points as follows:
 
 - Asset A: 20 points
 - Asset B: 80 points
 
 This allocation favors Asset B due to its significantly higher return per point."
-paper,temp_1,food,2,6,70.0,labelled-decision,,"In this round, I will allocate my points as follows:
+paper,temp_1,food,2,6,70.0,labelled-decision,ok - final allocation in reply is meat 70 / tomato 30,"In this round, I will allocate my points as follows:
 
 - **Meat:** 70 points
 - **Tomato:** 30 points
@@ -334,11 +334,11 @@ paper,temp_1,food,2,6,70.0,labelled-decision,,"In this round, I will allocate my
 2. **Tomato Yield:** Spending 30 points on tomato will give me 30 points × 0.53 Kg/point = 15.9 Kg of tomato.
 
 Since the yield for meat is higher compared to tomato in this scenario, I am allocating a larger portion of my points to meat while still ensuring that I receive some tomato. This allocation allows me to maximize overall yield, prioritizing the more advantageous good while keeping a balance with tomato."
-paper,baseline,risk,81,13,50.0,labelled-decision,,"In this round, I will allocate 50 points to Asset A and 50 points to Asset B.
+paper,baseline,risk,81,13,50.0,labelled-decision,ok - final allocation in reply is Asset A 50 / Asset B 50,"In this round, I will allocate 50 points to Asset A and 50 points to Asset B.
 
 - Points for Asset A: 50
 - Points for Asset B: 50"
-paper,young_child,time,3,24,5.0,labelled-decision,,"For this round, I will invest 5 points today and 95 points one month later.
+paper,young_child,time,3,24,5.0,labelled-decision,ok - final allocation in reply is today 5 / one month later 95,"For this round, I will invest 5 points today and 95 points one month later.
 
 **Allocation:**
 - **5 points today**: This will give me 5 * 0.27 = 1.35 dollars cash today.
@@ -346,7 +346,7 @@ paper,young_child,time,3,24,5.0,labelled-decision,,"For this round, I will inves
 
 **Reasoning:**
 I chose this allocation because the return for one month later is significantly higher at 0.90 dollars per point compared to the much lower return of 0.27 dollars for today. By investing 95 points for one month later, I can secure a much larger amount of future cash. I still want to have a small amount of cash today, so I decided to invest 5 points to get a little cash now. This way, I can enjoy a tiny bit of cash today while also preparing for a much larger amount next month!"
-paper,male,food,11,11,90.0,labelled-decision,,"For this round, I will allocate my points as follows:
+paper,male,food,11,11,90.0,labelled-decision,ok - final allocation in reply is meat 90 / tomato 10,"For this round, I will allocate my points as follows:
 
 - **Meat:** 90 points
 - **Tomato:** 10 points
@@ -364,7 +364,7 @@ In total, this allocation would yield:
 - **Tomatoes:** 10 points × 0.20 Kg/point = 2 Kg of tomatoes
 
 So, I would receive approximately 86.4 Kg of ham meat and 2 Kg of tomatoes."
-paper,temp_1,food,34,15,10.0,labelled-decision,,"In this round, the returns per point are as follows:
+paper,temp_1,food,34,15,10.0,labelled-decision,ok - final allocation in reply is meat 10 / tomato 90,"In this round, the returns per point are as follows:
 
 - Meat: 0.49 Kg per point
 - Tomatoes: 1.00 Kg per point
@@ -384,7 +384,7 @@ With this allocation:
 - For tomatoes: 90 points will yield 90 x 1.00 = 90 Kg of tomatoes.
 
 So, I will allocate 10 points to ham meat and 90 points to tomatoes."
-paper,african_american,social,7,1,70.0,labelled-decision,,"In this round, I would allocate 70 points to myself and 30 points to the other. 
+paper,african_american,social,7,1,70.0,labelled-decision,ok - final allocation in reply is myself 70 / the other person 30,"In this round, I would allocate 70 points to myself and 30 points to the other. 
 
 Here's the reasoning:
 
@@ -399,12 +399,12 @@ This allocation allows me to maximize my return while still providing a signific
 So, my allocation is:
 - Points to myself: 70
 - Points to the other: 30"
-paper,elementary_edu,social,21,25,10.0,labelled-decision,,"In this round, since the return for the other (0.89 dollars per point) is higher than the return for myself (0.51 dollars per point), I will allocate 10 points to myself and 90 points to the other. 
+paper,elementary_edu,social,21,25,10.0,labelled-decision,ok - final allocation in reply is myself 10 / the other person 90,"In this round, since the return for the other (0.89 dollars per point) is higher than the return for myself (0.51 dollars per point), I will allocate 10 points to myself and 90 points to the other. 
 
 So, my allocation is:
 - 10 points for myself
 - 90 points for the other."
-paper,young_child,time,8,13,10.0,labelled-decision,,"For this round, I will allocate my points as follows:
+paper,young_child,time,8,13,10.0,labelled-decision,ok - final allocation in reply is today 10 / one month later 90,"For this round, I will allocate my points as follows:
 
 - **Invest 10 points today**
 - **Invest 90 points for one month later**
@@ -418,14 +418,14 @@ paper,young_child,time,8,13,10.0,labelled-decision,,"For this round, I will allo
    - This will give me 90 points * 1.00 dollars/point = 90 dollars check which can be cashed in one month later. This is an amazing return, and I can save it for something really special.
 
 Since the return for one month later is so high, I want to maximize my future cash, which is why I chose to invest most of my points for one month later!"
-paper,male,social,5,4,90.0,labelled-decision,,"In this round, since the return for allocating points to myself (0.80 dollars per point) is higher than the return for allocating points to the other person (0.47 dollars per point), I will allocate the majority of the points to myself.
+paper,male,social,5,4,90.0,labelled-decision,ok - final allocation in reply is myself 90 / the other person 10,"In this round, since the return for allocating points to myself (0.80 dollars per point) is higher than the return for allocating points to the other person (0.47 dollars per point), I will allocate the majority of the points to myself.
 
 I will allocate:
 - Points to myself: 90
 - Points to the other: 10
 
 This allocation maximizes my return while still providing a small amount to the other person."
-paper,temp_1,food,37,1,70.0,labelled-decision,,"In this round, I will allocate points as follows:
+paper,temp_1,food,37,1,70.0,labelled-decision,ok - final allocation in reply is meat 70 / tomato 30,"In this round, I will allocate points as follows:
 
 - **Meat: 70 points**
 - **Tomato: 30 points**
@@ -437,7 +437,7 @@ paper,temp_1,food,37,1,70.0,labelled-decision,,"In this round, I will allocate p
 This allocation strikes a balance between maximizing the quantity of meat while also benefiting from the higher yield of tomatoes compared to the previous round. The decision reflects a desire to secure a larger variety of goods while still heavily investing in the more efficient option, which remains meat. 
 
 Please let me know if you would like to proceed to the next round!"
-paper,male,time,5,4,10.0,labelled-decision,,"For this round, I will allocate the points as follows:
+paper,male,time,5,4,10.0,labelled-decision,ok - final allocation in reply is today 10 / one month later 90,"For this round, I will allocate the points as follows:
 
 - **Points invested today:** 10 points
 - **Points invested one month later:** 90 points
@@ -461,7 +461,7 @@ paper,male,time,5,4,10.0,labelled-decision,,"For this round, I will allocate the
 
 **Conclusion:**
 This allocation prioritizes the higher return from the investment for one month later, as the return per point for that option is significantly greater than the return for cash today. By investing a small amount today, I still secure some immediate cash while maximizing the potential future return."
-paper,baseline,time,63,13,40.0,labelled-decision,,"For this round, I will allocate the points as follows:
+paper,baseline,time,63,13,40.0,labelled-decision,ok - final allocation in reply is today 40 / one month later 60,"For this round, I will allocate the points as follows:
 
 - **Points invested today:** 40 points
 - **Points invested one month later:** 60 points
@@ -483,13 +483,13 @@ paper,baseline,time,63,13,40.0,labelled-decision,,"For this round, I will alloca
 
 **Rationale for Allocation:**
 - I chose to invest 40 points today because the return on investment today ($0.87) is slightly lower than the return on investment one month later ($0.91). By allocating a larger portion of points to one month later, I maximize my future cash return while still securing a reasonable immediate cash return. This strategy allows me to take advantage of the higher return available for the investment one month later, optimizing overall returns effectively."
-paper,temp_1,social,79,20,90.0,labelled-decision,,"In this round, since the return for myself (0.94 dollars) is significantly higher than the return for the other participant (0.31 dollars), I would allocate 90 points to myself and 10 points to the other.
+paper,temp_1,social,79,20,90.0,labelled-decision,ok - final allocation in reply is myself 90 / the other person 10,"In this round, since the return for myself (0.94 dollars) is significantly higher than the return for the other participant (0.31 dollars), I would allocate 90 points to myself and 10 points to the other.
 
 - For myself: 90 points * 0.94 dollars = 84.6 dollars
 - For the other: 10 points * 0.31 dollars = 3.1 dollars
 
 So, my allocation would be 90 points for myself and 10 points for the other."
-paper,baseline,food,66,20,30.0,labelled-decision,,"In this round, I will allocate my points as follows:
+paper,baseline,food,66,20,30.0,labelled-decision,ok - final allocation in reply is meat 30 / tomato 70,"In this round, I will allocate my points as follows:
 
 - **Meat:** 30 points
 - **Tomato:** 70 points
@@ -500,7 +500,7 @@ paper,baseline,food,66,20,30.0,labelled-decision,,"In this round, I will allocat
 2. **Tomato:** Spending 1 point yields 0.60 Kg of tomatoes. By spending 70 points, I would get 42 Kg of tomatoes (70 points × 0.60 Kg/point).
 
 Since tomatoes have a higher yield per point spent compared to meat in this round, I prioritize tomatoes while allocating a small amount to meat for variety. This allocation maximizes the overall quantity of goods received."
-paper,temp_1,food,61,8,10.0,labelled-decision,,"In this round, I will allocate:
+paper,temp_1,food,61,8,10.0,labelled-decision,ok - final allocation in reply is meat 10 / tomato 90,"In this round, I will allocate:
 
 - 10 points for ham meat
 - 90 points for tomatoes
@@ -512,7 +512,7 @@ paper,temp_1,food,61,8,10.0,labelled-decision,,"In this round, I will allocate:
 2. **Minimizing Meat:** Given the low yield for ham meat, I will only allocate a small portion of points (10 points) to ensure I still have some meat, but the majority will go to tomatoes to maximize the quantity.
 
 So, to summarize, my allocation will be 10 points for ham meat and 90 points for tomatoes."
-paper,elementary_edu,food,13,9,90.0,labelled-decision,,"In this round, I will allocate my points as follows:
+paper,elementary_edu,food,13,9,90.0,labelled-decision,ok - final allocation in reply is meat 90 / tomato 10,"In this round, I will allocate my points as follows:
 
 **Allocation:**
 - **Meat:** 90 points
@@ -524,7 +524,7 @@ Since meat provides a significantly higher quantity per point (0.97 Kg) compared
 So, my final allocation is:
 - 90 points for meat
 - 10 points for tomato"
-paper,male,time,15,19,60.0,labelled-decision,,"For this round, I will allocate my points as follows:
+paper,male,time,15,19,60.0,labelled-decision,ok - final allocation in reply is today 60 / one month later 40,"For this round, I will allocate my points as follows:
 
 - **Points invested today:** 60 points
 - **Points invested one month later:** 40 points
@@ -552,7 +552,7 @@ paper,male,time,15,19,60.0,labelled-decision,,"For this round, I will allocate m
 
 **Conclusion:**
 This allocation balances immediate cash needs with future returns. Investing a larger portion today takes advantage of the higher return per point for cash now, while still allowing for a reasonable investment for future returns. This strategy optimizes overall returns while ensuring I have cash available today."
-paper,price_framing,time,74,4,85.0,labelled-decision,,"For this round, I will allocate my points as follows:
+paper,price_framing,time,74,4,85.0,labelled-decision,ok - final allocation in reply is today 85 / one month later 15,"For this round, I will allocate my points as follows:
 
 - **Points invested today:** 85 points
 - **Points invested one month later:** 15 points
@@ -576,21 +576,21 @@ paper,price_framing,time,74,4,85.0,labelled-decision,,"For this round, I will al
 **Total Return ≈ 71.43 dollars + 3.75 dollars ≈ 75.18 dollars.**
 
 This allocation allows me to maximize immediate cash availability while also securing a reasonable return for the future, effectively balancing liquidity and future gains."
-paper,price_framing,risk,82,22,50.0,labelled-decision,,"For this round, I will allocate the points as follows:
+paper,price_framing,risk,82,22,50.0,labelled-decision,ok - final allocation in reply is Asset A 50 / Asset B 50,"For this round, I will allocate the points as follows:
 
 - Asset A: 50 points
 - Asset B: 50 points"
-paper,college_edu,risk,29,9,30.0,labelled-decision,,"For this round, I will allocate the points as follows:
+paper,college_edu,risk,29,9,30.0,labelled-decision,ok - final allocation in reply is Asset A 30 / Asset B 70,"For this round, I will allocate the points as follows:
 
 - Asset A: 30 points
 - Asset B: 70 points
 
 This allocation favors Asset B, as it has a higher return per point compared to Asset A."
-paper,price_framing,risk,3,22,70.0,labelled-decision,,"In this round, I will allocate the points as follows:
+paper,price_framing,risk,3,22,70.0,labelled-decision,ok - final allocation in reply is Asset A 70 / Asset B 30,"In this round, I will allocate the points as follows:
 
 - Asset A: 70 points
 - Asset B: 30 points"
-paper,elderly,food,27,22,5.0,labelled-decision,,"In this round, I will allocate my points as follows:
+paper,elderly,food,27,22,5.0,labelled-decision,ok - final allocation in reply is meat 5 / tomato 95,"In this round, I will allocate my points as follows:
 
 - **Ham meat:** 5 points
 - **Tomatoes:** 95 points
@@ -601,53 +601,53 @@ Since spending 1 point on tomatoes yields a significantly better return (0.55 Kg
 So, my final allocation is:
 - 5 points for ham meat
 - 95 points for tomatoes"
-paraphrase,price_framing,risk,58,7,30.0,labelled,,"Asset A: 30 points, Asset B: 70 points."
-paraphrase,price_framing,social,61,4,70.0,labelled,,"myself: 70, the other person: 30"
-paraphrase,baseline,time,30,4,20.0,labelled,,"today: 20, one month later: 80"
-paraphrase,price_framing,food,44,15,30.0,labelled,,"ham meat: 30, tomato: 70"
-paraphrase,baseline,risk,61,20,80.0,labelled,,"Asset A: 80, Asset B: 20."
-paraphrase,price_framing,time,2,19,15.0,labelled,,"today: 15, one month later: 85."
-paraphrase,price_framing,social,19,23,40.0,labelled-decision,,"my allocation is: yourself: 40, the other person: 60."
-paraphrase,price_framing,time,59,13,50.0,labelled,,"Today: 50, One month later: 50."
-paraphrase,baseline,food,83,24,90.0,labelled,,"ham meat: 90, tomato: 10"
-paraphrase,baseline,social,66,19,5.0,labelled,,"myself: 5, the other person: 95"
-paraphrase,baseline,time,69,20,85.0,labelled,,"Today: 85, One month later: 15."
-paraphrase,price_framing,social,96,21,60.0,labelled,,"myself: 60, the other person: 40"
-paraphrase,baseline,social,31,7,50.0,labelled,,"myself: 50, the other person: 50"
-paraphrase,baseline,time,82,21,60.0,labelled,,"today: 60, one month later: 40."
-paraphrase,price_framing,social,28,17,80.0,labelled,,"myself: 80, the other person: 20"
-paraphrase,baseline,risk,96,2,70.0,labelled,,"Asset A: 70, Asset B: 30."
-paraphrase,baseline,social,52,21,5.0,labelled,,"myself: 5, the other person: 95"
-paraphrase,price_framing,social,48,5,80.0,labelled,,"myself: 80, the other person: 20"
-paraphrase,price_framing,risk,2,8,70.0,labelled,,"Asset A: 70 points, Asset B: 30 points."
-paraphrase,baseline,risk,16,16,90.0,labelled,,"Asset A: 90, Asset B: 10."
-paraphrase,baseline,social,25,18,15.0,labelled,,"myself: 15, the other person: 85"
-paraphrase,baseline,food,30,17,40.0,labelled,,"ham meat: 40, tomato: 60"
-paraphrase,baseline,food,45,21,10.0,labelled,,"ham meat: 10, tomato: 90"
-paraphrase,baseline,social,93,7,75.0,labelled,,"myself: 75, the other person: 25"
-paraphrase,baseline,food,28,15,50.0,labelled,,"ham meat: 50, tomato: 50"
-paraphrase,price_framing,risk,31,12,40.0,labelled,,"Asset A: 40, Asset B: 60."
-paraphrase,baseline,time,49,5,30.0,labelled,,"Today: 30, One month later: 70."
-paraphrase,baseline,social,71,19,80.0,labelled,,"myself: 80, the other person: 20"
-paraphrase,baseline,time,95,21,5.0,labelled,,"Today: 5 points, One month later: 95 points."
-paraphrase,baseline,time,26,20,30.0,labelled,,"today: 30, one month later: 70."
-paraphrase,price_framing,risk,99,18,80.0,labelled,,"Asset A: 80 points, Asset B: 20 points."
-paraphrase,price_framing,risk,32,12,90.0,labelled,,"Asset A: 90 points, Asset B: 10 points."
-paraphrase,price_framing,time,69,9,75.0,labelled,,"today: 75, one month later: 25."
-paraphrase,price_framing,time,50,20,85.0,labelled,,"Today: 85 points, One month later: 15 points."
-paraphrase,baseline,social,63,21,30.0,labelled,,"myself: 30, the other person: 70"
-paraphrase,price_framing,social,52,25,55.0,labelled,,"myself: 55, the other person: 45"
-paraphrase,price_framing,food,33,12,30.0,labelled,,"ham meat: 30, tomato: 70"
-paraphrase,baseline,social,2,16,70.0,labelled,,"myself: 70, the other person: 30"
-paraphrase,price_framing,risk,39,11,80.0,labelled,,"Asset A: 80 points, Asset B: 20 points."
-paraphrase,baseline,time,26,4,40.0,labelled,,"today: 40, one month later: 60."
-paraphrase,baseline,time,96,9,65.0,labelled,,"Today: 65, One month later: 35."
-paraphrase,price_framing,food,89,4,70.0,labelled,,"ham meat: 70, tomato: 30"
-paraphrase,baseline,risk,25,20,70.0,labelled,,"Asset A: 70, Asset B: 30."
-paraphrase,baseline,social,43,22,5.0,labelled,,"myself: 5, the other person: 95"
-paraphrase,baseline,social,99,10,10.0,labelled,,"myself: 10, the other person: 90"
-paraphrase,baseline,food,53,5,0.0,labelled,,"ham meat: 0, tomato: 100"
-paraphrase,baseline,social,42,3,50.0,labelled,,"myself: 50, the other person: 50"
-paraphrase,baseline,time,68,19,95.0,labelled,,"today: 95, one month later: 5"
-paraphrase,price_framing,risk,72,24,40.0,labelled,,"Asset A: 40 points, Asset B: 60 points."
-paraphrase,price_framing,food,60,6,0.0,labelled,,"ham meat: 0, tomato: 100"
+paraphrase,price_framing,risk,58,7,30.0,labelled,ok - final allocation in reply is Asset A 30 / Asset B 70,"Asset A: 30 points, Asset B: 70 points."
+paraphrase,price_framing,social,61,4,70.0,labelled,ok - final allocation in reply is myself 70 / the other person 30,"myself: 70, the other person: 30"
+paraphrase,baseline,time,30,4,20.0,labelled,ok - final allocation in reply is today 20 / one month later 80,"today: 20, one month later: 80"
+paraphrase,price_framing,food,44,15,30.0,labelled,ok - final allocation in reply is meat 30 / tomato 70,"ham meat: 30, tomato: 70"
+paraphrase,baseline,risk,61,20,80.0,labelled,ok - final allocation in reply is Asset A 80 / Asset B 20,"Asset A: 80, Asset B: 20."
+paraphrase,price_framing,time,2,19,15.0,labelled,ok - final allocation in reply is today 15 / one month later 85,"today: 15, one month later: 85."
+paraphrase,price_framing,social,19,23,40.0,labelled-decision,ok - final allocation in reply is myself 40 / the other person 60,"my allocation is: yourself: 40, the other person: 60."
+paraphrase,price_framing,time,59,13,50.0,labelled,ok - final allocation in reply is today 50 / one month later 50,"Today: 50, One month later: 50."
+paraphrase,baseline,food,83,24,90.0,labelled,ok - final allocation in reply is meat 90 / tomato 10,"ham meat: 90, tomato: 10"
+paraphrase,baseline,social,66,19,5.0,labelled,ok - final allocation in reply is myself 5 / the other person 95,"myself: 5, the other person: 95"
+paraphrase,baseline,time,69,20,85.0,labelled,ok - final allocation in reply is today 85 / one month later 15,"Today: 85, One month later: 15."
+paraphrase,price_framing,social,96,21,60.0,labelled,ok - final allocation in reply is myself 60 / the other person 40,"myself: 60, the other person: 40"
+paraphrase,baseline,social,31,7,50.0,labelled,ok - final allocation in reply is myself 50 / the other person 50,"myself: 50, the other person: 50"
+paraphrase,baseline,time,82,21,60.0,labelled,ok - final allocation in reply is today 60 / one month later 40,"today: 60, one month later: 40."
+paraphrase,price_framing,social,28,17,80.0,labelled,ok - final allocation in reply is myself 80 / the other person 20,"myself: 80, the other person: 20"
+paraphrase,baseline,risk,96,2,70.0,labelled,ok - final allocation in reply is Asset A 70 / Asset B 30,"Asset A: 70, Asset B: 30."
+paraphrase,baseline,social,52,21,5.0,labelled,ok - final allocation in reply is myself 5 / the other person 95,"myself: 5, the other person: 95"
+paraphrase,price_framing,social,48,5,80.0,labelled,ok - final allocation in reply is myself 80 / the other person 20,"myself: 80, the other person: 20"
+paraphrase,price_framing,risk,2,8,70.0,labelled,ok - final allocation in reply is Asset A 70 / Asset B 30,"Asset A: 70 points, Asset B: 30 points."
+paraphrase,baseline,risk,16,16,90.0,labelled,ok - final allocation in reply is Asset A 90 / Asset B 10,"Asset A: 90, Asset B: 10."
+paraphrase,baseline,social,25,18,15.0,labelled,ok - final allocation in reply is myself 15 / the other person 85,"myself: 15, the other person: 85"
+paraphrase,baseline,food,30,17,40.0,labelled,ok - final allocation in reply is meat 40 / tomato 60,"ham meat: 40, tomato: 60"
+paraphrase,baseline,food,45,21,10.0,labelled,ok - final allocation in reply is meat 10 / tomato 90,"ham meat: 10, tomato: 90"
+paraphrase,baseline,social,93,7,75.0,labelled,ok - final allocation in reply is myself 75 / the other person 25,"myself: 75, the other person: 25"
+paraphrase,baseline,food,28,15,50.0,labelled,ok - final allocation in reply is meat 50 / tomato 50,"ham meat: 50, tomato: 50"
+paraphrase,price_framing,risk,31,12,40.0,labelled,ok - final allocation in reply is Asset A 40 / Asset B 60,"Asset A: 40, Asset B: 60."
+paraphrase,baseline,time,49,5,30.0,labelled,ok - final allocation in reply is today 30 / one month later 70,"Today: 30, One month later: 70."
+paraphrase,baseline,social,71,19,80.0,labelled,ok - final allocation in reply is myself 80 / the other person 20,"myself: 80, the other person: 20"
+paraphrase,baseline,time,95,21,5.0,labelled,ok - final allocation in reply is today 5 / one month later 95,"Today: 5 points, One month later: 95 points."
+paraphrase,baseline,time,26,20,30.0,labelled,ok - final allocation in reply is today 30 / one month later 70,"today: 30, one month later: 70."
+paraphrase,price_framing,risk,99,18,80.0,labelled,ok - final allocation in reply is Asset A 80 / Asset B 20,"Asset A: 80 points, Asset B: 20 points."
+paraphrase,price_framing,risk,32,12,90.0,labelled,ok - final allocation in reply is Asset A 90 / Asset B 10,"Asset A: 90 points, Asset B: 10 points."
+paraphrase,price_framing,time,69,9,75.0,labelled,ok - final allocation in reply is today 75 / one month later 25,"today: 75, one month later: 25."
+paraphrase,price_framing,time,50,20,85.0,labelled,ok - final allocation in reply is today 85 / one month later 15,"Today: 85 points, One month later: 15 points."
+paraphrase,baseline,social,63,21,30.0,labelled,ok - final allocation in reply is myself 30 / the other person 70,"myself: 30, the other person: 70"
+paraphrase,price_framing,social,52,25,55.0,labelled,ok - final allocation in reply is myself 55 / the other person 45,"myself: 55, the other person: 45"
+paraphrase,price_framing,food,33,12,30.0,labelled,ok - final allocation in reply is meat 30 / tomato 70,"ham meat: 30, tomato: 70"
+paraphrase,baseline,social,2,16,70.0,labelled,ok - final allocation in reply is myself 70 / the other person 30,"myself: 70, the other person: 30"
+paraphrase,price_framing,risk,39,11,80.0,labelled,ok - final allocation in reply is Asset A 80 / Asset B 20,"Asset A: 80 points, Asset B: 20 points."
+paraphrase,baseline,time,26,4,40.0,labelled,ok - final allocation in reply is today 40 / one month later 60,"today: 40, one month later: 60."
+paraphrase,baseline,time,96,9,65.0,labelled,ok - final allocation in reply is today 65 / one month later 35,"Today: 65, One month later: 35."
+paraphrase,price_framing,food,89,4,70.0,labelled,ok - final allocation in reply is meat 70 / tomato 30,"ham meat: 70, tomato: 30"
+paraphrase,baseline,risk,25,20,70.0,labelled,ok - final allocation in reply is Asset A 70 / Asset B 30,"Asset A: 70, Asset B: 30."
+paraphrase,baseline,social,43,22,5.0,labelled,ok - final allocation in reply is myself 5 / the other person 95,"myself: 5, the other person: 95"
+paraphrase,baseline,social,99,10,10.0,labelled,ok - final allocation in reply is myself 10 / the other person 90,"myself: 10, the other person: 90"
+paraphrase,baseline,food,53,5,0.0,labelled,ok - final allocation in reply is meat 0 / tomato 100,"ham meat: 0, tomato: 100"
+paraphrase,baseline,social,42,3,50.0,labelled,ok - final allocation in reply is myself 50 / the other person 50,"myself: 50, the other person: 50"
+paraphrase,baseline,time,68,19,95.0,labelled,ok - final allocation in reply is today 95 / one month later 5,"today: 95, one month later: 5"
+paraphrase,price_framing,risk,72,24,40.0,labelled,ok - final allocation in reply is Asset A 40 / Asset B 60,"Asset A: 40 points, Asset B: 60 points."
+paraphrase,price_framing,food,60,6,0.0,labelled,ok - final allocation in reply is meat 0 / tomato 100,"ham meat: 0, tomato: 100"

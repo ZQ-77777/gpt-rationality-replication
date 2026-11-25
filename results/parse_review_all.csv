@@ -1,5 +1,5 @@
 ﻿prompts,condition,domain,rep,round,v3_valid,v3_points_a,v3_rule,amounts_in_reply,hand_check,reply
-paper,temp_0.5,time,4,4,True,100.0,one-sided-full,"s.   **Optimal Allocation:** - Invest **100 points today**.  **Reasoning:** 1. **Immediate | 1. **Immediate Cash:** By investing all 100 points today, I can receive immediate cash. Th | urn would be:    - Total Return Today = 100 points * $0.89 = $89.     2. **Equal Returns:* | ocation in this scenario is to invest **100 points today**.",,"Given the returns on investments for this round:
+paper,temp_0.5,time,4,4,True,100.0,one-sided-full,"s.   **Optimal Allocation:** - Invest **100 points today**.  **Reasoning:** 1. **Immediate | 1. **Immediate Cash:** By investing all 100 points today, I can receive immediate cash. Th | urn would be:    - Total Return Today = 100 points * $0.89 = $89.     2. **Equal Returns:* | ocation in this scenario is to invest **100 points today**.",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"Given the returns on investments for this round:
 
 - Investing today returns $0.89 per point in cash.
 - Investing one month later also returns $0.89 per point as a check.
@@ -18,7 +18,7 @@ Since the returns for both options are equal ($0.89 per point), the decision on 
 In this case, investing all points today maximizes immediate cash flow while still yielding the same effective return as investing later. 
 
 Thus, the best allocation in this scenario is to invest **100 points today**."
-paper,temp_0.5,time,23,2,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.88/point = $88 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,2,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.88/point = $88 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.88 (cash received immediately).
@@ -40,7 +40,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.88/point = $88 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. Investing in the one-month option does not provide a compelling return compared to the cash generated today."
-paper,temp_0.5,time,23,3,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.81/point = $81 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,3,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.81/point = $81 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.81 (cash received immediately).
@@ -62,7 +62,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.81/point = $81 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later does not provide a better return compared to the cash generated today, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,4,True,100.0,one-sided-full,"e.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.69/point = $69 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,4,True,100.0,one-sided-full,"e.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.69/point = $69 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.69 (cash received immediately).
@@ -84,7 +84,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.69/point = $69 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,5,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.94/point = $94 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,5,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.94/point = $94 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.94 (cash received immediately).
@@ -106,7 +106,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.94/point = $94 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later does not provide a better return compared to the cash generated today, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,7,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.86/point = $86 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,7,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.86/point = $86 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.86 (cash received immediately).
@@ -128,7 +128,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.86/point = $86 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,8,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.92/point = $92 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,8,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.92/point = $92 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.92 (cash received immediately).
@@ -150,7 +150,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.92/point = $92 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,9,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.81/point = $81 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,9,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.81/point = $81 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.81 (cash received immediately).
@@ -172,7 +172,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.81/point = $81 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later does not provide a better return compared to the cash generated today, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,10,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.83/point = $83 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,10,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.83/point = $83 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.83 (cash received immediately).
@@ -194,7 +194,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.83/point = $83 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,11,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.99/point = $99 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,11,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.99/point = $99 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.99 (cash received immediately).
@@ -216,7 +216,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.99/point = $99 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,14,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.76/point = $76 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,14,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.76/point = $76 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.76 (cash received immediately).
@@ -238,7 +238,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.76/point = $76 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a lower return, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,15,True,100.0,one-sided-full,"d.  **Allocation Decision:** - **Invest 100 points today**: This allows for immediate cash |  cash.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.56/point = $56 in cash today.  Thi | Therefore, I would choose to invest all 100 points today.",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,15,True,100.0,one-sided-full,"d.  **Allocation Decision:** - **Invest 100 points today**: This allows for immediate cash |  cash.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.56/point = $56 in cash today.  Thi | Therefore, I would choose to invest all 100 points today.",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.56 (cash received immediately).
@@ -260,7 +260,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.56/point = $56 in cash today.
 
 This approach provides immediate cash, which can be beneficial for any immediate needs or opportunities, even though the returns are equal. Therefore, I would choose to invest all 100 points today."
-paper,temp_0.5,time,23,18,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.53/point = $53 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,18,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.53/point = $53 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.53 (cash received immediately).
@@ -282,7 +282,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.53/point = $53 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,23,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.99/point = $99 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,23,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.99/point = $99 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.99 (cash received immediately).
@@ -304,7 +304,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.99/point = $99 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a lower return, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,24,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.70/point = $70 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,24,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.70/point = $70 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.70 (cash received immediately).
@@ -326,7 +326,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.70/point = $70 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a much lower return, making the immediate investment the optimal choice."
-paper,temp_0.5,time,23,25,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.96/point = $96 in cash today.  Thi",,"In this round, we have the following returns:
+paper,temp_0.5,time,23,25,True,100.0,one-sided-full,"n.  **Allocation Decision:** - **Invest 100 points today**: This maximizes immediate cash  | turns.  **Reasoning:** By investing all 100 points today, I would receive: - Total return  | oday, I would receive: - Total return = 100 points * $0.96/point = $96 in cash today.  Thi",ok - reply puts all 100 points on today; read as today 100 / one month later 0,"In this round, we have the following returns:
 
 1. **Investing Today:**
    - Return per point today: $0.96 (cash received immediately).
@@ -348,7 +348,7 @@ By investing all 100 points today, I would receive:
 - Total return = 100 points * $0.96/point = $96 in cash today.
 
 This approach provides the highest immediate return and ensures that I have cash available right away, which is beneficial for any immediate needs or opportunities. The investment for one month later yields a lower return, making the immediate investment the optimal choice."
-paper,temp_1,time,65,1,True,50.0,unlabelled-points,Investment Today:** - I will allocate **50 points** to today’s investment.  **Investment  |  One Month Later:** - I will allocate **50 points** to the investment for one month later,,"Given that both today’s investment and the one-month later investment return **$0.87 per point**, the decision on allocation becomes a matter of personal preference and cash flow needs rather than strictly maximizing returns.
+paper,temp_1,time,65,1,True,50.0,unlabelled-points,Investment Today:** - I will allocate **50 points** to today’s investment.  **Investment  |  One Month Later:** - I will allocate **50 points** to the investment for one month later,ok - reply states a 50/50 split (today/one month later),"Given that both today’s investment and the one-month later investment return **$0.87 per point**, the decision on allocation becomes a matter of personal preference and cash flow needs rather than strictly maximizing returns.
 
 Since the returns are equal, I will adopt a balanced allocation to ensure both immediate cash flow and future cash availability. Here’s my allocation:
 
@@ -368,7 +368,7 @@ Since the returns are equal, I will adopt a balanced allocation to ensure both i
 2. **Balanced Cash Flow:** This allocation gives me $43.50 in cash today and $43.50 in a check to be cashed in one month, providing both immediate liquidity and future cash availability.
 
 Overall, a 50/50 split allows me to enjoy equal benefits from both cash now and future cash without favoring one over the other, considering the equal returns."
-paper,temp_1,time,97,20,True,100.0,one-sided-full, the investment as follows:  - **Invest 100 points today:** This maximizes the immediate c |  the Allocation: 1. **Investment Today (100 points):**    - Return = 100 points * $0.54/po | ent Today (100 points):**    - Return = 100 points * $0.54/point = $54.00 cash today.  2.  | oday.  2. **Investment One Month Later (0 points):**    - Return = 0 points * $0.46/poin | Month Later (0 points):**    - Return = 0 points * $0.46/point = $0.00 check to be cashe,,"Given the returns in this round, I would allocate the investment as follows:
+paper,temp_1,time,97,20,True,100.0,one-sided-full, the investment as follows:  - **Invest 100 points today:** This maximizes the immediate c |  the Allocation: 1. **Investment Today (100 points):**    - Return = 100 points * $0.54/po | ent Today (100 points):**    - Return = 100 points * $0.54/point = $54.00 cash today.  2.  | oday.  2. **Investment One Month Later (0 points):**    - Return = 0 points * $0.46/poin | Month Later (0 points):**    - Return = 0 points * $0.46/point = $0.00 check to be cashe,ok - reply puts all 100 points on today; read as today 100 / one month later 0,"Given the returns in this round, I would allocate the investment as follows:
 
 - **Invest 100 points today:** This maximizes the immediate cash return since the return for today is higher.
 
@@ -390,7 +390,7 @@ paper,temp_1,time,97,20,True,100.0,one-sided-full, the investment as follows:  -
 2. **No Future Investment:** Since the return for future cash is less favorable, it makes sense to allocate all points to today’s investment and prioritize immediate cash availability.
 
 This allocation focuses entirely on maximizing immediate financial gain based on the available returns."
-paper,temp_1,time,97,24,True,100.0,one-sided-full, the investment as follows:  - **Invest 100 points today:** This maximizes the immediate c |  the Allocation: 1. **Investment Today (100 points):**    - Return = 100 points * $0.98/po | ent Today (100 points):**    - Return = 100 points * $0.98/point = $98.00 cash today.  2.  | oday.  2. **Investment One Month Later (0 points):**    - Return = 0 points * $0.41/poin | Month Later (0 points):**    - Return = 0 points * $0.41/point = $0.00 check to be cashe,,"Given the returns in this round, I would allocate the investment as follows:
+paper,temp_1,time,97,24,True,100.0,one-sided-full, the investment as follows:  - **Invest 100 points today:** This maximizes the immediate c |  the Allocation: 1. **Investment Today (100 points):**    - Return = 100 points * $0.98/po | ent Today (100 points):**    - Return = 100 points * $0.98/point = $98.00 cash today.  2.  | oday.  2. **Investment One Month Later (0 points):**    - Return = 0 points * $0.41/poin | Month Later (0 points):**    - Return = 0 points * $0.41/point = $0.00 check to be cashe,ok - reply puts all 100 points on today; read as today 100 / one month later 0,"Given the returns in this round, I would allocate the investment as follows:
 
 - **Invest 100 points today:** This maximizes the immediate cash return since the return for today is significantly higher than the return for one month later.
 
@@ -412,7 +412,7 @@ paper,temp_1,time,97,24,True,100.0,one-sided-full, the investment as follows:  -
 2. **No Future Investment:** Since the return for the one month later investment is significantly lower, it is more advantageous to allocate all points to today’s investment.
 
 This allocation effectively prioritizes immediate financial gain based on the favorable conditions of the current investment opportunity."
-paper,temp_1,social,70,6,True,0.0,one-sided-full,"ollars per point), I would allocate all 100 points to the other person.  This allocation w | location would result in:  - My return: 0 points * 0.14 dollars/point = 0 dollars. - The | 0 dollars. - The other person's return: 100 points * 0.83 dollars/point = 83 dollars.  Thi",,"In this round, since allocating points to the other person yields a significantly higher return (0.83 dollars per point) compared to my return (0.14 dollars per point), I would allocate all 100 points to the other person.
+paper,temp_1,social,70,6,True,0.0,one-sided-full,"ollars per point), I would allocate all 100 points to the other person.  This allocation w | location would result in:  - My return: 0 points * 0.14 dollars/point = 0 dollars. - The | 0 dollars. - The other person's return: 100 points * 0.83 dollars/point = 83 dollars.  Thi",ok - reply puts all 100 points on the other person; read as myself 0 / the other person 100,"In this round, since allocating points to the other person yields a significantly higher return (0.83 dollars per point) compared to my return (0.14 dollars per point), I would allocate all 100 points to the other person.
 
 This allocation would result in:
 
@@ -420,7 +420,7 @@ This allocation would result in:
 - The other person's return: 100 points * 0.83 dollars/point = 83 dollars.
 
 This way, I maximize the benefit for the other person given their much higher return rate."
-paper,temp_1,social,70,10,True,0.0,one-sided-full,"ollars per point), I would allocate all 100 points to the other person.  This allocation w | location would result in:  - My return: 0 points * 0.11 dollars/point = 0 dollars. - The | 0 dollars. - The other person's return: 100 points * 0.82 dollars/point = 82 dollars.  Thi",,"In this round, since allocating points to the other person yields a significantly higher return (0.82 dollars per point) compared to my return (0.11 dollars per point), I would allocate all 100 points to the other person.
+paper,temp_1,social,70,10,True,0.0,one-sided-full,"ollars per point), I would allocate all 100 points to the other person.  This allocation w | location would result in:  - My return: 0 points * 0.11 dollars/point = 0 dollars. - The | 0 dollars. - The other person's return: 100 points * 0.82 dollars/point = 82 dollars.  Thi",ok - reply puts all 100 points on the other person; read as myself 0 / the other person 100,"In this round, since allocating points to the other person yields a significantly higher return (0.82 dollars per point) compared to my return (0.11 dollars per point), I would allocate all 100 points to the other person.
 
 This allocation would result in:
 
@@ -428,7 +428,7 @@ This allocation would result in:
 - The other person's return: 100 points * 0.82 dollars/point = 82 dollars.
 
 This decision maximizes the benefit for the other person based on their much higher return rate."
-paper,temp_1,social,70,23,True,0.0,one-sided-full,"ollars per point), I would allocate all 100 points to the other person.  This allocation w | location would result in:  - My return: 0 points * 0.45 dollars/point = 0 dollars. - The | 0 dollars. - The other person's return: 100 points * 0.93 dollars/point = 93 dollars.  Thi",,"In this round, since allocating points to the other person yields a significantly higher return (0.93 dollars per point) compared to my return (0.45 dollars per point), I would allocate all 100 points to the other person.
+paper,temp_1,social,70,23,True,0.0,one-sided-full,"ollars per point), I would allocate all 100 points to the other person.  This allocation w | location would result in:  - My return: 0 points * 0.45 dollars/point = 0 dollars. - The | 0 dollars. - The other person's return: 100 points * 0.93 dollars/point = 93 dollars.  Thi",ok - reply puts all 100 points on the other person; read as myself 0 / the other person 100,"In this round, since allocating points to the other person yields a significantly higher return (0.93 dollars per point) compared to my return (0.45 dollars per point), I would allocate all 100 points to the other person.
 
 This allocation would result in:
 
@@ -436,7 +436,7 @@ This allocation would result in:
 - The other person's return: 100 points * 0.93 dollars/point = 93 dollars.
 
 This decision maximizes the benefit for the other person based on their much higher return rate."
-paper,temp_1,social,70,24,True,0.0,one-sided-full,"ollars per point), I would allocate all 100 points to the other person.  This allocation w | location would result in:  - My return: 0 points * 0.28 dollars/point = 0 dollars. - The | 0 dollars. - The other person's return: 100 points * 0.81 dollars/point = 81 dollars.  By ",,"In this round, since allocating points to the other person yields a much higher return (0.81 dollars per point) compared to my return (0.28 dollars per point), I would allocate all 100 points to the other person.
+paper,temp_1,social,70,24,True,0.0,one-sided-full,"ollars per point), I would allocate all 100 points to the other person.  This allocation w | location would result in:  - My return: 0 points * 0.28 dollars/point = 0 dollars. - The | 0 dollars. - The other person's return: 100 points * 0.81 dollars/point = 81 dollars.  By ",ok - reply puts all 100 points on the other person; read as myself 0 / the other person 100,"In this round, since allocating points to the other person yields a much higher return (0.81 dollars per point) compared to my return (0.28 dollars per point), I would allocate all 100 points to the other person.
 
 This allocation would result in:
 
